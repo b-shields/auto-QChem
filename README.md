@@ -28,13 +28,39 @@ Extract optimized coordinates from a Gaussian .log file.
 ExtractCoordinates[NotebookDirectory[]<>"\\example_data\\direct_arylation_imidazole_26123.log"];
 coordinateList//TableForm
 ```
+```
+C	-1.129366	1.181040	-0.238242
+C	-2.521710	1.120002	-0.228290
+N	-3.225597	0.002602	-0.008540
+C	-2.521603	-1.112560	0.221983
+C	-1.129382	-1.169323	0.253418
+C	-0.411766	0.006808	0.011249
+N1	1.000435	0.006099	0.016847
+C2	1.829210	-1.028986	-0.367061
+H	1.435009	-1.963715	-0.740923
+N3	3.096931	-0.714050	-0.271442
+C4	3.112778	0.582822	0.203036
+H	4.043645	1.099241	0.394208
+C5	1.840187	1.052989	0.379309
+H6	1.453449	1.985029	0.760746
+H	-0.619919	2.113230	-0.457239
+H	-3.101754	2.021382	-0.417923
+H	-3.101510	-2.015264	0.405430
+H	-0.621380	-2.099204	0.485244
+```
 In this calculation the atoms were labeled numerically. Compute the % occupied volume for the atom labeled 1.
 ```
 OccupiedVolume[NotebookDirectory[]<>"\\example_data\\direct_arylation_imidazole_26123.log",1]
 ```
+```
+0.658431
+```
 Compute the % occupied volume for all labeled atoms.
 ```
 OccupiedVolume[NotebookDirectory[]<>"\\example_data\\direct_arylation_imidazole_26123.log",#]&/@Range[6];
+```
+```
+{0.658431, 0.51859, 0.447829, 0.456944, 0.526265, 0.390261}
 ```
 Generate a graphical representation of the % occupied volume for atom 6.
 ```
@@ -69,6 +95,10 @@ Quiet@Show[
 	ViewPoint->Top
 ]
 ```
+```
+0.390261
+```
+![alt text](https://raw.githubusercontent.com/b-shields/occupied-volume/example_data/img1.png)
 
 ### Example 2: Gaussian output files with unlabeled atoms
 Load the script.
