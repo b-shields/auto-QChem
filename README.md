@@ -160,10 +160,14 @@ In this calculation the atoms were not labeled numerically. Compute the % occupi
 ```
 OccupiedVolume[NotebookDirectory[]<>"\\example_data\\Ni_Ar_I_ligand_27123.log","Ni"]
 ```
+```
+0.748621
+```
 If the atom is not uniquely identified you will get an error.
 ```
 OccupiedVolume[NotebookDirectory[]<>"\\example_data\\Ni_Ar_I_ligand_27123.log","N"]
-
+```
+```diff
 -Unique atom N not found.
 ```
 For unlabeled data you can select the atom by its position in the Cartesian matrix via the selectMatrixPosition option.
