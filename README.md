@@ -19,7 +19,7 @@ This function is still under development and the code only supports .log files w
 
 ### Syntax
 Gaussian log file. Atoms of interest numerically labeled.
-```
+```mathematica
 file = path\to\log\file.log;
 numberedAtom = 1;
 
@@ -30,11 +30,11 @@ See examples below for additional usage cases.
 ### Example 1: Gaussian output files with labeled atoms
 
 Load the script.
-```
+```mathematica
 <<(NotebookDirectory[]<>"\\occupied_volume.wls")
 ```
 Extract optimized coordinates from a Gaussian .log file.
-```
+```mathematica
 ExtractCoordinates[NotebookDirectory[]<>"\\example_data\\direct_arylation_imidazole_26123.log"];
 coordinateList//TableForm
 ```
@@ -59,21 +59,21 @@ H	-3.101510	-2.015264	0.405430
 H	-0.621380	-2.099204	0.485244
 ```
 In this calculation the atoms were labeled numerically. Compute the % occupied volume for the atom labeled 1.
-```
+```mathematica
 OccupiedVolume[NotebookDirectory[]<>"\\example_data\\direct_arylation_imidazole_26123.log",1]
 ```
 ```
 0.658431
 ```
 Compute the % occupied volume for all labeled atoms.
-```
+```mathematica
 OccupiedVolume[NotebookDirectory[]<>"\\example_data\\direct_arylation_imidazole_26123.log",#]&/@Range[6];
 ```
 ```
 {0.658431, 0.51859, 0.447829, 0.456944, 0.526265, 0.390261}
 ```
 Generate a graphical representation of the % occupied volume for atom 6.
-```
+```mathematica
 OccupiedVolume[NotebookDirectory[]<>"\\example_data\\direct_arylation_imidazole_26123.log",6]
 
 atomStyle[atom_]:=Which[
@@ -112,11 +112,11 @@ Quiet@Show[
 
 ### Example 2: Gaussian output files with unlabeled atoms
 Load the script.
-```
+```mathematica
 <<(NotebookDirectory[]<>"\\occupied_volume.wls")
 ```
 Extract optimized coordinates from a Gaussian .log file.
-```
+```mathematica
 ExtractCoordinates[NotebookDirectory[]<>"\\example_data\\Ni_Ar_I_ligand_27123.log"];
 coordinateList//TableForm
 ```
@@ -157,21 +157,21 @@ H	-6.249127	1.638246	0.886288
 H	-6.248939	1.638993	-0.886099
 ```
 In this calculation the atoms were not labeled numerically. Compute the % occupied volume for the unique atom Ni.
-```
+```mathematica
 OccupiedVolume[NotebookDirectory[]<>"\\example_data\\Ni_Ar_I_ligand_27123.log","Ni"]
 ```
 ```
 0.748621
 ```
 If the atom is not uniquely identified you will get an error.
-```
+```mathematica
 OccupiedVolume[NotebookDirectory[]<>"\\example_data\\Ni_Ar_I_ligand_27123.log","N"]
 ```
-```diff
--Unique atom N not found.
+```
+Unique atom N not found.
 ```
 For unlabeled data you can select the atom by its position in the Cartesian matrix via the selectMatrixPosition option.
-```
+```mathematica
 ExtractCoordinates[NotebookDirectory[]<>"\\example_data\\Ni_Ar_I_ligand_27123.log"];
 
 nitrogenPositions=Position[coordinateList[[All,1]],"N"]//Flatten;
@@ -179,8 +179,11 @@ nitrogenPositions=Position[coordinateList[[All,1]],"N"]//Flatten;
 selectMatrixPosition=True;
 OccupiedVolume[NotebookDirectory[]<>"\\example_data\\Ni_Ar_I_ligand_27123.log",#]&/@nitrogenPositions
 ```
-Generate a graphical representation of the % occupied volume around Ni.
 ```
+{0.69729, 0.677141, 0.715519}
+```
+Generate a graphical representation of the % occupied volume around Ni.
+```mathematica
 (*Reset to the default settings*)
 OccupiedVolumePresets;
 
@@ -217,3 +220,88 @@ Quiet@Show[
 	ViewPoint->Top
 ]
 ```
+```
+0.748621
+```
+![alt text](https://raw.githubusercontent.com/b-shields/occupied-volume/example_data/img2.png)
+
+## Numerical Integration
+
+The numerical integrator I wrote for this application is not optimal. This is somewhat mitigated by the fact that the code is parallelizable (for example via the ParallelTable function). The integrator comes out of the box with a sparse grid which leads to a fair amount of error but fast evaluation time. You can increase the numerical accuracy (and the computation time) via the meshCount option.
+
+Generate a test case with a known volume.
+```mathematica
+testData={
+	Ball[{0,0,0},1.2],
+	Ball[{0,2.5,0},1.2],
+	Ball[{0,5,0},1.2],
+	Ball[{2.5,2.5,0},1.2],
+	Ball[{-2.5,2.5,0},1.2]
+};
+
+intSphere=Sphere[{0,2.5,0},4];
+
+Show@{Show[#,Boxed->False,ViewPoint->Top]&@(Graphics3D[{Black,#}]&@testData),Show[Graphics3D[{Opacity[0.6],ColorData[97,1],Glow[ColorData[97,1]],intSphere}]]}
+
+totalVolume=(4/3*Pi*#^3)&/@{1.2,1.2,1.2,1.2,1.2}//Total;
+sphereVolume=4/3*Pi*4.0^3;
+
+testData={
+	{"H1",0,0,0},
+	{"H2",0,2.5,0},
+	{"H3",0,5,0},
+	{"H4",2.5,2.5,0},
+	{"H5",-2.5,2.5,0}
+};
+	
+```
+![alt text](https://raw.githubusercontent.com/b-shields/occupied-volume/example_data/img3.png)
+
+Track evaluation time with increasing meshCount.
+```mathematica
+<<(NotebookDirectory[]<>"\\occupied_volume.wls")
+occupiedVolumeInput="array";
+setRadius=4.0;
+
+eval=ParallelTable[
+	(
+		meshCount=n;
+		time=AbsoluteTiming[vol=OccupiedVolume[testData,2]][[1]];
+		{n,vol,time}
+	),
+	{n,{5,10,15,20,25,30,35,40,45,50}}
+];
+```
+Plot the results.
+```mathematica
+Row[{
+	ListLinePlot[
+		eval[[All,{1,3}]],
+		Frame->True,
+		FrameLabel->{"meshCount","Evaluation Time (s)"},
+		PlotMarkers->{"\[FilledDiamond]", 18},
+		FrameStyle->Directive[Black,16],
+		AspectRatio->1,
+		ImageSize->300,
+		PlotStyle->Blue,
+		PlotRange->Full
+	],
+	"\t\t",
+	ListLinePlot[
+		{
+			eval[[All,{1,2}]],
+			{eval[[All,1]],ConstantArray[totalVolume/sphereVolume,Count[eval,_]]}//Transpose
+		},
+		Frame->True,
+		FrameLabel->{"meshCount","% Occupied Volume"},
+		PlotMarkers->{{"\[FilledDiamond]", 18},""},
+		FrameStyle->Directive[Black,16],
+		AspectRatio->1,
+		ImageSize->300,
+		PlotStyle->{Red,Directive[Black,Dashed]},
+		PlotLegends->{"Numerical %VBur","Actual %VBur"},
+		PlotRange->{All,{Min@eval[[All,2]]-Max@eval[[All,2]]*0.2,Max@eval[[All,2]]+Max@eval[[All,2]]*0.2}}
+	]
+}]
+```
+![alt text](https://raw.githubusercontent.com/b-shields/occupied-volume/example_data/img4.png)
