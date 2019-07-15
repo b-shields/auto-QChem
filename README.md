@@ -17,6 +17,16 @@ This function is still under development and the code only supports .log files w
 
 ## Usage
 
+### Syntax
+Gaussian log file. Atoms of interest numerically labeled.
+```
+file = path\to\log\file.log;
+numberedAtom = 1;
+
+OcupiedVolume[file, numberedAtom]
+```
+See examples below for additional usage cases.
+
 ### Example 1: Gaussian output files with labeled atoms
 
 Load the script.
