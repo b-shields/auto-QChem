@@ -3,7 +3,7 @@
 The auto-QChem repository consists of a series of functions for the automated generation, submission, and analysis of large batches of quantum chemistry calculations. The goal of this project is to develop tools for the automated computation of chemical, thermochemical, and steric features of molecules for use in machine learning and data science applications in chemistry. I created this repository to share code while developing tools for my work. All functions are still under development and most are incomplete.
 ## About the author
 
-My name is Ben Shields and I am a chemist with growing interest in programming, machine learning, and data science. I am learning how to program as I develop this repository, so comments and suggestions are very welcome.
+My name is Ben Shields (shields.benjamin.j@gmail.com) and I am a chemist with growing interest in programming, machine learning, and data science. I am learning how to program as I develop this repository so comments, suggestions, and contributions are very welcome.
 
 ## Dependencies
 I am currently working with the following distributions:
