@@ -7,7 +7,7 @@ OccupiedVolume is a Mathematica function which takes Gaussian log files or Carte
 
 This project is a direct extension of SambVca, a tool to calculate the buried volume of OM ligands (https://www.molnac.unisa.it/OMtools/sambvca.php).
 
-As the auto-QChem project progresses, this feature will be integrated into the larger program. For now the script included in the occupied_volume directory can be incorporated out of the box. To get started, you can download the whole directory and evaluate the examples in occupied_volume_examples.nb to ensure it runs on your system.
+As the auto-QChem project progresses, this feature will be integrated into the larger program. For now the script included in the occupied_volume directory can be incorporated out of the box. To get started, you can download the whole directory and evaluate the examples in occupied_volume_example.nb to ensure it runs on your system.
 
 ### Options
 
