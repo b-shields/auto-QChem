@@ -1,33 +1,31 @@
 # auto-QChem
 
-I created this repo to share code while developing tools for the automated parameterization of molecules via computational chemistry. All functions are still under development and most are incomplete.
+The auto-QChem repository consists of a series of functions for the automated generation, submission, and analysis of large batches of quantum chemistry calculations. The goal of this project is to develop tools for the automated computation of chemical, thermochemical, and steric features of molecules for use in machine learning and data science applications in chemistry. I created this repository to share code while developing tools for my work. All functions are still under development and most are incomplete.
+## About the author
 
-## Notes to the user
-auto-QChem currently consists of Mathematica functions which generate
+My name is Ben Shields and I am a chemist with growing interest in programming, machine learning, and data science. I am learning how to program as I develop this repository, so comments and suggestions are very welcome.
 
+## Dependencies
+To be safe, I am working with the following programs:
+Mathematica 11.1.1
+Open-Babel 2.4.1
+Gaussian 09 or Gaussian 16
 
-Gaussian log files or Cartesian coordinates as input and returns the % of a sphere of a set radius which is occupied via the Van der Waals radii of the surrounding atoms. The center atom can be specified as a unique element, a numerically labeled atom, or the row of the corresponding Cartesian coordinate matrix. The function is currently incomplete and only supports the use of Gaussian .log files with freq calculation output.
+I am a Gaussian user, so functions are written to work in conjunction with G16 and my local computer cluster which runs Slurm as a job handler. If there is interest, I (we) can extend support to additional programs.
 
-## Availible functions
+All functions are currently written in the Wolfram language. Down the line, my goal is to translate the code to Python.
+
+## Functions
 
 | Function | Description | Status |
 | ------------- | ------------- | ------------- |
-| OpenBabel | generate Cartesian coordinates for molecules/conformers from chemdraw structures or smiles strings using Open-Babel | coming soon | 
-| GenerateGaussianBatch | get Cartesian coordinates from Gaussian input and output | coming soon |
-| SubmitBatch |
-| SharedVibrations |
-| OccupiedVolume |
-| ExtractDescriptors |
+| OpenBabel | Generate Cartesian coordinates for molecules/conformers from chemdraw structures or smiles strings. | Coming soon | 
+| GenerateGaussianBatch | Generate input files and cluster submission scripts for a batch of molecules defined by chemdraw structures or smiles strings | Coming soon |
+| SubmitBatch | Transfer and submit batch of jobs to a cluster using Paramiko; easily integrated with Wolfram's scheduling functions for automation | Coming soon |
+| SharedVibrations | Compare the molecular vibrations for a set of compounds; similar vibrations are identified via correlated movements and frequencies | Coming soon |
+| OccupiedVolume | Compute the volume of a sphere occupied by the Van der Waals radii of surrounding atoms in a molecule | Stand alone |
+| ExtractDescriptors | Extract computed global and atom specific descriptors from computational chemistry output files | Coming soon |
 
-
-OpenBabel	
-ExtractCoordinates	
-GenerateGaussianBatch	generate Gaussian input files and submission scripts for a batch of molecules defined by chemdraw structures of smiles strings
-SubmitBatch	transfer and submit batch of jobs to a cluster using Paramiko
-
-SharedVibrations	compare the vibrations of a set molecules with labeled atoms; similar vibrations identified via correlated movements and frequencies
-OccupiedVolume		compute the volume of a sphere occupied by the Van der Waals radii of surrounding atoms in a molecule
-ExtractDescriptors	extract computed global and atom specific descriptors from Gaussian .log files
 
 
 
