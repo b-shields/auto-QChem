@@ -1,7 +1,5 @@
 # auto-QChem
 
-I created this repo to share code while developing tools for the automated parameterization of molecules via computational chemistry. All functions are still under development and most are incomplete.
-
 ## occupied-volume
 
 ### Notes to the user
@@ -112,7 +110,7 @@ Quiet@Show[
 ```
 0.390261
 ```
-![alt text](/example_data/img1.png)
+![alt text](/occupied_volume/example_data/img1.png)
 
 #### Example 2: Gaussian output files with unlabeled atoms
 Load the script.
@@ -227,7 +225,7 @@ Quiet@Show[
 ```
 0.748621
 ```
-![alt text](/example_data/img2.png)
+![alt text](/occupied_volume/example_data/img2.png)
 
 ### Numerical Integration
 
@@ -259,7 +257,7 @@ testData={
 };
 	
 ```
-![alt text](/example_data/img3.png)
+![alt text](/occupied_volume/example_data/img3.png)
 
 Track evaluation time with increasing meshCount.
 ```mathematica
@@ -308,4 +306,4 @@ Row[{
 	]
 }]
 ```
-![alt text](/example_data/img4.png)
+![alt text](/occupied_volume/example_data/img4.png)
