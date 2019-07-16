@@ -11,3 +11,28 @@ Gaussian log files or Cartesian coordinates as input and returns the % of a sphe
 ## Availible functions
 
 | Function | Description | Status |
+| ------------- | ------------- | ------------- |
+| OpenBabel | generate Cartesian coordinates for molecules/conformers from chemdraw structures or smiles strings using Open-Babel | coming soon | 
+| GenerateGaussianBatch | get Cartesian coordinates from Gaussian input and output | coming soon |
+| SubmitBatch |
+| SharedVibrations |
+| OccupiedVolume |
+| ExtractDescriptors |
+
+
+OpenBabel	
+ExtractCoordinates	
+GenerateGaussianBatch	generate Gaussian input files and submission scripts for a batch of molecules defined by chemdraw structures of smiles strings
+SubmitBatch	transfer and submit batch of jobs to a cluster using Paramiko
+
+SharedVibrations	compare the vibrations of a set molecules with labeled atoms; similar vibrations identified via correlated movements and frequencies
+OccupiedVolume		compute the volume of a sphere occupied by the Van der Waals radii of surrounding atoms in a molecule
+ExtractDescriptors	extract computed global and atom specific descriptors from Gaussian .log files
+
+
+
+
+
+
+
+
