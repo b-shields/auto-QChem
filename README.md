@@ -1,13 +1,15 @@
-# occupied-volume
+# auto-QChem
 
-## Notes to the user
+I created this repo to share code while developing tools for the automated parameterization of molecules via computational chemistry. All functions are still under development and most are incomplete.
+
+## occupied-volume
+
+### Notes to the user
 OccupiedVolume is a Mathematica function which takes Gaussian log files or Cartesian coordinates as input and returns the % of a sphere of a set radius which is occupied via the Van der Waals radii of the surrounding atoms. The center atom can be specified as a unique element, a numerically labeled atom, or the row of the corresponding Cartesian coordinate matrix.
 
 This project is a direct extension of SambVca, a tool to calculate the buried volume of OM ligands (https://www.molnac.unisa.it/OMtools/sambvca.php).
 
-I created this repo to share functions while developing tools for the computational parameterization of molecules. The function is still under development and the code only supports .log files which contain Gaussian freq output at the moment. Once I have time I will add more general functions for handling computational input and output.
-
-## Options
+### Options
 
 | Option | Input Type | Description | Preset Value | 
 | ------------- | ------------- | ------------- | ------------- |
@@ -17,9 +19,9 @@ I created this repo to share functions while developing tools for the computatio
 |  | "array" | input type is a Cartesian coordinate matrix |  |
 | selectMatrixPosition | Boolean | specify central atom as a row of coordinate matrix | False |
 
-## Usage
+### Usage
 
-### Syntax
+#### Syntax
 Gaussian log file. Atoms of interest numerically labeled.
 ```mathematica
 file = path\to\log\file.log;
@@ -29,7 +31,7 @@ OcupiedVolume[file, numberedAtom]
 ```
 See examples below for additional usage cases.
 
-### Example 1: Gaussian output files with labeled atoms
+#### Example 1: Gaussian output files with labeled atoms
 
 Load the script.
 ```mathematica
@@ -112,7 +114,7 @@ Quiet@Show[
 ```
 ![alt text](/example_data/img1.png)
 
-### Example 2: Gaussian output files with unlabeled atoms
+#### Example 2: Gaussian output files with unlabeled atoms
 Load the script.
 ```mathematica
 <<(NotebookDirectory[]<>"\\occupied_volume.wls")
@@ -227,7 +229,7 @@ Quiet@Show[
 ```
 ![alt text](/example_data/img2.png)
 
-## Numerical Integration
+### Numerical Integration
 
 The numerical integrator I wrote for this application is not optimal. This is somewhat mitigated by the fact that the code is parallelizable (for example via the ParallelTable function). The integrator comes out of the box with a sparse grid which leads to a fair amount of error but fast evaluation time. You can increase the numerical accuracy (and the computation time) via the meshCount option.
 
