@@ -3,6 +3,8 @@
 ## Notes to the user
 OccupiedVolume is a Mathematica function which takes Gaussian log files or Cartesian coordinates as input and returns the % of a sphere of a set radius which is occupied via the Van der Waals radii of the surrounding atoms. The center atom can be specified as a unique element, a numerically labeled atom, or the row of the corresponding Cartesian coordinate matrix.
 
+This project is a direct extension of SambVca, a tool to calculate the buried volume of OM ligands (https://www.molnac.unisa.it/OMtools/sambvca.php).
+
 This function is still under development and the code only supports .log files which contain Gaussian freq output at the moment. Once I have time I will add more general functions for handling computational input and output.
 
 ## Options
