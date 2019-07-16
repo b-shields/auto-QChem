@@ -5,7 +5,7 @@ OccupiedVolume is a Mathematica function which takes Gaussian log files or Carte
 
 This project is a direct extension of SambVca, a tool to calculate the buried volume of OM ligands (https://www.molnac.unisa.it/OMtools/sambvca.php).
 
-This function is still under development and the code only supports .log files which contain Gaussian freq output at the moment. Once I have time I will add more general functions for handling computational input and output.
+I created this repo to share functions while developing tools for the computational parameterization of molecules. The function is still under development and the code only supports .log files which contain Gaussian freq output at the moment. Once I have time I will add more general functions for handling computational input and output.
 
 ## Options
 
