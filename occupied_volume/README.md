@@ -1,6 +1,6 @@
 # auto-QChem
 
-## occupied-volume
+## OccupiedVolume
 
 ### Notes to the user
 OccupiedVolume is a Mathematica function which takes Gaussian log files or Cartesian coordinates as input and returns the % of a sphere of a set radius which is occupied via the Van der Waals radii of the surrounding atoms. The center atom can be specified as a unique element, a numerically labeled atom, or the row of the corresponding Cartesian coordinate matrix. The function is currently incomplete and only supports the use of Gaussian .log files with freq calculation output. Down the line I will add support for a diverse array of input and output files.
@@ -27,7 +27,7 @@ Gaussian log file. Atoms of interest numerically labeled.
 file = path\to\log\file.log;
 numberedAtom = 1;
 
-OcupiedVolume[file, numberedAtom]
+OccupiedVolume[file, numberedAtom]
 ```
 See examples below for additional usage cases.
 
