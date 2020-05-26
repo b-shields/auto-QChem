@@ -1,0 +1,5 @@
+Electrophile,Paper_Name,Electrophile_SMILES,Electrophile_SMILES_mapped
+Ar1OTf,"1c, 6-OTf-Q",O=S(OC1=CC=C(N=CC=C2)C2=C1)(C(F)(F)F)=O,O=S([2O][1C]1=CC=C(N=CC=C2)C2=C1)(C(F)(F)F)=O
+Ar1Cl,"1a, 6-Cl-Q",ClC1=CC=C(N=CC=C2)C2=C1,[2Cl][1C]1=CC=C(N=CC=C2)C2=C1
+Ar1Br,"1b, 6-Br-Q",BrC1=CC=C(N=CC=C2)C2=C1,[2Br][1C]1=CC=C(N=CC=C2)C2=C1
+Ar1I,"1d, 6-I-Q",IC1=CC=C(N=CC=C2)C2=C1,[2I][1C]1=CC=C(N=CC=C2)C2=C1

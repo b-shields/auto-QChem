@@ -1745,6 +1745,10 @@ CompareVibrations[mol1path_,mol2path_]:=Module[
 			#1[[2]]<#2[[2]]&
 	];(*Sort*)
 	
+	(*Make sure there are enough to do alignment*)
+	notEnoughAtomsError = False;
+	If[Count[at1,_] < 4, (notEnoughAtomsError=True; Return[])];
+	
 (***************************************************************************************************** Set of shared atoms which will be used align the molecules*)	
 	alignment1=Sort[
 		With[
@@ -1866,6 +1870,10 @@ SharedVibrations[setPaths_,standardPath_]:=Module[
 
 {standardPosition,temp,list,vibrationList,allCorrelated,selected,correlatedSet,tempIterator},
 
+(***************************************************************************************************** Make sure there are enough labeld atoms*)
+CompareVibrations[setPaths[[1]],standardPath];
+If[notEnoughAtomsError, Return[]];
+
 (***************************************************************************************************** Compute vibration comparision array*)
 	compareVibrations=ParallelTable[
 		{StringReplace[setPaths[[n]],{Longest[__~~"\\"]->"",".log"->"","123.log"->""}],CompareVibrations[setPaths[[n]],standardPath]},
@@ -1887,7 +1895,8 @@ SharedVibrations[setPaths_,standardPath_]:=Module[
 			allCorrelated=Table[
 				{
 					compareVibrations[[n]][[1]],
-					compareVibrations[[n]][[2]][[Flatten[Position[compareVibrations[[n]][[2]],Flatten[{__,intersection[[m]],Table[__,Range[15]]}]]]]]
+					(*compareVibrations[[n]][[2]][[Flatten[Position[compareVibrations[[n]][[2]],Flatten[{__,intersection[[m]],Table[__,Range[15]]}]]]]]*)
+					compareVibrations[[n]][[2]][[Flatten[Position[list[[n]],intersection[[m]]]]]]
 				},
 				{m,1,Count[intersection,_],1},
 				{n,1,Count[compareVibrations,_],1}

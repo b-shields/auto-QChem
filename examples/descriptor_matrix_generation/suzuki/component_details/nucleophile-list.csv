@@ -1,0 +1,4 @@
+Nucleophile,Paper_Name,Nucleophile_SMILES,Nucleophile_SMILES_mapped
+Ar2BOH2,"2a, Boronic Acid",CC1=CC=C(N(C2CCCCO2)N=C3)C3=C1B(O)O,CC1=CC=C(N(C2CCCCO2)N=C3)C3=[1C]1[2B](O)O
+Ar2BPin,"2b, Boronic Ester",CC1=CC=C(N(C2CCCCO2)N=C3)C3=C1B4OC(C)(C)C(C)(C)O4,CC1=CC=C(N(C2CCCCO2)N=C3)C3=[1C]1[2B]4OC(C)(C)C(C)(C)O4
+Ar2BF3,"2c, Trifluoroborate",CC1=CC=C(N(C2CCCCO2)N=C3)C3=C1[B-](F)(F)F,CC1=CC=C(N(C2CCCCO2)N=C3)C3=[1C]1[2B-](F)(F)F

@@ -1,0 +1,8 @@
+Base,Base_SMILES
+NaOH,[Na+].[OH-]
+NaHCO3,OC([O-])=O.[Na+]
+CsF,[Cs+].[F-]
+K3PO4,O=P([O-])([O-])[O-].[K+].[K+].[K+]
+KOH,[K+].[OH-]
+LiOtBu,CC([O-])C.[Li+]
+Et3N,CCN(CC)CC
