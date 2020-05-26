@@ -5,6 +5,7 @@ A series of functions for the automated generation, submission, and analysis of 
 Dependencies:
 - Windows
 - Open-Babel 2.4.1
+- Gaussian
 - Mathematica (Written using 11.1)
 
 This site is depreciated. All functions have now been implemented (and improved) in python: https://github.com/PrincetonUniversity/auto-qchem

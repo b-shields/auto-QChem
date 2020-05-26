@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1853960,      31807]
-NotebookOptionsPosition[   1826343,      31476]
-NotebookOutlinePosition[   1826685,      31491]
-CellTagsIndexPosition[   1826642,      31488]
+NotebookDataLength[   1925047,      32985]
+NotebookOptionsPosition[   1896241,      32642]
+NotebookOutlinePosition[   1896584,      32657]
+CellTagsIndexPosition[   1896541,      32654]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -50,11 +50,6 @@ Cell["Functions", "Section",
   3.7866450779053173`*^9}, {3.7866452055492096`*^9, 
   3.78664520784895*^9}},ExpressionUUID->"ac48cb90-5917-44f3-881c-\
 d9a41da71108"],
-
-Cell["Analysis run using functions from auto-dft.wl.", "Text",
- CellChangeTimes->{{3.7867128481715126`*^9, 
-  3.786712870297987*^9}},ExpressionUUID->"c7a79ce1-5896-4aad-a9b7-\
-72d854254496"],
 
 Cell[BoxData[
  RowBox[{
@@ -12537,8 +12532,1177 @@ Cell[BoxData[
  CellChangeTimes->{3.79951047305437*^9},
  CellLabel->
   "During evaluation of \
-In[72]:=",ExpressionUUID->"09591ace-0ad2-456b-a878-ae97e5f91312"]
-}, Open  ]]
+In[72]:=",ExpressionUUID->"09591ace-0ad2-456b-a878-ae97e5f91312"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "10.530291163286686`", ",", "10.590512339137442`", ",", 
+   "2.682377154367358`", ",", "10.53080465896813`", ",", 
+   "2.9288578538269934`", ",", "10.7717649463763`", ",", "10.76777342439406`",
+    ",", "9.857889804092693`", ",", "10.691273363237642`", ",", 
+   "0.00037997181252455767`", ",", "10.864844370041519`", ",", 
+   "2.267131969527281`", ",", "10.126344404510927`"}], "}"}]], "Print",
+ CellChangeTimes->{3.7995104743769913`*^9},
+ CellLabel->
+  "During evaluation of \
+In[72]:=",ExpressionUUID->"f09a9aab-0449-4ed2-818e-1d3b366ecace"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "10.424098689206211`", ",", "10.562353066644661`", ",", 
+   "2.6169767405461113`", ",", "10.475092423554967`", ",", 
+   "2.8859030752639527`", ",", "10.698782823841288`", ",", 
+   "10.716811374766804`", ",", "9.866959162356416`", ",", 
+   "10.644911136651073`", ",", "1.0623125688822386`", ",", 
+   "10.720735930060282`", ",", "2.3546632412254542`", ",", 
+   "10.139288526330285`"}], "}"}]], "Print",
+ CellChangeTimes->{3.7995104746635847`*^9},
+ CellLabel->
+  "During evaluation of \
+In[72]:=",ExpressionUUID->"f83eb65e-44bb-4858-8e5c-c63134c233b7"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "10.582685401285682`", ",", "10.663874781569614`", ",", 
+   "2.7523911521830637`", ",", "10.801387664949603`", ",", 
+   "3.109574183085765`", ",", "10.525818825676856`", ",", 
+   "10.52566918387265`", ",", "10.415385976415447`", ",", 
+   "10.47891726601965`", ",", "3.8207911929236165`", ",", 
+   "10.656708948338744`", ",", "3.3721230060183083`", ",", 
+   "10.554279464558663`", ",", "3.7127553352145255`"}], "}"}]], "Print",
+ CellChangeTimes->{3.7995104749651356`*^9},
+ CellLabel->
+  "During evaluation of \
+In[72]:=",ExpressionUUID->"05b678d3-ee20-4401-b3ff-02eabbf414f0"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "10.663598531035225`", ",", "10.710196042763716`", ",", 
+   "2.6563108696298405`", ",", "10.90137136918463`", ",", 
+   "2.764637117484721`", ",", "10.429779119109384`", ",", 
+   "10.603385716533506`", ",", "10.318652355345078`", ",", 
+   "10.54541648344506`", ",", "3.611866229341284`", ",", "10.67399544204909`",
+    ",", "3.08378872182671`", ",", "10.6579874707627`", ",", 
+   "3.2678103012327564`", ",", "2.320942410861474`"}], "}"}]], "Print",
+ CellChangeTimes->{3.799510475253106*^9},
+ CellLabel->
+  "During evaluation of \
+In[72]:=",ExpressionUUID->"19680284-380b-456e-bef9-7f35a10c7b64"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "2.2717452295146545`", ",", "2.424757569869252`", ",", 
+   "11.005221502113942`", ",", "2.8065941915552086`", ",", 
+   "11.16711874954906`", ",", "1.7859407453137364`", ",", 
+   "1.4419564148620219`", ",", "3.4461446693527273`", ",", 
+   "1.6655161870535362`", ",", "10.864842653209687`", ",", 
+   "0.00016604629924804221`", ",", "11.322005199827933`", ",", 
+   "2.8999075938562417`", ",", "10.720747365025996`", ",", 
+   "10.656719336711152`", ",", "10.673998487226893`"}], "}"}]], "Print",
+ CellChangeTimes->{3.799510475533102*^9},
+ CellLabel->
+  "During evaluation of \
+In[72]:=",ExpressionUUID->"d10c189f-5a53-43c2-919e-bc40669e9ac5"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "1.5745850080944372`", ",", "2.1400385604358734`", ",", 
+   "10.868119777596146`", ",", "2.543923415894419`", ",", 
+   "11.11511336580184`", ",", "3.227302684204435`", ",", 
+   "2.5663927763610643`", ",", "2.25516189718656`", ",", 
+   "2.5300507060654773`", ",", "10.316089836016248`", ",", 
+   "2.702713803949271`", ",", "10.867091838169827`", ",", 
+   "1.3871211876390281`", ",", "10.304638229001089`", ",", 
+   "10.646545034399967`", ",", "10.74400048318066`"}], "}"}]], "Print",
+ CellChangeTimes->{3.7995104763003664`*^9},
+ CellLabel->
+  "During evaluation of \
+In[72]:=",ExpressionUUID->"0cab02d4-7dc9-48f3-968f-90f68843119e"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "1.8253532105930121`", ",", "2.7149378359197143`", ",", 
+   "10.67393255014313`", ",", "2.4554705093039595`", ",", 
+   "10.905260489545842`", ",", "3.657065184022113`", ",", 
+   "3.260718979138842`", ",", "2.468897954720691`", ",", "3.025309160313318`",
+    ",", "10.053754134977442`", ",", "2.8499889707373205`", ",", 
+   "10.756487897494088`", ",", "1.807233631263933`", ",", 
+   "9.969930453785292`", ",", "10.503179774240435`", ",", 
+   "10.606668392615578`", ",", "1.7205652997184049`"}], "}"}]], "Print",
+ CellChangeTimes->{3.799510476530366*^9},
+ CellLabel->
+  "During evaluation of \
+In[72]:=",ExpressionUUID->"a1a29c47-052c-420e-8e5b-6f06397fc2e3"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "10.534376952849938`", ",", "10.585854835523664`", ",", 
+   "2.7019154680119954`", ",", "10.530802021897216`", ",", 
+   "2.9497061856122175`", ",", "10.76525942555793`", ",", 
+   "10.761804152331019`", ",", "9.8612716953615`", ",", "10.685381874905957`",
+    ",", "0.3893226285816932`", ",", "10.858412715958123`", ",", 
+   "2.2586016099980974`", ",", "10.121580336550338`", ",", 
+   "1.129238326300947`", ",", "3.842155351782554`", ",", 
+   "3.6352114889976295`", ",", "10.310562759034516`", ",", 
+   "10.054788340117083`"}], "}"}]], "Print",
+ CellChangeTimes->{3.7995104768403654`*^9},
+ CellLabel->
+  "During evaluation of \
+In[72]:=",ExpressionUUID->"2914d295-96f1-4124-bf57-cc8753155dab"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "10.666626559992022`", ",", "10.7855542293229`", ",", "2.566698401142083`", 
+   ",", "10.713632796576508`", ",", "2.811688844325569`", ",", 
+   "10.965586560781892`", ",", "10.86826802107006`", ",", 
+   "10.165629601135189`", ",", "10.82068456525883`", ",", 
+   "1.1155776067393148`", ",", "10.971596843970234`", ",", 
+   "2.4250183589317924`", ",", "10.29875507433389`", ",", 
+   "1.462694926190785`", ",", "3.626899705370238`", ",", 
+   "3.7799217848712487`", ",", "10.482671030037915`", ",", 
+   "10.224163535034617`", ",", "1.1882993252118608`"}], "}"}]], "Print",
+ CellChangeTimes->{3.799510477120366*^9},
+ CellLabel->
+  "During evaluation of \
+In[72]:=",ExpressionUUID->"1bc45e98-e45e-4ab7-b7de-4f1f5ff989ef"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "2.163114731165575`", ",", "1.845575506920518`", ",", "10.76774822394712`", 
+   ",", "2.7971752465794695`", ",", "10.910393124163566`", ",", 
+   "3.462648994529044`", ",", "2.6821796725959746`", ",", 
+   "2.160467852576624`", ",", "2.667669367882676`", ",", 
+   "10.157734291077226`", ",", "2.848622735729945`", ",", 
+   "10.663212549887556`", ",", "0.8504951166021167`", ",", 
+   "10.165766836351338`", ",", "10.498268021364336`", ",", 
+   "10.60254557777978`", ",", "1.1158604451378447`", ",", 
+   "1.9861745271085005`", ",", "10.153551395937312`", ",", 
+   "10.316120113281428`"}], "}"}]], "Print",
+ CellChangeTimes->{3.7995104773803654`*^9},
+ CellLabel->
+  "During evaluation of \
+In[72]:=",ExpressionUUID->"8fea9f57-52e3-4843-b419-bd99343b475d"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "10.709508498321265`", ",", "10.803714719816105`", ",", 
+   "1.8614344333359156`", ",", "10.805017314969335`", ",", 
+   "2.19673419794866`", ",", "10.548612068853403`", ",", 
+   "10.537571038833931`", ",", "10.441010964834263`", ",", 
+   "10.61821715190573`", ",", "3.7457199919119706`", ",", 
+   "10.772862541044224`", ",", "2.7173533252568403`", ",", 
+   "10.747155395275472`", ",", "3.6328200410502163`", ",", 
+   "2.8309036480538854`", ",", "2.635673480378832`", ",", 
+   "10.730443334587065`", ",", "10.74396784951851`", ",", 
+   "3.743353449793894`", ",", "3.5265172308682473`", ",", 
+   "10.628463807267172`"}], "}"}]], "Print",
+ CellChangeTimes->{3.7995104784603214`*^9},
+ CellLabel->
+  "During evaluation of \
+In[72]:=",ExpressionUUID->"9119984b-64d5-4675-8a65-897f9619d1aa"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "2.0306634811407784`", ",", "1.6437793382662222`", ",", 
+   "11.15157889965416`", ",", "1.7489479951141815`", ",", 
+   "11.410109146341767`", ",", "2.5630710108548125`", ",", 
+   "2.3254759226466737`", ",", "3.3245353924174847`", ",", 
+   "2.1648313053155808`", ",", "10.777030761081393`", ",", 
+   "2.578500230440397`", ",", "11.148094642604738`", ",", 
+   "2.810840404695392`", ",", "10.71555687461366`", ",", "10.80224018935108`",
+    ",", "10.905703263736179`", ",", "2.2301225018913113`", ",", 
+   "2.550049053701628`", ",", "10.769940011239848`", ",", 
+   "10.961516925107027`", ",", "2.594253533955712`", ",", 
+   "10.946602653219953`"}], "}"}]], "Print",
+ CellChangeTimes->{3.7995104787666225`*^9},
+ CellLabel->
+  "During evaluation of \
+In[72]:=",ExpressionUUID->"08853910-bce7-4cdf-a6a0-5c5fd5ea93db"]
+}, Open  ]],
+
+Cell[BoxData[
+ InterpretationBox[GridBox[{
+    {"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\BrettPhos-10.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\
+\\\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\BrettPhos-11.log\"\
+\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\BrettPhos-12.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\
+\\\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\BrettPhos-13.log\"\
+\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\BrettPhos-14.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\
+\\\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\BrettPhos-16.log\"\
+\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\BrettPhos-17.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\
+\\\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\BrettPhos-18.log\"\
+\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\BrettPhos-19.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\
+\\\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\BrettPhos-1.log\"\>\
+", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\BrettPhos-20.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\
+\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\BrettPhos-22.log\"\
+\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\BrettPhos-23.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\
+\\\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\BrettPhos-24.log\"\
+\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\BrettPhos-26.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\
+\\\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\BrettPhos-29.log\"\
+\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\BrettPhos-2.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\BrettPhos-30.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\
+\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\BrettPhos-3.log\"\>\
+", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\BrettPhos-4.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\BrettPhos-8.log\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\
+\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\CgMe-PPh-1.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\
+\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\CgMe-PPh-2.log\"\>\
+", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\CgMe-PPh-3.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\CgMe-PPh-4.log\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", \
+"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\
+\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", \
+"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\
+\"\>", "\<\"\"\>"},
+    {"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\GorlosPhos-10.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\GorlosPhos-11.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\GorlosPhos-12.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\GorlosPhos-13.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\GorlosPhos-14.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\GorlosPhos-15.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\GorlosPhos-17.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\GorlosPhos-18.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\GorlosPhos-19.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\GorlosPhos-1.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\
+\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\GorlosPhos-20.log\"\
+\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\GorlosPhos-21.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\GorlosPhos-22.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\GorlosPhos-25.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\GorlosPhos-28.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\GorlosPhos-29.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\GorlosPhos-2.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\
+\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\GorlosPhos-30.log\"\
+\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\GorlosPhos-4.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\
+\\\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\GorlosPhos-6.log\"\
+\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\GorlosPhos-7.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\
+\\\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\GorlosPhos-8.log\"\
+\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\JackiePhos-10.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\JackiePhos-11.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\JackiePhos-12.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\JackiePhos-13.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\JackiePhos-14.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\JackiePhos-15.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\JackiePhos-16.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\JackiePhos-17.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\JackiePhos-18.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\JackiePhos-19.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\JackiePhos-1.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\
+\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\JackiePhos-20.log\"\
+\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\JackiePhos-21.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\JackiePhos-22.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\JackiePhos-23.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\JackiePhos-24.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\JackiePhos-25.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\JackiePhos-26.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\JackiePhos-27.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\JackiePhos-2.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\
+\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\JackiePhos-30.log\"\
+\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\JackiePhos-3.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\
+\\\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\JackiePhos-4.log\"\
+\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\JackiePhos-5.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\
+\\\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\JackiePhos-6.log\"\
+\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\JackiePhos-7.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\
+\\\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\JackiePhos-8.log\"\
+\>"},
+    {"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\PCy3-10.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PCy3-11.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PCy3-13.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PCy3-16.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PCy3-1.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PCy3-22.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PCy3-30.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PCy3-31.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PCy3-3.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PCy3-6.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PCy3-9.log\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", \
+"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\
+\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\P(fur)3-10.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\
+\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\P(fur)3-12.log\"\>\
+", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\P(fur)3-13.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\P(fur)3-14.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\P(fur)3-16.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\P(fur)3-17.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\P(fur)3-1.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\P(fur)3-21.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\P(fur)3-22.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\P(fur)3-23.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\P(fur)3-25.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\P(fur)3-27.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\P(fur)3-28.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\P(fur)3-2.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\P(fur)3-5.log\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\
+\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", \
+"\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\PPh2Me-10.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PPh2Me-11.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PPh2Me-12.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PPh2Me-15.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PPh2Me-17.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PPh2Me-20.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PPh2Me-25.log\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\
+\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", \
+"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\
+\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\PPh3-29.log\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\
+\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", \
+"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\
+\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", \
+"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\PPhMe2-1.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PPhMe2-3.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PPhMe2-5.log\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", \
+"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\
+\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", \
+"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\
+\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\PPhtBu2-1.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PPhtBu2-3.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PPhtBu2-4.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\PPhtBu2-5.log\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\
+\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", \
+"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\
+\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", \
+"\<\"\"\>", "\<\"\"\>"},
+    {"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\tBPh-CPhos-10.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\tBPh-CPhos-13.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\tBPh-CPhos-15.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\tBPh-CPhos-16.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\tBPh-CPhos-17.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\tBPh-CPhos-18.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\tBPh-CPhos-19.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\tBPh-CPhos-1.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\
+\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\tBPh-CPhos-20.log\"\
+\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\tBPh-CPhos-21.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\tBPh-CPhos-23.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\tBPh-CPhos-26.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\tBPh-CPhos-27.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\tBPh-CPhos-28.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\tBPh-CPhos-29.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\tBPh-CPhos-3.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\
+\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\tBPh-CPhos-4.log\"\
+\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\tBPh-CPhos-5.log\"\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\
+\\\\_project-updates\\\\bayesian-opt\\\\auto-QChem\\\\examples\\\\descriptor_\
+matrix_generation\\\\direct_arylation\\\\ligand_dft-log\\\\tBPh-CPhos-8.log\"\
+\>", "\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\tBPh-CPhos-9.log\"\>", "\<\"\"\>", "\<\"\"\>", \
+"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\
+\\auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\
+\\ligand_dft-log\\\\X-Phos-10.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-11.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-12.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-13.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-16.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-17.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-18.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-19.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-1.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-20.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-21.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-23.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-24.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-28.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-29.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-2.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-3.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-4.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-5.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-6.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-7.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-8.log\"\>", \
+"\<\"C:\\\\Users\\\\Ben\\\\Dropbox\\\\_project-updates\\\\bayesian-opt\\\\\
+auto-QChem\\\\examples\\\\descriptor_matrix_generation\\\\direct_arylation\\\\\
+ligand_dft-log\\\\X-Phos-9.log\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", \
+"\<\"\"\>"}
+   },
+   GridBoxAlignment->{
+    "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+     "RowsIndexed" -> {}},
+   GridBoxSpacings->{"Columns" -> {
+       Offset[0.27999999999999997`], {
+        Offset[2.0999999999999996`]}, 
+       Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+       Offset[0.2], {
+        Offset[0.4]}, 
+       Offset[0.2]}, "RowsIndexed" -> {}}],
+  TableForm[{{
+    "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-10.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-11.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-12.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-13.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-14.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-16.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-17.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-18.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-19.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-1.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-20.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-22.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-23.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-24.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-26.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-29.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-2.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-30.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-3.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-4.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+BrettPhos-8.log"}, {
+    "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+CgMe-PPh-1.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+CgMe-PPh-2.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+CgMe-PPh-3.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+CgMe-PPh-4.log"}, {
+    "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-10.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-11.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-12.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-13.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-14.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-15.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-17.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-18.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-19.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-1.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-20.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-21.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-22.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-25.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-28.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-29.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-2.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-30.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-4.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-6.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-7.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+GorlosPhos-8.log"}, {
+    "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-10.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-11.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-12.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-13.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-14.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-15.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-16.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-17.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-18.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-19.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-1.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-20.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-21.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-22.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-23.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-24.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-25.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-26.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-27.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-2.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-30.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-3.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-4.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-5.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-6.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-7.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+JackiePhos-8.log"}, {
+    "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PCy3-10.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PCy3-11.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PCy3-13.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PCy3-16.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PCy3-1.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PCy3-22.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PCy3-30.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PCy3-31.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PCy3-3.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PCy3-6.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PCy3-9.log"}, {
+    "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\P(\
+fur)3-10.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\P(\
+fur)3-12.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\P(\
+fur)3-13.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\P(\
+fur)3-14.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\P(\
+fur)3-16.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\P(\
+fur)3-17.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\P(\
+fur)3-1.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\P(\
+fur)3-21.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\P(\
+fur)3-22.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\P(\
+fur)3-23.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\P(\
+fur)3-25.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\P(\
+fur)3-27.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\P(\
+fur)3-28.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\P(\
+fur)3-2.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\P(\
+fur)3-5.log"}, {
+    "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PPh2Me-10.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PPh2Me-11.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PPh2Me-12.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PPh2Me-15.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PPh2Me-17.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PPh2Me-20.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PPh2Me-25.log"}, {
+    "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PPh3-29.log"}, {
+    "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PPhMe2-1.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PPhMe2-3.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PPhMe2-5.log"}, {
+    "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PPhtBu2-1.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PPhtBu2-3.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PPhtBu2-4.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+PPhtBu2-5.log"}, {
+    "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-10.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-13.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-15.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-16.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-17.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-18.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-19.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-1.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-20.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-21.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-23.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-26.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-27.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-28.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-29.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-3.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-4.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-5.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-8.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\\
+tBPh-CPhos-9.log"}, {
+    "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-10.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-11.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-12.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-13.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-16.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-17.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-18.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-19.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-1.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-20.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-21.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-23.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-24.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-28.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-29.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-2.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-3.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-4.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-5.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-6.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-7.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-8.log", 
+     "C:\\Users\\Ben\\Dropbox\\_project-updates\\bayesian-opt\\auto-QChem\\\
+examples\\descriptor_matrix_generation\\direct_arylation\\ligand_dft-log\\X-\
+Phos-9.log"}}]]], "Output",
+ CellChangeTimes->{3.7867967964133043`*^9, 3.7995104788366256`*^9},
+ CellLabel->
+  "Out[76]//TableForm=",ExpressionUUID->"895e16cc-e902-4f18-8dd0-\
+b24284bad341"]
 }, Open  ]],
 
 Cell["Sort them.", "Text",
@@ -12614,9 +13778,8 @@ Cell[BoxData[
    3.7867539118305793`*^9}, {3.78675409538603*^9, 3.7867540967634306`*^9}, {
    3.786795969500599*^9, 3.7867961005773253`*^9}, {3.7867961310815763`*^9, 
    3.7867961983660245`*^9}, {3.786796238882492*^9, 3.786796307363056*^9}, {
-   3.7867964679089947`*^9, 
-   3.7867964757826667`*^9}},ExpressionUUID->"dfefff73-1c66-442e-9bec-\
-31a668661f0c"],
+   3.7867964679089947`*^9, 3.7867964757826667`*^9}},
+ CellLabel->"In[77]:=",ExpressionUUID->"dfefff73-1c66-442e-9bec-31a668661f0c"],
 
 Cell["Extract all descriptors.", "Text",
  CellChangeTimes->{{3.7867174903578033`*^9, 
@@ -12667,8 +13830,8 @@ Cell[BoxData[{
    3.786753670595008*^9, 3.786753696476636*^9}, {3.7867538866693025`*^9, 
    3.7867539118305793`*^9}, {3.78675409538603*^9, 3.7867540967634306`*^9}, {
    3.7867965450945234`*^9, 3.786796545890195*^9}, {3.78679665472917*^9, 
-   3.7867966711463366`*^9}},ExpressionUUID->"6256c9f1-75f1-4f7a-a355-\
-8c7134389020"],
+   3.7867966711463366`*^9}},
+ CellLabel->"In[78]:=",ExpressionUUID->"6256c9f1-75f1-4f7a-a355-8c7134389020"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -13792,8 +14955,10 @@ Cell[BoxData[
        Offset[0.2]}, "RowsIndexed" -> {}}],
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
- CellChangeTimes->{
-  3.78680677358299*^9},ExpressionUUID->"029354ce-548a-40f4-bec4-ada3e89d817e"]
+ CellChangeTimes->{3.78680677358299*^9, 3.7995165892917542`*^9},
+ CellLabel->
+  "Out[81]//TableForm=",ExpressionUUID->"08b5d283-a9c1-432b-a1d2-\
+14d3581342d2"]
 }, Open  ]],
 
 Cell["Prepend smiles strings.", "Text",
@@ -13909,9 +15074,8 @@ Cell[BoxData[{
    3.7867560465512357`*^9, 3.786756081354621*^9}, {3.786756119796812*^9, 
    3.78675615727109*^9}, {3.7867561998185673`*^9, 3.78675622523987*^9}, {
    3.7867562703619614`*^9, 3.786756298526477*^9}, {3.7867563604044046`*^9, 
-   3.7867563852189465`*^9}, {3.78680745944512*^9, 
-   3.7868074622701373`*^9}},ExpressionUUID->"808049a1-5fe4-4b18-a7a1-\
-dd79299957e2"],
+   3.7867563852189465`*^9}, {3.78680745944512*^9, 3.7868074622701373`*^9}},
+ CellLabel->"In[82]:=",ExpressionUUID->"808049a1-5fe4-4b18-a7a1-dd79299957e2"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -15053,9 +16217,11 @@ Cell[BoxData[
        Offset[0.2]}, "RowsIndexed" -> {}}],
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
- CellChangeTimes->{{3.7868074552180514`*^9, 
-  3.7868074632176213`*^9}},ExpressionUUID->"0b8ea8d6-d8ce-48b6-9cbc-\
-bdbccd8a817f"]
+ CellChangeTimes->{{3.7868074552180514`*^9, 3.7868074632176213`*^9}, 
+   3.799516589711712*^9},
+ CellLabel->
+  "Out[84]//TableForm=",ExpressionUUID->"0daafe13-c8b2-46d7-bf30-\
+834f563d8984"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -15070,9 +16236,8 @@ Cell[BoxData[
    3.786730521801182*^9, 3.7867305762979674`*^9}, {3.7867567249947395`*^9, 
    3.786756743274233*^9}, {3.7867967214258013`*^9, 3.786796725889722*^9}, {
    3.786796992015892*^9, 3.786796999503598*^9}, {3.7868074744438353`*^9, 
-   3.7868074823847322`*^9}, 
-   3.7995086426280704`*^9},ExpressionUUID->"d5f617f1-b842-482a-a578-\
-b092c902a8b6"],
+   3.7868074823847322`*^9}, 3.7995086426280704`*^9},
+ CellLabel->"In[85]:=",ExpressionUUID->"d5f617f1-b842-482a-a578-b092c902a8b6"],
 
 Cell["Remove non-numerical features.", "Text",
  CellChangeTimes->{{3.7867970977282877`*^9, 
@@ -15159,8 +16324,8 @@ Cell[BoxData[{
    3.7867563852189465`*^9}, 3.7867970161260986`*^9, {3.786797090127906*^9, 
    3.786797092673097*^9}, {3.7868075947816973`*^9, 3.7868076358431864`*^9}, {
    3.7868077219423094`*^9, 3.7868081332410274`*^9}, {3.7868082165886774`*^9, 
-   3.7868083131689887`*^9}},ExpressionUUID->"9cb6142c-7d5c-4d11-bfd9-\
-28764c4c3b52"],
+   3.7868083131689887`*^9}},
+ CellLabel->"In[86]:=",ExpressionUUID->"9cb6142c-7d5c-4d11-bfd9-28764c4c3b52"],
 
 Cell[CellGroupData[{
 
@@ -15170,9 +16335,8 @@ Cell[BoxData[
    RowBox[{"[", 
     RowBox[{";;", "10"}], "]"}], "]"}], "//", "TableForm"}]], "Input",
  CellChangeTimes->{{3.7868081374779825`*^9, 3.786808159735017*^9}, {
-  3.7868083180566325`*^9, 
-  3.7868083325633783`*^9}},ExpressionUUID->"d286b93d-0520-4470-b551-\
-82f8f258260b"],
+  3.7868083180566325`*^9, 3.7868083325633783`*^9}},
+ CellLabel->"In[89]:=",ExpressionUUID->"d286b93d-0520-4470-b551-82f8f258260b"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -16282,9 +17446,10 @@ Cell[BoxData[
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellChangeTimes->{{3.786808138687603*^9, 3.786808160309442*^9}, {
-  3.786808327660716*^9, 
-  3.786808333125712*^9}},ExpressionUUID->"a1ea855e-d770-4d95-b408-\
-cfa4e1761471"]
+   3.786808327660716*^9, 3.786808333125712*^9}, 3.7995165929132066`*^9},
+ CellLabel->
+  "Out[89]//TableForm=",ExpressionUUID->"5139e259-8d28-44a5-bb4b-\
+5dcdec1287df"]
 }, Open  ]],
 
 Cell["\<\
@@ -16553,9 +17718,8 @@ Cell[BoxData[{
    3.786810543709908*^9, 3.7868105462494764`*^9}, {3.786810658018114*^9, 
    3.7868106627316723`*^9}, {3.7868108249635177`*^9, 3.786810955439723*^9}, {
    3.786810991491029*^9, 3.7868110241873493`*^9}, {3.786811480463357*^9, 
-   3.7868114808190904`*^9}, {3.78681214103685*^9, 
-   3.786812175687718*^9}},ExpressionUUID->"479ffd41-eb77-4a8e-a772-\
-37cdcfc1c486"],
+   3.7868114808190904`*^9}, {3.78681214103685*^9, 3.786812175687718*^9}},
+ CellLabel->"In[90]:=",ExpressionUUID->"479ffd41-eb77-4a8e-a772-37cdcfc1c486"],
 
 Cell[CellGroupData[{
 
@@ -16569,9 +17733,8 @@ Cell[BoxData[
    3.786809315012197*^9, 3.786809318684749*^9}, 3.786810189579429*^9, {
    3.7868104801249046`*^9, 3.786810506111064*^9}, {3.78681096268462*^9, 
    3.7868109810086613`*^9}, {3.7868110302523956`*^9, 
-   3.7868110308843346`*^9}, {3.786811088702544*^9, 
-   3.7868110917687473`*^9}},ExpressionUUID->"9b34d08b-da55-4fc4-afda-\
-e4e7c8de95ce"],
+   3.7868110308843346`*^9}, {3.786811088702544*^9, 3.7868110917687473`*^9}},
+ CellLabel->"In[94]:=",ExpressionUUID->"9b34d08b-da55-4fc4-afda-e4e7c8de95ce"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -21551,7 +22714,7 @@ Cell[BoxData[
      "0.6472560701775395`", "0.6505082200607419`", "0.6493797590890492`", 
      "0.0014098466558031297`", "0.4547169246429747`", "0.43510673333133737`", 
      "0.4535585413577401`", "0.44894264642775167`", "0.0074964292052734785`"},
-    {"\<\"PPh2Me\"\>", "27", "27", "27.`9.702079365008064", "27.`", "0.`", 
+    {"\<\"PPh2Me\"\>", "27", "27", "27.`9.702079365008068", "27.`", "0.`", 
      "0", "0", "0", "0.`", "0.`", "1", "1", 
      "1.00000000000000000000000000000000210441`9.702079365008064", "1.`", 
      "0.`", "1.3921`", "1.3922`", "1.3921428052829188`", 
@@ -21915,7 +23078,7 @@ Cell[BoxData[
      "84.0397`", "84.0397`", "0.`", "29", "19", 
      "23.2850658362087911197`9.702079365014828", "23.285714285714285`", 
      "5.3452248382484875`", "89", "89", 
-     "89.0000000000000000001`9.702079365008064", "89.`", "0.`", 
+     "89.0000000000000000001`9.702079365008068", "89.`", "0.`", 
      "0.7130297133099447`", "0.6558043356129167`", "0.679313256977006`", 
      "0.6793162966993719`", "0.029376472697232165`", "919.838`", "674.2394`", 
      "779.4836975699124`", "779.4996285714286`", "131.28550172915405`", 
@@ -22034,7 +23197,7 @@ Cell[BoxData[
      "35.7977`", "35.7977`", "35.7977`", "0.`", "0.558`", "0.558`", "0.558`", 
      "0.558`", "0.`", "87.6376`", "87.6376`", "87.6376`", "87.6376`", "0.`", 
      "50", "50", "50.`9.702079365008064", "50.`", "0.`", "140", "140", 
-     "140.`9.702079365008064", "140.`", "0.`", "0.9671637467252722`", 
+     "140.`9.702079365008068", "140.`", "0.`", "0.9671637467252722`", 
      "0.9498436705373678`", "0.9572662770363831`", "0.95726739657904`", 
      "0.009252370956573872`", "1351.3807`", "1351.3882`", 
      "1351.3844842033823`", "1351.3844857142856`", "0.0026124245261691798`", 
@@ -24804,8 +25967,10 @@ Cell[BoxData[
    3.786810190001191*^9, {3.7868104808902826`*^9, 3.7868105069076977`*^9}, 
    3.7868106159619265`*^9, 3.7868107166924734`*^9, {3.7868109648713884`*^9, 
    3.786810981383536*^9}, 3.7868110323745785`*^9, 3.7868110928374157`*^9, 
-   3.7868114875705714`*^9},ExpressionUUID->"4d9db523-98de-495f-9edb-\
-1ceaee548c0a"]
+   3.7868114875705714`*^9, 3.7995165957493477`*^9},
+ CellLabel->
+  "Out[94]//TableForm=",ExpressionUUID->"10f94783-dd36-4da2-a7b0-\
+d9528b639690"]
 }, Open  ]],
 
 Cell["Prepend smiles strings.", "Text",
@@ -24922,9 +26087,8 @@ Cell[BoxData[{
    3.78675615727109*^9}, {3.7867561998185673`*^9, 3.78675622523987*^9}, {
    3.7867562703619614`*^9, 3.786756298526477*^9}, {3.7867563604044046`*^9, 
    3.7867563852189465`*^9}, {3.78680745944512*^9, 3.7868074622701373`*^9}, {
-   3.786811970527808*^9, 
-   3.7868120422302475`*^9}},ExpressionUUID->"84da1118-6701-4831-9d0c-\
-071a38dcfae8"],
+   3.786811970527808*^9, 3.7868120422302475`*^9}},
+ CellLabel->"In[95]:=",ExpressionUUID->"84da1118-6701-4831-9d0c-071a38dcfae8"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -29912,7 +31076,7 @@ C(F)(F)F)=CC(C(F)(F)F)=C4)=CC(C(F)(F)F)=C1\"\>", "91", "91",
      "0.0014098466558031297`", "0.4547169246429747`", "0.43510673333133737`", 
      "0.4535585413577401`", "0.44894264642775167`", "0.0074964292052734785`"},
     {"\<\"PPh2Me\"\>", "\<\"CP(C1=CC=CC=C1)C2=CC=CC=C2\"\>", "27", "27", 
-     "27.`9.702079365008064", "27.`", "0.`", "0", "0", "0", "0.`", "0.`", "1",
+     "27.`9.702079365008068", "27.`", "0.`", "0", "0", "0", "0.`", "0.`", "1",
       "1", "1.00000000000000000000000000000000210441`9.702079365008064", 
      "1.`", "0.`", "1.3921`", "1.3922`", "1.3921428052829188`", 
      "1.3921428571428571`", "0.00007867957924703643`", "200.2195`", 
@@ -30275,7 +31439,7 @@ C(F)(F)F)=CC(C(F)(F)F)=C4)=CC(C(F)(F)F)=C1\"\>", "91", "91",
      "84.0397`", "84.0397`", "0.`", "29", "19", 
      "23.2850658362087911197`9.702079365014828", "23.285714285714285`", 
      "5.3452248382484875`", "89", "89", 
-     "89.0000000000000000001`9.702079365008064", "89.`", "0.`", 
+     "89.0000000000000000001`9.702079365008068", "89.`", "0.`", 
      "0.7130297133099447`", "0.6558043356129167`", "0.679313256977006`", 
      "0.6793162966993719`", "0.029376472697232165`", "919.838`", "674.2394`", 
      "779.4836975699124`", "779.4996285714286`", "131.28550172915405`", 
@@ -30394,7 +31558,7 @@ C(F)(F)F)=CC(C(F)(F)F)=C4)=CC(C(F)(F)F)=C1\"\>", "91", "91",
      "35.7977`", "35.7977`", "35.7977`", "0.`", "0.558`", "0.558`", "0.558`", 
      "0.558`", "0.`", "87.6376`", "87.6376`", "87.6376`", "87.6376`", "0.`", 
      "50", "50", "50.`9.702079365008064", "50.`", "0.`", "140", "140", 
-     "140.`9.702079365008064", "140.`", "0.`", "0.9671637467252722`", 
+     "140.`9.702079365008068", "140.`", "0.`", "0.9671637467252722`", 
      "0.9498436705373678`", "0.9572662770363831`", "0.95726739657904`", 
      "0.009252370956573872`", "1351.3807`", "1351.3882`", 
      "1351.3844842033823`", "1351.3844857142856`", "0.0026124245261691798`", 
@@ -31454,8 +32618,10 @@ C(F)(F)F)=CC(C(F)(F)F)=C4)=CC(C(F)(F)F)=C1\"\>", "91", "91",
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellChangeTimes->{{3.7868121281396675`*^9, 3.7868121483113766`*^9}, 
-   3.7868121795450344`*^9},ExpressionUUID->"174c581e-39cc-4fe4-a080-\
-bf4415bd6515"]
+   3.7868121795450344`*^9, 3.7995165973236246`*^9},
+ CellLabel->
+  "Out[97]//TableForm=",ExpressionUUID->"650c06b6-b292-4dea-8088-\
+eb57594de803"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -31469,13 +32635,13 @@ Cell[BoxData[
  CellChangeTimes->{{3.7867304331519313`*^9, 3.7867304387511225`*^9}, {
    3.786730521801182*^9, 3.7867305762979674`*^9}, {3.7867567249947395`*^9, 
    3.786756743274233*^9}, {3.786812224546648*^9, 3.7868122510041294`*^9}, 
-   3.7995086426580734`*^9},ExpressionUUID->"2c9b6c9b-5f19-43ec-8b9e-\
-88b076707a9e"]
+   3.7995086426580734`*^9},
+ CellLabel->"In[98]:=",ExpressionUUID->"2c9b6c9b-5f19-43ec-8b9e-88b076707a9e"]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1904, 997},
-WindowMargins->{{-8, Automatic}, {Automatic, 0}},
+WindowSize->{1920, 997},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
 FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
 StyleDefinitions->"Default.nb"
 ]
@@ -31496,317 +32662,329 @@ Cell[947, 30, 467, 11, 48, "Input",ExpressionUUID->"aff72986-5f9e-4275-aea9-81a2
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[1451, 46, 305, 5, 67, "Section",ExpressionUUID->"ac48cb90-5917-44f3-881c-d9a41da71108"],
-Cell[1759, 53, 190, 3, 34, "Text",ExpressionUUID->"c7a79ce1-5896-4aad-a9b7-72d854254496"],
-Cell[1952, 58, 6025, 128, 987, "Code",ExpressionUUID->"290aab1e-052f-46c8-88a6-82f6a30ba41a"],
-Cell[7980, 188, 168, 3, 34, "Text",ExpressionUUID->"c7a44630-9b59-4f5f-9482-78eff4ca3d2c"],
-Cell[8151, 193, 70119, 1484, 6369, "Code",ExpressionUUID->"47ef0095-8fdd-4de3-804d-da915ac6be63"],
-Cell[78273, 1679, 396, 8, 34, "Text",ExpressionUUID->"a987509d-bd5b-4011-ae6e-cdfdd9b4a936"],
-Cell[78672, 1689, 6762, 150, 969, "Code",ExpressionUUID->"41a4d6e8-02ee-4fb3-af6c-f3b445596e04"],
-Cell[85437, 1841, 314, 5, 34, "Text",ExpressionUUID->"c387f1f3-605f-4ddf-9330-0d527eac7346"],
-Cell[85754, 1848, 3005, 87, 231, "Code",ExpressionUUID->"759de38a-06d0-43c9-90a0-a0767c2d980b"]
+Cell[1759, 53, 6025, 128, 987, "Code",ExpressionUUID->"290aab1e-052f-46c8-88a6-82f6a30ba41a"],
+Cell[7787, 183, 168, 3, 34, "Text",ExpressionUUID->"c7a44630-9b59-4f5f-9482-78eff4ca3d2c"],
+Cell[7958, 188, 70119, 1484, 6369, "Code",ExpressionUUID->"47ef0095-8fdd-4de3-804d-da915ac6be63"],
+Cell[78080, 1674, 396, 8, 34, "Text",ExpressionUUID->"a987509d-bd5b-4011-ae6e-cdfdd9b4a936"],
+Cell[78479, 1684, 6762, 150, 969, "Code",ExpressionUUID->"41a4d6e8-02ee-4fb3-af6c-f3b445596e04"],
+Cell[85244, 1836, 314, 5, 34, "Text",ExpressionUUID->"c387f1f3-605f-4ddf-9330-0d527eac7346"],
+Cell[85561, 1843, 3005, 87, 231, "Code",ExpressionUUID->"759de38a-06d0-43c9-90a0-a0767c2d980b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[88796, 1940, 400, 6, 67, "Section",ExpressionUUID->"91568422-f86e-48fe-a9bc-a48d97ab637b"],
-Cell[89199, 1948, 166, 3, 34, "Text",ExpressionUUID->"04df0e2c-1171-4ea4-b1bd-f01f702fbc9e"],
+Cell[88603, 1935, 400, 6, 67, "Section",ExpressionUUID->"91568422-f86e-48fe-a9bc-a48d97ab637b"],
+Cell[89006, 1943, 166, 3, 34, "Text",ExpressionUUID->"04df0e2c-1171-4ea4-b1bd-f01f702fbc9e"],
 Cell[CellGroupData[{
-Cell[89390, 1955, 1963, 30, 69, "Code",ExpressionUUID->"6084b169-b565-4c9a-be3b-01fbfa62d740"],
-Cell[91356, 1987, 1889, 35, 113, "Output",ExpressionUUID->"8e4b37a7-bd49-4a35-88ef-3c63df8ebe7f"]
+Cell[89197, 1950, 1963, 30, 69, "Code",ExpressionUUID->"6084b169-b565-4c9a-be3b-01fbfa62d740"],
+Cell[91163, 1982, 1889, 35, 113, "Output",ExpressionUUID->"8e4b37a7-bd49-4a35-88ef-3c63df8ebe7f"]
 }, Open  ]],
-Cell[93260, 2025, 168, 3, 34, "Text",ExpressionUUID->"2349fc20-8504-44e9-84f5-e6c5684f260a"],
+Cell[93067, 2020, 168, 3, 34, "Text",ExpressionUUID->"2349fc20-8504-44e9-84f5-e6c5684f260a"],
 Cell[CellGroupData[{
-Cell[93453, 2032, 2104, 33, 87, "Code",ExpressionUUID->"0ccdedf4-d480-42a6-a652-6c51591645a7"],
-Cell[95560, 2067, 21485, 340, 113, "Output",ExpressionUUID->"febe5120-7230-4eff-b1cd-366d2f039c23"]
+Cell[93260, 2027, 2104, 33, 87, "Code",ExpressionUUID->"0ccdedf4-d480-42a6-a652-6c51591645a7"],
+Cell[95367, 2062, 21485, 340, 113, "Output",ExpressionUUID->"febe5120-7230-4eff-b1cd-366d2f039c23"]
 }, Open  ]],
-Cell[117060, 2410, 222, 4, 34, "Text",ExpressionUUID->"db929c53-9f95-4894-a13b-14bc2235754b"],
+Cell[116867, 2405, 222, 4, 34, "Text",ExpressionUUID->"db929c53-9f95-4894-a13b-14bc2235754b"],
 Cell[CellGroupData[{
-Cell[117307, 2418, 4360, 92, 231, "Code",ExpressionUUID->"254aa6f7-2bbf-476b-939b-83b5a5b976dd"],
-Cell[121670, 2512, 21626, 342, 113, "Output",ExpressionUUID->"33f2620f-c987-4bc9-a485-c2b887c738fc"]
+Cell[117114, 2413, 4360, 92, 231, "Code",ExpressionUUID->"254aa6f7-2bbf-476b-939b-83b5a5b976dd"],
+Cell[121477, 2507, 21626, 342, 113, "Output",ExpressionUUID->"33f2620f-c987-4bc9-a485-c2b887c738fc"]
 }, Open  ]],
-Cell[143311, 2857, 461, 9, 28, "Input",ExpressionUUID->"6dbcd905-9881-4e77-9875-0ad5a5b7e64c"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[143809, 2871, 456, 7, 67, "Section",ExpressionUUID->"84f88ebe-f6a6-4874-8829-f7b193735947"],
-Cell[144268, 2880, 166, 3, 34, "Text",ExpressionUUID->"69ab6c83-be8d-4dd0-bea3-a43277707f6f"],
-Cell[CellGroupData[{
-Cell[144459, 2887, 2019, 31, 69, "Code",ExpressionUUID->"1321d00d-0f7f-4ee6-a29b-dc40019920f7"],
-Cell[146481, 2920, 1905, 35, 113, "Output",ExpressionUUID->"869a6a0a-29e8-4e79-b897-1b59e8ea8dd4"]
-}, Open  ]],
-Cell[148401, 2958, 168, 3, 34, "Text",ExpressionUUID->"bc0db90d-1098-4825-b01f-af13864c4dfb"],
-Cell[CellGroupData[{
-Cell[148594, 2965, 2164, 34, 87, "Code",ExpressionUUID->"df4ea7c1-53ff-40e7-8280-c9f454853ab4"],
-Cell[150761, 3001, 16105, 262, 113, "Output",ExpressionUUID->"ad039fd2-731d-4fea-a65c-8ddde483e530"]
-}, Open  ]],
-Cell[166881, 3266, 222, 4, 34, "Text",ExpressionUUID->"3eadcba8-0e8c-4f01-9618-6b07be170ce3"],
-Cell[CellGroupData[{
-Cell[167128, 3274, 4364, 92, 231, "Code",ExpressionUUID->"21b97d21-964a-4452-9b56-6892c09b70db"],
-Cell[171495, 3368, 16135, 262, 113, "Output",ExpressionUUID->"0556a837-7af4-4149-890f-56f7e5fa3bde"]
-}, Open  ]],
-Cell[187645, 3633, 461, 9, 28, "Input",ExpressionUUID->"4843f2eb-1bcb-48ba-81c0-bb4f07eedd27"]
+Cell[143118, 2852, 461, 9, 28, "Input",ExpressionUUID->"6dbcd905-9881-4e77-9875-0ad5a5b7e64c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[188143, 3647, 226, 4, 67, "Section",ExpressionUUID->"c4f0e96a-aaa9-48fd-8bb2-66c620938dec"],
+Cell[143616, 2866, 456, 7, 67, "Section",ExpressionUUID->"84f88ebe-f6a6-4874-8829-f7b193735947"],
+Cell[144075, 2875, 166, 3, 34, "Text",ExpressionUUID->"69ab6c83-be8d-4dd0-bea3-a43277707f6f"],
 Cell[CellGroupData[{
-Cell[188394, 3655, 166, 3, 53, "Subsection",ExpressionUUID->"d8fb639f-e4e2-426a-a560-8ecce9600eff"],
-Cell[188563, 3660, 166, 3, 34, "Text",ExpressionUUID->"baf3c5c3-fdcb-44af-af66-39a427a49e71"],
-Cell[CellGroupData[{
-Cell[188754, 3667, 4043, 87, 267, "Code",ExpressionUUID->"21a393b1-6832-4199-8977-c7c8e449bcb4"],
-Cell[192800, 3756, 3455, 54, 232, "Output",ExpressionUUID->"52acf6fb-adc9-4ef3-8e54-b3748285bd2e"]
+Cell[144266, 2882, 2019, 31, 69, "Code",ExpressionUUID->"1321d00d-0f7f-4ee6-a29b-dc40019920f7"],
+Cell[146288, 2915, 1905, 35, 113, "Output",ExpressionUUID->"869a6a0a-29e8-4e79-b897-1b59e8ea8dd4"]
 }, Open  ]],
-Cell[196270, 3813, 168, 3, 34, "Text",ExpressionUUID->"41662deb-5e22-4ca0-abc5-caf97cd9b2df"],
+Cell[148208, 2953, 168, 3, 34, "Text",ExpressionUUID->"bc0db90d-1098-4825-b01f-af13864c4dfb"],
 Cell[CellGroupData[{
-Cell[196463, 3820, 2518, 41, 105, "Code",ExpressionUUID->"f6dba553-af75-44b6-b740-29f488866e1a"],
-Cell[198984, 3863, 185105, 2942, 249, "Output",ExpressionUUID->"287372f8-2f71-4c07-961d-e461f2e4d8f0"]
+Cell[148401, 2960, 2164, 34, 87, "Code",ExpressionUUID->"df4ea7c1-53ff-40e7-8280-c9f454853ab4"],
+Cell[150568, 2996, 16105, 262, 113, "Output",ExpressionUUID->"ad039fd2-731d-4fea-a65c-8ddde483e530"]
 }, Open  ]],
-Cell[384104, 6808, 222, 4, 34, "Text",ExpressionUUID->"fd0e060c-8b12-40ee-96c4-7ec22528cd4b"],
+Cell[166688, 3261, 222, 4, 34, "Text",ExpressionUUID->"3eadcba8-0e8c-4f01-9618-6b07be170ce3"],
 Cell[CellGroupData[{
-Cell[384351, 6816, 4945, 103, 231, "Code",ExpressionUUID->"ba6ee5ac-c875-40e1-ada7-9fd998eb6f42"],
-Cell[389299, 6921, 185890, 2960, 249, "Output",ExpressionUUID->"a466405b-d5dd-4797-8072-ad556f756780"]
+Cell[166935, 3269, 4364, 92, 231, "Code",ExpressionUUID->"21b97d21-964a-4452-9b56-6892c09b70db"],
+Cell[171302, 3363, 16135, 262, 113, "Output",ExpressionUUID->"0556a837-7af4-4149-890f-56f7e5fa3bde"]
 }, Open  ]],
-Cell[575204, 9884, 525, 11, 28, "Input",ExpressionUUID->"7e065e72-5bcc-4986-81f7-93435192b753"]
+Cell[187452, 3628, 461, 9, 28, "Input",ExpressionUUID->"4843f2eb-1bcb-48ba-81c0-bb4f07eedd27"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[575766, 9900, 171, 3, 53, "Subsection",ExpressionUUID->"f9fa9ea6-4dde-4883-b8eb-de707ae5e24b"],
-Cell[575940, 9905, 351, 5, 34, "Text",ExpressionUUID->"939afe41-8d89-4c5c-a66a-4e61907898dc"],
+Cell[187950, 3642, 226, 4, 67, "Section",ExpressionUUID->"c4f0e96a-aaa9-48fd-8bb2-66c620938dec"],
 Cell[CellGroupData[{
-Cell[576316, 9914, 4213, 88, 267, "Code",ExpressionUUID->"9c908b56-18d8-417f-b824-50cbd78d2552"],
+Cell[188201, 3650, 166, 3, 53, "Subsection",ExpressionUUID->"d8fb639f-e4e2-426a-a560-8ecce9600eff"],
+Cell[188370, 3655, 166, 3, 34, "Text",ExpressionUUID->"baf3c5c3-fdcb-44af-af66-39a427a49e71"],
 Cell[CellGroupData[{
-Cell[580554, 10006, 215, 5, 22, "Print",ExpressionUUID->"03d9085f-7cc6-45b6-a387-f07cabbb9fb9"],
-Cell[580772, 10013, 255, 6, 22, "Print",ExpressionUUID->"14fdc621-2aa1-4dbe-8051-acf998c1ad01"],
-Cell[581030, 10021, 291, 8, 22, "Print",ExpressionUUID->"34b4f19c-0321-48ea-b0b6-68e16ecb4e6f"],
-Cell[581324, 10031, 319, 8, 22, "Print",ExpressionUUID->"af480d8b-9e26-46de-b573-55614fdb77c0"],
-Cell[581646, 10041, 354, 9, 22, "Print",ExpressionUUID->"647f08f6-b524-4adc-87b9-bb51b9abd8c7"],
-Cell[582003, 10052, 349, 9, 22, "Print",ExpressionUUID->"4ace4cf8-38d4-4b96-b777-507cac928a28"],
-Cell[582355, 10063, 380, 9, 22, "Print",ExpressionUUID->"afef156f-96dc-42bb-9e0d-ffbaeed23f4d"],
-Cell[582738, 10074, 409, 10, 22, "Print",ExpressionUUID->"9d2a85d2-f8c2-4411-a18f-50eec4a67761"],
-Cell[583150, 10086, 437, 10, 22, "Print",ExpressionUUID->"b55771b9-6597-4559-a58b-e706e7c37409"],
-Cell[583590, 10098, 460, 10, 22, "Print",ExpressionUUID->"e0617a93-cbf9-46f4-aa59-cb8356786950"],
-Cell[584053, 10110, 497, 11, 22, "Print",ExpressionUUID->"50647e93-12bf-43db-9f56-b30ed324563f"],
-Cell[584553, 10123, 532, 12, 22, "Print",ExpressionUUID->"1e0d4f7f-86c6-4050-b525-241d4b76d7a3"],
-Cell[585088, 10137, 531, 12, 22, "Print",ExpressionUUID->"2f022809-cd87-4bd5-9b95-188f33eced24"],
-Cell[585622, 10151, 557, 12, 22, "Print",ExpressionUUID->"718043ef-2c09-4dea-87ba-1d868c1fb194"],
-Cell[586182, 10165, 587, 13, 22, "Print",ExpressionUUID->"1ea92d54-93e4-43d4-96da-8cc9de05e052"],
-Cell[586772, 10180, 615, 13, 22, "Print",ExpressionUUID->"3165c66a-7fce-43f3-9393-413bcee7999e"],
-Cell[587390, 10195, 650, 14, 22, "Print",ExpressionUUID->"7e30ad29-e3b4-4e23-92fd-768d9072d3bc"],
-Cell[588043, 10211, 648, 14, 22, "Print",ExpressionUUID->"7afdbb66-e8d0-4a87-bc4c-587bbd0d5674"],
-Cell[588694, 10227, 672, 14, 22, "Print",ExpressionUUID->"0b02fb72-980b-4b98-9739-f65565396818"],
-Cell[589369, 10243, 706, 15, 22, "Print",ExpressionUUID->"e6a19682-1e32-4466-b6d0-cd75f1157502"],
-Cell[590078, 10260, 720, 14, 22, "Print",ExpressionUUID->"8dfb7611-d896-426a-91c1-87b50c0bc336"],
-Cell[590801, 10276, 764, 16, 22, "Print",ExpressionUUID->"9d0eb70d-7361-4cce-b1d6-bcd352b4b986"],
-Cell[591568, 10294, 800, 16, 22, "Print",ExpressionUUID->"814be5c0-97d6-4867-bdcb-4e445e8cecd0"],
-Cell[592371, 10312, 794, 16, 22, "Print",ExpressionUUID->"1f791eab-de2e-4362-9866-87ecec2bb56c"],
-Cell[593168, 10330, 796, 16, 22, "Print",ExpressionUUID->"dd697df1-b531-4341-8a11-d3c6b6157ac3"],
-Cell[593967, 10348, 794, 16, 22, "Print",ExpressionUUID->"32243ca8-2a5c-4dc8-82d9-b0b64c884ee3"],
-Cell[594764, 10366, 215, 5, 22, "Print",ExpressionUUID->"81ca1ddd-9ad8-4ae1-91f9-13d6868bf431"],
-Cell[594982, 10373, 254, 6, 22, "Print",ExpressionUUID->"6a43fffc-6a4f-4871-be53-5bd2da646647"],
-Cell[595239, 10381, 291, 8, 22, "Print",ExpressionUUID->"a43f6c0c-c697-4e19-a5ef-8599d21133e6"],
-Cell[595533, 10391, 322, 8, 22, "Print",ExpressionUUID->"a1ba26fc-faa9-4ce1-8016-715e7003690b"],
-Cell[595858, 10401, 215, 5, 22, "Print",ExpressionUUID->"8ecff0d9-79fd-41fd-b33b-9448fd500598"],
-Cell[596076, 10408, 256, 6, 22, "Print",ExpressionUUID->"885f37cf-65e0-43fd-b0c9-c285a54bc44f"],
-Cell[596335, 10416, 290, 8, 22, "Print",ExpressionUUID->"723d9575-6963-48b9-a383-2d2b38105a95"],
-Cell[596628, 10426, 315, 8, 22, "Print",ExpressionUUID->"6303d61a-1a34-4c82-bf80-e311e032c9f1"],
-Cell[596946, 10436, 340, 8, 22, "Print",ExpressionUUID->"af16b8ea-4777-4ff3-8a5f-851d992b6f73"],
-Cell[597289, 10446, 380, 9, 22, "Print",ExpressionUUID->"8f38f054-8d59-46c8-a5c6-206f1839ff8b"],
-Cell[597672, 10457, 374, 9, 22, "Print",ExpressionUUID->"0ae960c3-caaf-460c-b9ce-c89128615753"],
-Cell[598049, 10468, 401, 9, 22, "Print",ExpressionUUID->"54d403f7-ac7e-4a78-bab5-5c3b5216535c"],
-Cell[598453, 10479, 431, 10, 22, "Print",ExpressionUUID->"e53c799c-268c-4ab7-9188-497e5122ce28"],
-Cell[598887, 10491, 459, 10, 22, "Print",ExpressionUUID->"41f52bb2-02c8-48fd-abee-42a3d2ea2655"],
-Cell[599349, 10503, 482, 10, 22, "Print",ExpressionUUID->"16531db3-d0b9-477e-8012-f41dad2676f8"],
-Cell[599834, 10515, 518, 11, 22, "Print",ExpressionUUID->"919eb85a-711f-405d-9de2-a54287015aef"],
-Cell[600355, 10528, 552, 12, 22, "Print",ExpressionUUID->"77635252-9a04-4180-b9ff-fa8afa73612c"],
-Cell[600910, 10542, 574, 12, 22, "Print",ExpressionUUID->"e3f27827-ca14-448f-9581-e06326b562b3"],
-Cell[601487, 10556, 608, 12, 22, "Print",ExpressionUUID->"ece392f4-8c4c-4a6b-9597-355a0abf4f91"],
-Cell[602098, 10570, 604, 12, 22, "Print",ExpressionUUID->"95366c43-18a2-4b05-836c-daffbc642cd0"],
-Cell[602705, 10584, 604, 12, 22, "Print",ExpressionUUID->"61a04235-9d04-41d7-b5b9-7e55f0818afe"],
-Cell[603312, 10598, 637, 13, 22, "Print",ExpressionUUID->"8bb5dcae-adb8-45ff-b539-4ed69c550adf"],
-Cell[603952, 10613, 660, 13, 22, "Print",ExpressionUUID->"7113fb7b-4cb6-49b9-b784-b24c79271833"],
-Cell[604615, 10628, 699, 14, 22, "Print",ExpressionUUID->"ac020395-845d-4ba9-bfd5-2e947b638fd6"],
-Cell[605317, 10644, 721, 14, 22, "Print",ExpressionUUID->"18d8136d-647e-49d6-9c8b-db98b1548b07"],
-Cell[606041, 10660, 719, 14, 22, "Print",ExpressionUUID->"2e9d6102-54a2-40cd-979f-a75bc78c06d6"],
-Cell[606763, 10676, 758, 15, 22, "Print",ExpressionUUID->"d1d23956-4b8c-4c39-a336-82ed167cd7c4"],
-Cell[607524, 10693, 746, 14, 22, "Print",ExpressionUUID->"40666e84-3820-4e49-9958-760dc7f3db82"],
-Cell[608273, 10709, 787, 16, 22, "Print",ExpressionUUID->"78b32a52-2d1a-4ab7-a0c2-3b93d0b0d9ab"],
-Cell[609063, 10727, 807, 15, 22, "Print",ExpressionUUID->"c296b6fd-8ca1-4ca8-81fd-123726076782"],
-Cell[609873, 10744, 828, 15, 22, "Print",ExpressionUUID->"4cce0018-5910-4e9a-8c1f-d3ac011d9589"],
-Cell[610704, 10761, 216, 5, 22, "Print",ExpressionUUID->"d84056b4-7517-4567-96d2-a185a9cd65c6"],
-Cell[610923, 10768, 257, 6, 22, "Print",ExpressionUUID->"240922b9-344e-482e-a8b8-66d49efd02d9"],
-Cell[611183, 10776, 290, 8, 22, "Print",ExpressionUUID->"911f9890-68c7-41f4-95aa-435898796b1d"],
-Cell[611476, 10786, 315, 8, 22, "Print",ExpressionUUID->"574b9452-652a-4b4d-b878-8939ad910c1a"],
-Cell[611794, 10796, 347, 9, 22, "Print",ExpressionUUID->"9a535796-15ff-4490-a61e-837a0ae78d3a"],
-Cell[612144, 10807, 379, 9, 22, "Print",ExpressionUUID->"93d01bf7-733d-490e-88fc-819ffcbc614b"],
-Cell[612526, 10818, 411, 10, 22, "Print",ExpressionUUID->"515ba02f-2156-4cbe-ba2e-88f8cc14aba4"],
-Cell[612940, 10830, 435, 10, 22, "Print",ExpressionUUID->"07257d81-720c-469b-97bd-ef3958c4c20b"],
-Cell[613378, 10842, 469, 11, 22, "Print",ExpressionUUID->"35437fcd-eb36-4bc7-b2bd-4c370962aec1"],
-Cell[613850, 10855, 494, 11, 22, "Print",ExpressionUUID->"ee5c38bf-6016-465b-9c9a-37dba88c570e"],
-Cell[614347, 10868, 522, 11, 22, "Print",ExpressionUUID->"469ff586-c23a-4f0d-851f-fc6148ea7efd"],
-Cell[614872, 10881, 556, 12, 22, "Print",ExpressionUUID->"65b0910b-7cf9-454e-958f-1524e04b67d1"],
-Cell[615431, 10895, 583, 12, 22, "Print",ExpressionUUID->"eefa1f9e-a7ac-4e46-917a-0318cd28969f"],
-Cell[616017, 10909, 607, 12, 22, "Print",ExpressionUUID->"2cea454b-0267-434f-a21b-21b02083b61a"],
-Cell[616627, 10923, 636, 13, 22, "Print",ExpressionUUID->"361b2872-074e-4182-ba29-5480126e95de"],
-Cell[617266, 10938, 671, 14, 22, "Print",ExpressionUUID->"6396c64e-c35e-4d58-b64c-7e2961f104b4"],
-Cell[617940, 10954, 698, 14, 22, "Print",ExpressionUUID->"27fc663f-9d3e-4b7d-8caf-abaeb70dc501"],
-Cell[618641, 10970, 725, 14, 22, "Print",ExpressionUUID->"8048fa36-05e7-44a9-888c-40d3aa86bf5a"],
-Cell[619369, 10986, 757, 15, 22, "Print",ExpressionUUID->"982a2529-e971-4903-9753-0ebf51871add"],
-Cell[620129, 11003, 763, 15, 22, "Print",ExpressionUUID->"53c21ed2-2eb1-4374-8de3-0c5b60c37a60"],
-Cell[620895, 11020, 757, 15, 22, "Print",ExpressionUUID->"fe59d23f-e0fe-4f20-8998-9519098fa12a"],
-Cell[621655, 11037, 791, 16, 22, "Print",ExpressionUUID->"82f961d1-77a8-4406-bdaf-ded483d183d8"],
-Cell[622449, 11055, 828, 17, 22, "Print",ExpressionUUID->"13a78c35-688f-4c00-bc01-90178c2aa6ac"],
-Cell[623280, 11074, 846, 17, 22, "Print",ExpressionUUID->"c449cd28-c381-444e-b424-b76925ba649e"],
-Cell[624129, 11093, 879, 17, 22, "Print",ExpressionUUID->"8a7366fe-ca98-4554-82d4-5ae80605f88d"],
-Cell[625011, 11112, 911, 18, 22, "Print",ExpressionUUID->"00a79394-7c93-4aad-b994-679d76bb68d2"],
-Cell[625925, 11132, 936, 18, 22, "Print",ExpressionUUID->"2a9e6ded-ef40-423e-a736-08d995880ddc"],
-Cell[626864, 11152, 973, 19, 22, "Print",ExpressionUUID->"89cd6fef-9fb7-4dfc-b313-2f8980728cef"],
-Cell[627840, 11173, 215, 5, 22, "Print",ExpressionUUID->"00f1f100-0b20-4c08-9711-717cf0d0ea26"],
-Cell[628058, 11180, 253, 6, 22, "Print",ExpressionUUID->"21775612-e559-44e5-aa49-a6bad7b151cc"],
-Cell[628314, 11188, 290, 8, 22, "Print",ExpressionUUID->"752bed48-298e-464e-ad26-c979ce892f3c"],
-Cell[628607, 11198, 315, 8, 22, "Print",ExpressionUUID->"2834fcaa-af98-49dc-8013-1de3158bb526"],
-Cell[628925, 11208, 349, 9, 22, "Print",ExpressionUUID->"118b6d8b-203a-497e-96f3-146cbee287dc"],
-Cell[629277, 11219, 342, 8, 22, "Print",ExpressionUUID->"6daabc46-91dd-4a87-9c1a-f1b261aa1a0d"],
-Cell[629622, 11229, 377, 9, 22, "Print",ExpressionUUID->"2165c5f0-afc5-480f-a4e5-9612de189e7c"],
-Cell[630002, 11240, 374, 9, 22, "Print",ExpressionUUID->"fd15d18d-f06a-4943-abea-f187eef6b6a8"],
-Cell[630379, 11251, 410, 10, 22, "Print",ExpressionUUID->"608c6d5a-20d4-41b9-88ed-52052efed447"],
-Cell[630792, 11263, 429, 10, 22, "Print",ExpressionUUID->"69817511-d414-4cb9-8118-efb48f446a52"],
-Cell[631224, 11275, 465, 10, 22, "Print",ExpressionUUID->"1014c0e5-423b-4531-8ab2-f183b6d7777f"],
-Cell[631692, 11287, 458, 10, 22, "Print",ExpressionUUID->"d8da6b6c-4640-43d5-bd21-4f7e726303f3"],
-Cell[632153, 11299, 486, 10, 22, "Print",ExpressionUUID->"24937504-d551-4a0d-a00c-f59cf9870f6f"],
-Cell[632642, 11311, 215, 5, 22, "Print",ExpressionUUID->"a5bc3cbc-ef28-4ac9-9640-cdb96c0d0dcd"],
-Cell[632860, 11318, 255, 6, 22, "Print",ExpressionUUID->"5cb272a5-4dc6-4623-b4b1-1869e485f275"],
-Cell[633118, 11326, 288, 8, 22, "Print",ExpressionUUID->"ee013a5a-e06a-4978-a2ef-ba3469aeea19"],
-Cell[633409, 11336, 315, 8, 22, "Print",ExpressionUUID->"1e9663fa-fd44-4462-9126-59d83a680d92"],
-Cell[633727, 11346, 344, 8, 22, "Print",ExpressionUUID->"dc0675e5-2a8a-48f6-b6e6-d2340e3277e2"],
-Cell[634074, 11356, 377, 9, 22, "Print",ExpressionUUID->"a3271809-17c0-4770-9595-441c9f7b0199"],
-Cell[634454, 11367, 372, 9, 22, "Print",ExpressionUUID->"1cc77679-f6b1-4cf4-af72-fe073d844ac5"],
-Cell[634829, 11378, 400, 9, 22, "Print",ExpressionUUID->"325bc2ab-eea5-4815-bc93-ffc19355cb13"],
-Cell[635232, 11389, 431, 10, 22, "Print",ExpressionUUID->"509933f0-0cef-4269-94c3-595cf2a2889e"],
-Cell[635666, 11401, 456, 10, 22, "Print",ExpressionUUID->"32d0f0d9-964f-40fd-8993-c0610f6c8271"],
-Cell[636125, 11413, 488, 10, 22, "Print",ExpressionUUID->"97ebd066-62bf-45ce-9171-45bc97a024c8"],
-Cell[636616, 11425, 486, 10, 22, "Print",ExpressionUUID->"df5effb8-7d40-493e-a684-a2dad8a7a895"],
-Cell[637105, 11437, 523, 11, 22, "Print",ExpressionUUID->"4ad0084e-3893-4fbe-8d31-9f63a1db9412"],
-Cell[637631, 11450, 517, 11, 22, "Print",ExpressionUUID->"20eb154e-bb78-4823-a2de-554fc1f715a6"],
-Cell[638151, 11463, 549, 12, 22, "Print",ExpressionUUID->"f8b8bf81-ef60-4ee1-a688-035a7ca769d7"],
-Cell[638703, 11477, 586, 13, 22, "Print",ExpressionUUID->"13f62705-2a33-42b7-b9d2-9e10e8265a42"],
-Cell[639292, 11492, 576, 12, 22, "Print",ExpressionUUID->"4babc56c-5751-49cb-96a3-0273b39e6515"],
-Cell[639871, 11506, 607, 12, 22, "Print",ExpressionUUID->"c65b031b-0ef8-4d88-9ec5-695557975d4d"],
-Cell[640481, 11520, 603, 12, 22, "Print",ExpressionUUID->"e0ce2f61-697e-486c-9d1a-c3f0f7f408e5"],
-Cell[641087, 11534, 605, 12, 22, "Print",ExpressionUUID->"7df4b916-aa60-44af-a21b-581ddeea06ee"],
-Cell[641695, 11548, 611, 13, 22, "Print",ExpressionUUID->"07401506-ec95-4fc3-a10f-890f2a503fd2"],
-Cell[642309, 11563, 642, 13, 22, "Print",ExpressionUUID->"d24c224b-1e23-4099-80d8-daf375967ed3"],
-Cell[642954, 11578, 637, 13, 22, "Print",ExpressionUUID->"85014837-d7da-419f-9091-ae00817baaec"],
-Cell[643594, 11593, 639, 13, 22, "Print",ExpressionUUID->"2fd0360f-2689-4784-9925-08953ae24bc4"],
-Cell[644236, 11608, 216, 5, 22, "Print",ExpressionUUID->"a1c45fc4-f35c-42a4-b9df-6e614f992025"],
-Cell[644455, 11615, 257, 6, 22, "Print",ExpressionUUID->"56d0f2c2-ca7e-4067-b57c-4ac06fe5b5e8"],
-Cell[644715, 11623, 293, 8, 22, "Print",ExpressionUUID->"508f83e0-c789-4d5f-8808-af1d6cad68d0"],
-Cell[645011, 11633, 293, 8, 22, "Print",ExpressionUUID->"c3b9857c-66d4-4b1d-b2c4-25ee7972e7c3"],
-Cell[645307, 11643, 293, 8, 22, "Print",ExpressionUUID->"580b69cb-4d4b-464d-92c2-022a459e28f2"],
-Cell[645603, 11653, 320, 8, 22, "Print",ExpressionUUID->"efc2287e-e822-4a9f-96b1-a6efef56a6dd"],
-Cell[645926, 11663, 314, 8, 22, "Print",ExpressionUUID->"d3e83bc6-4367-49cf-8242-3c8afd79e661"],
-Cell[646243, 11673, 352, 9, 22, "Print",ExpressionUUID->"231e96da-2c5d-424a-b353-e6dd3d56d72f"],
-Cell[646598, 11684, 349, 9, 22, "Print",ExpressionUUID->"8b628c54-35e8-4a59-a00c-cc17b9fecaef"],
-Cell[646950, 11695, 354, 9, 22, "Print",ExpressionUUID->"a650a220-3e49-4e78-9082-52fdc73d6aba"],
-Cell[647307, 11706, 340, 8, 22, "Print",ExpressionUUID->"75131c23-c222-4f06-80d0-13296233f67b"],
-Cell[647650, 11716, 381, 9, 22, "Print",ExpressionUUID->"5e454a1f-bcb1-4dda-81f6-07c4a2591f15"],
-Cell[648034, 11727, 380, 9, 22, "Print",ExpressionUUID->"5b6981b7-09ca-443c-bc5e-484d28719378"],
-Cell[648417, 11738, 377, 9, 22, "Print",ExpressionUUID->"6c56aeb8-432f-472c-8455-6577bec5d87d"],
-Cell[648797, 11749, 382, 9, 22, "Print",ExpressionUUID->"c1f4bf68-f0f8-4806-9cb8-c0ddc1e7fb1f"],
-Cell[649182, 11760, 373, 9, 22, "Print",ExpressionUUID->"c7d76260-01c3-49ea-b95f-c36dd65fa371"],
-Cell[649558, 11771, 409, 10, 22, "Print",ExpressionUUID->"83afe55f-3478-4a19-847a-c3873c7195d0"],
-Cell[649970, 11783, 412, 10, 22, "Print",ExpressionUUID->"5ee51ed6-1a09-4dbd-b66d-d230e319a251"],
-Cell[650385, 11795, 409, 10, 22, "Print",ExpressionUUID->"c89763fd-a677-404c-b1b9-cb88d8bf50a6"],
-Cell[650797, 11807, 410, 10, 22, "Print",ExpressionUUID->"70a1d5ec-d4b2-486a-8f7c-4f90c1f3b17e"],
-Cell[651210, 11819, 410, 10, 22, "Print",ExpressionUUID->"03adc9fa-363d-468b-a8c7-c61feb013cb3"],
-Cell[651623, 11831, 408, 10, 22, "Print",ExpressionUUID->"630e0daf-ad9a-4bfa-a307-54d3d58fdff4"],
-Cell[652034, 11843, 407, 9, 22, "Print",ExpressionUUID->"61a3f565-1934-443f-bdb0-c7182ee11f7a"],
-Cell[652444, 11854, 411, 10, 22, "Print",ExpressionUUID->"91156238-c1a7-4e05-a951-0f9b49326622"],
-Cell[652858, 11866, 403, 9, 22, "Print",ExpressionUUID->"f3f80d8f-b253-4728-8494-988747e4c29a"],
-Cell[653264, 11877, 412, 10, 22, "Print",ExpressionUUID->"2652eef3-c516-4d20-b76e-73880a9b3451"],
-Cell[653679, 11889, 412, 10, 22, "Print",ExpressionUUID->"f7887880-535a-4bf8-929d-d87217545fb3"],
-Cell[654094, 11901, 409, 10, 22, "Print",ExpressionUUID->"3a2d1507-ff34-4856-aec4-633b19a33aa9"],
-Cell[654506, 11913, 218, 5, 22, "Print",ExpressionUUID->"960bbc5e-df32-473d-b83c-058d69b18636"],
-Cell[654727, 11920, 215, 5, 22, "Print",ExpressionUUID->"07e4ab66-29e6-4e7e-8355-14042a6f1071"],
-Cell[654945, 11927, 263, 7, 22, "Print",ExpressionUUID->"ed5f2efa-030d-4b39-824b-2efd7f3611de"],
-Cell[655211, 11936, 254, 6, 22, "Print",ExpressionUUID->"35f94915-bff7-4f4a-81a6-0b4588cf9b1e"],
-Cell[655468, 11944, 295, 8, 22, "Print",ExpressionUUID->"7556ad8a-09fc-48a4-a009-deb9b3e53622"],
-Cell[655766, 11954, 218, 5, 22, "Print",ExpressionUUID->"5e1e9186-d070-413a-b83a-65141fc37e01"],
-Cell[655987, 11961, 213, 5, 22, "Print",ExpressionUUID->"a2745f8d-5196-41bc-b18b-558ef1be54a8"],
-Cell[656203, 11968, 255, 6, 22, "Print",ExpressionUUID->"05b9de7c-de86-4516-8c7e-bbe7636e254b"],
-Cell[656461, 11976, 290, 8, 22, "Print",ExpressionUUID->"5258af37-23ed-492e-b7f0-2ca25d50e853"],
-Cell[656754, 11986, 322, 8, 22, "Print",ExpressionUUID->"1785f201-abc3-499b-9a9e-f8d338d30410"],
-Cell[657079, 11996, 217, 5, 22, "Print",ExpressionUUID->"2a1739a1-f696-43c8-a0cf-01f1b48eed8d"],
-Cell[657299, 12003, 216, 5, 22, "Print",ExpressionUUID->"a1ac9697-794d-4840-b121-dc0954be70be"],
-Cell[657518, 12010, 214, 5, 22, "Print",ExpressionUUID->"1db56587-66c8-4596-ae81-a91890a4c1eb"],
-Cell[657735, 12017, 255, 6, 22, "Print",ExpressionUUID->"b68c2190-a1ce-4c4e-b8db-c225425faa98"],
-Cell[657993, 12025, 289, 8, 22, "Print",ExpressionUUID->"fd8f033b-42f2-4d34-a9cd-84af81576620"],
-Cell[658285, 12035, 319, 8, 22, "Print",ExpressionUUID->"e07212d7-b7e6-4219-ae95-4c663d11781e"],
-Cell[658607, 12045, 352, 9, 22, "Print",ExpressionUUID->"08298410-0f57-42a2-9970-342c4a1c22d7"],
-Cell[658962, 12056, 378, 9, 22, "Print",ExpressionUUID->"20f8873a-0caf-4447-9948-1dfde5bbcc60"],
-Cell[659343, 12067, 402, 9, 22, "Print",ExpressionUUID->"b50ce2b7-d790-4512-8e9c-675c24e088c5"],
-Cell[659748, 12078, 433, 10, 22, "Print",ExpressionUUID->"c74d1500-82d1-48db-8d5b-1dd557e5d46a"],
-Cell[660184, 12090, 459, 10, 22, "Print",ExpressionUUID->"285dae97-7bdb-493c-80df-d45e3163d969"],
-Cell[660646, 12102, 494, 11, 22, "Print",ExpressionUUID->"48291da9-d6da-4dfb-8b51-bf9d276fd8d5"],
-Cell[661143, 12115, 493, 11, 22, "Print",ExpressionUUID->"7295389b-afca-4aac-af4d-d6f10e4ad062"],
-Cell[661639, 12128, 528, 12, 22, "Print",ExpressionUUID->"311e4208-4817-45bb-86d3-6339f9505787"],
-Cell[662170, 12142, 530, 12, 22, "Print",ExpressionUUID->"872125ab-4e16-4edf-a5da-c6fca3acb3d6"],
-Cell[662703, 12156, 526, 12, 22, "Print",ExpressionUUID->"4491ebd9-17f6-4c30-87b1-690f3de8de67"],
-Cell[663232, 12170, 551, 12, 22, "Print",ExpressionUUID->"287e96d7-7227-4e74-aa6f-064f2b5cbf63"],
-Cell[663786, 12184, 579, 12, 22, "Print",ExpressionUUID->"974d960c-69a6-4acd-82c0-1ea94c90a934"],
-Cell[664368, 12198, 612, 13, 22, "Print",ExpressionUUID->"b088bb20-24c3-4481-aaa7-f66e0b20e70e"],
-Cell[664983, 12213, 646, 14, 22, "Print",ExpressionUUID->"43003404-06d7-424f-9cb8-37b24105c191"],
-Cell[665632, 12229, 639, 13, 22, "Print",ExpressionUUID->"d150ce15-197c-4ae7-abb6-096037b0a543"],
-Cell[666274, 12244, 673, 14, 22, "Print",ExpressionUUID->"aa730796-7c8e-4881-acb6-b8cfbbde7e25"],
-Cell[666950, 12260, 700, 14, 22, "Print",ExpressionUUID->"48cc2a92-0e42-4444-9825-f2131583f960"],
-Cell[667653, 12276, 738, 15, 22, "Print",ExpressionUUID->"5ce83c60-4ad7-43c8-8a63-19b5ea864076"],
-Cell[668394, 12293, 727, 14, 22, "Print",ExpressionUUID->"b4674f88-c3bb-4795-93cb-2ae071c0ddc7"],
-Cell[669124, 12309, 731, 15, 22, "Print",ExpressionUUID->"f0b6fe92-dd0e-4697-943a-34a1ca8180d9"],
-Cell[669858, 12326, 766, 16, 22, "Print",ExpressionUUID->"c0d4167d-fe2e-46e6-a7ff-104649a3650b"],
-Cell[670627, 12344, 216, 5, 22, "Print",ExpressionUUID->"1d619bd1-74e7-48f1-8dad-f0896bff30ce"],
-Cell[670846, 12351, 254, 6, 22, "Print",ExpressionUUID->"71407d53-2af4-4e9e-9315-593be5f3cd1f"],
-Cell[671103, 12359, 289, 8, 22, "Print",ExpressionUUID->"d02ae001-e942-489c-87e7-df7dc73ae1fb"],
-Cell[671395, 12369, 323, 8, 22, "Print",ExpressionUUID->"3715a4fd-c4b5-47a8-b64b-ab71c25fa059"],
-Cell[671721, 12379, 322, 8, 22, "Print",ExpressionUUID->"541e5958-906c-4373-a434-e95ac3fc9cb6"],
-Cell[672046, 12389, 318, 8, 22, "Print",ExpressionUUID->"d58b2688-e7f4-4792-910a-3ad84c20c9f2"],
-Cell[672367, 12399, 350, 9, 22, "Print",ExpressionUUID->"052a2c8f-caeb-47e0-978b-e0d2ae9a3b56"],
-Cell[672720, 12410, 379, 9, 22, "Print",ExpressionUUID->"e0dfc894-6432-4a82-83aa-c374b16e5d0c"],
-Cell[673102, 12421, 410, 10, 22, "Print",ExpressionUUID->"a8f23a57-3185-4415-9c3e-cde5cb177ff4"],
-Cell[673515, 12433, 434, 10, 22, "Print",ExpressionUUID->"85e89161-da40-4dba-9d0b-49a6cb04a674"],
-Cell[673952, 12445, 466, 11, 22, "Print",ExpressionUUID->"c77bbddf-0ebb-49ab-ba26-34183f1c2d65"],
-Cell[674421, 12458, 499, 11, 22, "Print",ExpressionUUID->"61bea43c-a824-4b72-bd7d-088569d7595c"],
-Cell[674923, 12471, 535, 12, 22, "Print",ExpressionUUID->"4a7b6f4b-9eaf-40ca-9fd7-fe88b28198ab"],
-Cell[675461, 12485, 523, 11, 22, "Print",ExpressionUUID->"5dbfa993-8ed2-4dc9-a426-e0c6bec7df00"],
-Cell[675987, 12498, 556, 12, 22, "Print",ExpressionUUID->"0635b6d7-3449-4c9f-8f05-aa2f4933af5c"],
-Cell[676546, 12512, 587, 12, 22, "Print",ExpressionUUID->"4afa840a-1935-4eff-8e03-846024f2e7fc"],
-Cell[677136, 12526, 592, 13, 22, "Print",ExpressionUUID->"09591ace-0ad2-456b-a878-ae97e5f91312"]
-}, Open  ]]
+Cell[188561, 3662, 4043, 87, 267, "Code",ExpressionUUID->"21a393b1-6832-4199-8977-c7c8e449bcb4"],
+Cell[192607, 3751, 3455, 54, 232, "Output",ExpressionUUID->"52acf6fb-adc9-4ef3-8e54-b3748285bd2e"]
 }, Open  ]],
-Cell[677755, 12543, 154, 3, 34, "Text",ExpressionUUID->"c5dbbfbc-8937-40eb-9d0c-eadb0d4e81fc"],
-Cell[677912, 12548, 3704, 70, 177, "Code",ExpressionUUID->"dfefff73-1c66-442e-9bec-31a668661f0c"],
-Cell[681619, 12620, 168, 3, 34, "Text",ExpressionUUID->"a68c58b3-f832-48f3-a011-fd1b0eb2318b"],
+Cell[196077, 3808, 168, 3, 34, "Text",ExpressionUUID->"41662deb-5e22-4ca0-abc5-caf97cd9b2df"],
 Cell[CellGroupData[{
-Cell[681812, 12627, 2591, 43, 105, "Code",ExpressionUUID->"6256c9f1-75f1-4f7a-a355-8c7134389020"],
-Cell[684406, 12672, 72254, 1123, 184, "Output",ExpressionUUID->"029354ce-548a-40f4-bec4-ada3e89d817e"]
+Cell[196270, 3815, 2518, 41, 105, "Code",ExpressionUUID->"f6dba553-af75-44b6-b740-29f488866e1a"],
+Cell[198791, 3858, 185105, 2942, 249, "Output",ExpressionUUID->"287372f8-2f71-4c07-961d-e461f2e4d8f0"]
 }, Open  ]],
-Cell[756675, 13798, 222, 4, 34, "Text",ExpressionUUID->"007ee58c-c075-43e3-ae74-7cdbde898d17"],
+Cell[383911, 6803, 222, 4, 34, "Text",ExpressionUUID->"fd0e060c-8b12-40ee-96c4-7ec22528cd4b"],
 Cell[CellGroupData[{
-Cell[756922, 13806, 5053, 107, 231, "Code",ExpressionUUID->"808049a1-5fe4-4b18-a7a1-dd79299957e2"],
-Cell[761978, 13915, 73080, 1142, 184, "Output",ExpressionUUID->"0b8ea8d6-d8ce-48b6-9cbc-bdbccd8a817f"]
+Cell[384158, 6811, 4945, 103, 231, "Code",ExpressionUUID->"ba6ee5ac-c875-40e1-ada7-9fd998eb6f42"],
+Cell[389106, 6916, 185890, 2960, 249, "Output",ExpressionUUID->"a466405b-d5dd-4797-8072-ad556f756780"]
 }, Open  ]],
-Cell[835073, 15060, 662, 14, 28, "Input",ExpressionUUID->"d5f617f1-b842-482a-a578-b092c902a8b6"],
-Cell[835738, 15076, 174, 3, 34, "Text",ExpressionUUID->"39146bb6-e4a0-4321-ae9b-5faa5ebd20d6"],
-Cell[835915, 15081, 4054, 81, 213, "Code",ExpressionUUID->"9cb6142c-7d5c-4d11-bfd9-28764c4c3b52"],
+Cell[575011, 9879, 525, 11, 28, "Input",ExpressionUUID->"7e065e72-5bcc-4986-81f7-93435192b753"]
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[839994, 15166, 316, 8, 28, "Input",ExpressionUUID->"d286b93d-0520-4470-b551-82f8f258260b"],
-Cell[840313, 15176, 70697, 1110, 184, "Output",ExpressionUUID->"a1ea855e-d770-4d95-b408-cfa4e1761471"]
-}, Open  ]],
-Cell[911025, 16289, 391, 8, 34, "Text",ExpressionUUID->"4942d580-9d64-460a-9026-5a61612f793b"],
-Cell[911419, 16299, 11827, 258, 969, "Code",ExpressionUUID->"479ffd41-eb77-4a8e-a772-37cdcfc1c486"],
+Cell[575573, 9895, 171, 3, 53, "Subsection",ExpressionUUID->"f9fa9ea6-4dde-4883-b8eb-de707ae5e24b"],
+Cell[575747, 9900, 351, 5, 34, "Text",ExpressionUUID->"939afe41-8d89-4c5c-a66a-4e61907898dc"],
 Cell[CellGroupData[{
-Cell[923271, 16561, 664, 12, 28, "Input",ExpressionUUID->"9b34d08b-da55-4fc4-afda-e4e7c8de95ce"],
-Cell[923938, 16575, 501207, 8232, 257, "Output",ExpressionUUID->"4d9db523-98de-495f-9edb-1ceaee548c0a"]
-}, Open  ]],
-Cell[1425160, 24810, 222, 4, 34, "Text",ExpressionUUID->"13530d60-b542-4250-9c19-b6d83c2697ae"],
+Cell[576123, 9909, 4213, 88, 267, "Code",ExpressionUUID->"9c908b56-18d8-417f-b824-50cbd78d2552"],
 Cell[CellGroupData[{
-Cell[1425407, 24818, 5095, 108, 231, "Code",ExpressionUUID->"84da1118-6701-4831-9d0c-071a38dcfae8"],
-Cell[1430505, 24928, 395237, 6529, 200, "Output",ExpressionUUID->"174c581e-39cc-4fe4-a080-bf4415bd6515"]
+Cell[580361, 10001, 215, 5, 22, "Print",ExpressionUUID->"03d9085f-7cc6-45b6-a387-f07cabbb9fb9"],
+Cell[580579, 10008, 255, 6, 22, "Print",ExpressionUUID->"14fdc621-2aa1-4dbe-8051-acf998c1ad01"],
+Cell[580837, 10016, 291, 8, 22, "Print",ExpressionUUID->"34b4f19c-0321-48ea-b0b6-68e16ecb4e6f"],
+Cell[581131, 10026, 319, 8, 22, "Print",ExpressionUUID->"af480d8b-9e26-46de-b573-55614fdb77c0"],
+Cell[581453, 10036, 354, 9, 22, "Print",ExpressionUUID->"647f08f6-b524-4adc-87b9-bb51b9abd8c7"],
+Cell[581810, 10047, 349, 9, 22, "Print",ExpressionUUID->"4ace4cf8-38d4-4b96-b777-507cac928a28"],
+Cell[582162, 10058, 380, 9, 22, "Print",ExpressionUUID->"afef156f-96dc-42bb-9e0d-ffbaeed23f4d"],
+Cell[582545, 10069, 409, 10, 22, "Print",ExpressionUUID->"9d2a85d2-f8c2-4411-a18f-50eec4a67761"],
+Cell[582957, 10081, 437, 10, 22, "Print",ExpressionUUID->"b55771b9-6597-4559-a58b-e706e7c37409"],
+Cell[583397, 10093, 460, 10, 22, "Print",ExpressionUUID->"e0617a93-cbf9-46f4-aa59-cb8356786950"],
+Cell[583860, 10105, 497, 11, 22, "Print",ExpressionUUID->"50647e93-12bf-43db-9f56-b30ed324563f"],
+Cell[584360, 10118, 532, 12, 22, "Print",ExpressionUUID->"1e0d4f7f-86c6-4050-b525-241d4b76d7a3"],
+Cell[584895, 10132, 531, 12, 22, "Print",ExpressionUUID->"2f022809-cd87-4bd5-9b95-188f33eced24"],
+Cell[585429, 10146, 557, 12, 22, "Print",ExpressionUUID->"718043ef-2c09-4dea-87ba-1d868c1fb194"],
+Cell[585989, 10160, 587, 13, 22, "Print",ExpressionUUID->"1ea92d54-93e4-43d4-96da-8cc9de05e052"],
+Cell[586579, 10175, 615, 13, 22, "Print",ExpressionUUID->"3165c66a-7fce-43f3-9393-413bcee7999e"],
+Cell[587197, 10190, 650, 14, 22, "Print",ExpressionUUID->"7e30ad29-e3b4-4e23-92fd-768d9072d3bc"],
+Cell[587850, 10206, 648, 14, 22, "Print",ExpressionUUID->"7afdbb66-e8d0-4a87-bc4c-587bbd0d5674"],
+Cell[588501, 10222, 672, 14, 22, "Print",ExpressionUUID->"0b02fb72-980b-4b98-9739-f65565396818"],
+Cell[589176, 10238, 706, 15, 22, "Print",ExpressionUUID->"e6a19682-1e32-4466-b6d0-cd75f1157502"],
+Cell[589885, 10255, 720, 14, 22, "Print",ExpressionUUID->"8dfb7611-d896-426a-91c1-87b50c0bc336"],
+Cell[590608, 10271, 764, 16, 22, "Print",ExpressionUUID->"9d0eb70d-7361-4cce-b1d6-bcd352b4b986"],
+Cell[591375, 10289, 800, 16, 22, "Print",ExpressionUUID->"814be5c0-97d6-4867-bdcb-4e445e8cecd0"],
+Cell[592178, 10307, 794, 16, 22, "Print",ExpressionUUID->"1f791eab-de2e-4362-9866-87ecec2bb56c"],
+Cell[592975, 10325, 796, 16, 22, "Print",ExpressionUUID->"dd697df1-b531-4341-8a11-d3c6b6157ac3"],
+Cell[593774, 10343, 794, 16, 22, "Print",ExpressionUUID->"32243ca8-2a5c-4dc8-82d9-b0b64c884ee3"],
+Cell[594571, 10361, 215, 5, 22, "Print",ExpressionUUID->"81ca1ddd-9ad8-4ae1-91f9-13d6868bf431"],
+Cell[594789, 10368, 254, 6, 22, "Print",ExpressionUUID->"6a43fffc-6a4f-4871-be53-5bd2da646647"],
+Cell[595046, 10376, 291, 8, 22, "Print",ExpressionUUID->"a43f6c0c-c697-4e19-a5ef-8599d21133e6"],
+Cell[595340, 10386, 322, 8, 22, "Print",ExpressionUUID->"a1ba26fc-faa9-4ce1-8016-715e7003690b"],
+Cell[595665, 10396, 215, 5, 22, "Print",ExpressionUUID->"8ecff0d9-79fd-41fd-b33b-9448fd500598"],
+Cell[595883, 10403, 256, 6, 22, "Print",ExpressionUUID->"885f37cf-65e0-43fd-b0c9-c285a54bc44f"],
+Cell[596142, 10411, 290, 8, 22, "Print",ExpressionUUID->"723d9575-6963-48b9-a383-2d2b38105a95"],
+Cell[596435, 10421, 315, 8, 22, "Print",ExpressionUUID->"6303d61a-1a34-4c82-bf80-e311e032c9f1"],
+Cell[596753, 10431, 340, 8, 22, "Print",ExpressionUUID->"af16b8ea-4777-4ff3-8a5f-851d992b6f73"],
+Cell[597096, 10441, 380, 9, 22, "Print",ExpressionUUID->"8f38f054-8d59-46c8-a5c6-206f1839ff8b"],
+Cell[597479, 10452, 374, 9, 22, "Print",ExpressionUUID->"0ae960c3-caaf-460c-b9ce-c89128615753"],
+Cell[597856, 10463, 401, 9, 22, "Print",ExpressionUUID->"54d403f7-ac7e-4a78-bab5-5c3b5216535c"],
+Cell[598260, 10474, 431, 10, 22, "Print",ExpressionUUID->"e53c799c-268c-4ab7-9188-497e5122ce28"],
+Cell[598694, 10486, 459, 10, 22, "Print",ExpressionUUID->"41f52bb2-02c8-48fd-abee-42a3d2ea2655"],
+Cell[599156, 10498, 482, 10, 22, "Print",ExpressionUUID->"16531db3-d0b9-477e-8012-f41dad2676f8"],
+Cell[599641, 10510, 518, 11, 22, "Print",ExpressionUUID->"919eb85a-711f-405d-9de2-a54287015aef"],
+Cell[600162, 10523, 552, 12, 22, "Print",ExpressionUUID->"77635252-9a04-4180-b9ff-fa8afa73612c"],
+Cell[600717, 10537, 574, 12, 22, "Print",ExpressionUUID->"e3f27827-ca14-448f-9581-e06326b562b3"],
+Cell[601294, 10551, 608, 12, 22, "Print",ExpressionUUID->"ece392f4-8c4c-4a6b-9597-355a0abf4f91"],
+Cell[601905, 10565, 604, 12, 22, "Print",ExpressionUUID->"95366c43-18a2-4b05-836c-daffbc642cd0"],
+Cell[602512, 10579, 604, 12, 22, "Print",ExpressionUUID->"61a04235-9d04-41d7-b5b9-7e55f0818afe"],
+Cell[603119, 10593, 637, 13, 22, "Print",ExpressionUUID->"8bb5dcae-adb8-45ff-b539-4ed69c550adf"],
+Cell[603759, 10608, 660, 13, 22, "Print",ExpressionUUID->"7113fb7b-4cb6-49b9-b784-b24c79271833"],
+Cell[604422, 10623, 699, 14, 22, "Print",ExpressionUUID->"ac020395-845d-4ba9-bfd5-2e947b638fd6"],
+Cell[605124, 10639, 721, 14, 22, "Print",ExpressionUUID->"18d8136d-647e-49d6-9c8b-db98b1548b07"],
+Cell[605848, 10655, 719, 14, 22, "Print",ExpressionUUID->"2e9d6102-54a2-40cd-979f-a75bc78c06d6"],
+Cell[606570, 10671, 758, 15, 22, "Print",ExpressionUUID->"d1d23956-4b8c-4c39-a336-82ed167cd7c4"],
+Cell[607331, 10688, 746, 14, 22, "Print",ExpressionUUID->"40666e84-3820-4e49-9958-760dc7f3db82"],
+Cell[608080, 10704, 787, 16, 22, "Print",ExpressionUUID->"78b32a52-2d1a-4ab7-a0c2-3b93d0b0d9ab"],
+Cell[608870, 10722, 807, 15, 22, "Print",ExpressionUUID->"c296b6fd-8ca1-4ca8-81fd-123726076782"],
+Cell[609680, 10739, 828, 15, 22, "Print",ExpressionUUID->"4cce0018-5910-4e9a-8c1f-d3ac011d9589"],
+Cell[610511, 10756, 216, 5, 22, "Print",ExpressionUUID->"d84056b4-7517-4567-96d2-a185a9cd65c6"],
+Cell[610730, 10763, 257, 6, 22, "Print",ExpressionUUID->"240922b9-344e-482e-a8b8-66d49efd02d9"],
+Cell[610990, 10771, 290, 8, 22, "Print",ExpressionUUID->"911f9890-68c7-41f4-95aa-435898796b1d"],
+Cell[611283, 10781, 315, 8, 22, "Print",ExpressionUUID->"574b9452-652a-4b4d-b878-8939ad910c1a"],
+Cell[611601, 10791, 347, 9, 22, "Print",ExpressionUUID->"9a535796-15ff-4490-a61e-837a0ae78d3a"],
+Cell[611951, 10802, 379, 9, 22, "Print",ExpressionUUID->"93d01bf7-733d-490e-88fc-819ffcbc614b"],
+Cell[612333, 10813, 411, 10, 22, "Print",ExpressionUUID->"515ba02f-2156-4cbe-ba2e-88f8cc14aba4"],
+Cell[612747, 10825, 435, 10, 22, "Print",ExpressionUUID->"07257d81-720c-469b-97bd-ef3958c4c20b"],
+Cell[613185, 10837, 469, 11, 22, "Print",ExpressionUUID->"35437fcd-eb36-4bc7-b2bd-4c370962aec1"],
+Cell[613657, 10850, 494, 11, 22, "Print",ExpressionUUID->"ee5c38bf-6016-465b-9c9a-37dba88c570e"],
+Cell[614154, 10863, 522, 11, 22, "Print",ExpressionUUID->"469ff586-c23a-4f0d-851f-fc6148ea7efd"],
+Cell[614679, 10876, 556, 12, 22, "Print",ExpressionUUID->"65b0910b-7cf9-454e-958f-1524e04b67d1"],
+Cell[615238, 10890, 583, 12, 22, "Print",ExpressionUUID->"eefa1f9e-a7ac-4e46-917a-0318cd28969f"],
+Cell[615824, 10904, 607, 12, 22, "Print",ExpressionUUID->"2cea454b-0267-434f-a21b-21b02083b61a"],
+Cell[616434, 10918, 636, 13, 22, "Print",ExpressionUUID->"361b2872-074e-4182-ba29-5480126e95de"],
+Cell[617073, 10933, 671, 14, 22, "Print",ExpressionUUID->"6396c64e-c35e-4d58-b64c-7e2961f104b4"],
+Cell[617747, 10949, 698, 14, 22, "Print",ExpressionUUID->"27fc663f-9d3e-4b7d-8caf-abaeb70dc501"],
+Cell[618448, 10965, 725, 14, 22, "Print",ExpressionUUID->"8048fa36-05e7-44a9-888c-40d3aa86bf5a"],
+Cell[619176, 10981, 757, 15, 22, "Print",ExpressionUUID->"982a2529-e971-4903-9753-0ebf51871add"],
+Cell[619936, 10998, 763, 15, 22, "Print",ExpressionUUID->"53c21ed2-2eb1-4374-8de3-0c5b60c37a60"],
+Cell[620702, 11015, 757, 15, 22, "Print",ExpressionUUID->"fe59d23f-e0fe-4f20-8998-9519098fa12a"],
+Cell[621462, 11032, 791, 16, 22, "Print",ExpressionUUID->"82f961d1-77a8-4406-bdaf-ded483d183d8"],
+Cell[622256, 11050, 828, 17, 22, "Print",ExpressionUUID->"13a78c35-688f-4c00-bc01-90178c2aa6ac"],
+Cell[623087, 11069, 846, 17, 22, "Print",ExpressionUUID->"c449cd28-c381-444e-b424-b76925ba649e"],
+Cell[623936, 11088, 879, 17, 22, "Print",ExpressionUUID->"8a7366fe-ca98-4554-82d4-5ae80605f88d"],
+Cell[624818, 11107, 911, 18, 22, "Print",ExpressionUUID->"00a79394-7c93-4aad-b994-679d76bb68d2"],
+Cell[625732, 11127, 936, 18, 22, "Print",ExpressionUUID->"2a9e6ded-ef40-423e-a736-08d995880ddc"],
+Cell[626671, 11147, 973, 19, 22, "Print",ExpressionUUID->"89cd6fef-9fb7-4dfc-b313-2f8980728cef"],
+Cell[627647, 11168, 215, 5, 22, "Print",ExpressionUUID->"00f1f100-0b20-4c08-9711-717cf0d0ea26"],
+Cell[627865, 11175, 253, 6, 22, "Print",ExpressionUUID->"21775612-e559-44e5-aa49-a6bad7b151cc"],
+Cell[628121, 11183, 290, 8, 22, "Print",ExpressionUUID->"752bed48-298e-464e-ad26-c979ce892f3c"],
+Cell[628414, 11193, 315, 8, 22, "Print",ExpressionUUID->"2834fcaa-af98-49dc-8013-1de3158bb526"],
+Cell[628732, 11203, 349, 9, 22, "Print",ExpressionUUID->"118b6d8b-203a-497e-96f3-146cbee287dc"],
+Cell[629084, 11214, 342, 8, 22, "Print",ExpressionUUID->"6daabc46-91dd-4a87-9c1a-f1b261aa1a0d"],
+Cell[629429, 11224, 377, 9, 22, "Print",ExpressionUUID->"2165c5f0-afc5-480f-a4e5-9612de189e7c"],
+Cell[629809, 11235, 374, 9, 22, "Print",ExpressionUUID->"fd15d18d-f06a-4943-abea-f187eef6b6a8"],
+Cell[630186, 11246, 410, 10, 22, "Print",ExpressionUUID->"608c6d5a-20d4-41b9-88ed-52052efed447"],
+Cell[630599, 11258, 429, 10, 22, "Print",ExpressionUUID->"69817511-d414-4cb9-8118-efb48f446a52"],
+Cell[631031, 11270, 465, 10, 22, "Print",ExpressionUUID->"1014c0e5-423b-4531-8ab2-f183b6d7777f"],
+Cell[631499, 11282, 458, 10, 22, "Print",ExpressionUUID->"d8da6b6c-4640-43d5-bd21-4f7e726303f3"],
+Cell[631960, 11294, 486, 10, 22, "Print",ExpressionUUID->"24937504-d551-4a0d-a00c-f59cf9870f6f"],
+Cell[632449, 11306, 215, 5, 22, "Print",ExpressionUUID->"a5bc3cbc-ef28-4ac9-9640-cdb96c0d0dcd"],
+Cell[632667, 11313, 255, 6, 22, "Print",ExpressionUUID->"5cb272a5-4dc6-4623-b4b1-1869e485f275"],
+Cell[632925, 11321, 288, 8, 22, "Print",ExpressionUUID->"ee013a5a-e06a-4978-a2ef-ba3469aeea19"],
+Cell[633216, 11331, 315, 8, 22, "Print",ExpressionUUID->"1e9663fa-fd44-4462-9126-59d83a680d92"],
+Cell[633534, 11341, 344, 8, 22, "Print",ExpressionUUID->"dc0675e5-2a8a-48f6-b6e6-d2340e3277e2"],
+Cell[633881, 11351, 377, 9, 22, "Print",ExpressionUUID->"a3271809-17c0-4770-9595-441c9f7b0199"],
+Cell[634261, 11362, 372, 9, 22, "Print",ExpressionUUID->"1cc77679-f6b1-4cf4-af72-fe073d844ac5"],
+Cell[634636, 11373, 400, 9, 22, "Print",ExpressionUUID->"325bc2ab-eea5-4815-bc93-ffc19355cb13"],
+Cell[635039, 11384, 431, 10, 22, "Print",ExpressionUUID->"509933f0-0cef-4269-94c3-595cf2a2889e"],
+Cell[635473, 11396, 456, 10, 22, "Print",ExpressionUUID->"32d0f0d9-964f-40fd-8993-c0610f6c8271"],
+Cell[635932, 11408, 488, 10, 22, "Print",ExpressionUUID->"97ebd066-62bf-45ce-9171-45bc97a024c8"],
+Cell[636423, 11420, 486, 10, 22, "Print",ExpressionUUID->"df5effb8-7d40-493e-a684-a2dad8a7a895"],
+Cell[636912, 11432, 523, 11, 22, "Print",ExpressionUUID->"4ad0084e-3893-4fbe-8d31-9f63a1db9412"],
+Cell[637438, 11445, 517, 11, 22, "Print",ExpressionUUID->"20eb154e-bb78-4823-a2de-554fc1f715a6"],
+Cell[637958, 11458, 549, 12, 22, "Print",ExpressionUUID->"f8b8bf81-ef60-4ee1-a688-035a7ca769d7"],
+Cell[638510, 11472, 586, 13, 22, "Print",ExpressionUUID->"13f62705-2a33-42b7-b9d2-9e10e8265a42"],
+Cell[639099, 11487, 576, 12, 22, "Print",ExpressionUUID->"4babc56c-5751-49cb-96a3-0273b39e6515"],
+Cell[639678, 11501, 607, 12, 22, "Print",ExpressionUUID->"c65b031b-0ef8-4d88-9ec5-695557975d4d"],
+Cell[640288, 11515, 603, 12, 22, "Print",ExpressionUUID->"e0ce2f61-697e-486c-9d1a-c3f0f7f408e5"],
+Cell[640894, 11529, 605, 12, 22, "Print",ExpressionUUID->"7df4b916-aa60-44af-a21b-581ddeea06ee"],
+Cell[641502, 11543, 611, 13, 22, "Print",ExpressionUUID->"07401506-ec95-4fc3-a10f-890f2a503fd2"],
+Cell[642116, 11558, 642, 13, 22, "Print",ExpressionUUID->"d24c224b-1e23-4099-80d8-daf375967ed3"],
+Cell[642761, 11573, 637, 13, 22, "Print",ExpressionUUID->"85014837-d7da-419f-9091-ae00817baaec"],
+Cell[643401, 11588, 639, 13, 22, "Print",ExpressionUUID->"2fd0360f-2689-4784-9925-08953ae24bc4"],
+Cell[644043, 11603, 216, 5, 22, "Print",ExpressionUUID->"a1c45fc4-f35c-42a4-b9df-6e614f992025"],
+Cell[644262, 11610, 257, 6, 22, "Print",ExpressionUUID->"56d0f2c2-ca7e-4067-b57c-4ac06fe5b5e8"],
+Cell[644522, 11618, 293, 8, 22, "Print",ExpressionUUID->"508f83e0-c789-4d5f-8808-af1d6cad68d0"],
+Cell[644818, 11628, 293, 8, 22, "Print",ExpressionUUID->"c3b9857c-66d4-4b1d-b2c4-25ee7972e7c3"],
+Cell[645114, 11638, 293, 8, 22, "Print",ExpressionUUID->"580b69cb-4d4b-464d-92c2-022a459e28f2"],
+Cell[645410, 11648, 320, 8, 22, "Print",ExpressionUUID->"efc2287e-e822-4a9f-96b1-a6efef56a6dd"],
+Cell[645733, 11658, 314, 8, 22, "Print",ExpressionUUID->"d3e83bc6-4367-49cf-8242-3c8afd79e661"],
+Cell[646050, 11668, 352, 9, 22, "Print",ExpressionUUID->"231e96da-2c5d-424a-b353-e6dd3d56d72f"],
+Cell[646405, 11679, 349, 9, 22, "Print",ExpressionUUID->"8b628c54-35e8-4a59-a00c-cc17b9fecaef"],
+Cell[646757, 11690, 354, 9, 22, "Print",ExpressionUUID->"a650a220-3e49-4e78-9082-52fdc73d6aba"],
+Cell[647114, 11701, 340, 8, 22, "Print",ExpressionUUID->"75131c23-c222-4f06-80d0-13296233f67b"],
+Cell[647457, 11711, 381, 9, 22, "Print",ExpressionUUID->"5e454a1f-bcb1-4dda-81f6-07c4a2591f15"],
+Cell[647841, 11722, 380, 9, 22, "Print",ExpressionUUID->"5b6981b7-09ca-443c-bc5e-484d28719378"],
+Cell[648224, 11733, 377, 9, 22, "Print",ExpressionUUID->"6c56aeb8-432f-472c-8455-6577bec5d87d"],
+Cell[648604, 11744, 382, 9, 22, "Print",ExpressionUUID->"c1f4bf68-f0f8-4806-9cb8-c0ddc1e7fb1f"],
+Cell[648989, 11755, 373, 9, 22, "Print",ExpressionUUID->"c7d76260-01c3-49ea-b95f-c36dd65fa371"],
+Cell[649365, 11766, 409, 10, 22, "Print",ExpressionUUID->"83afe55f-3478-4a19-847a-c3873c7195d0"],
+Cell[649777, 11778, 412, 10, 22, "Print",ExpressionUUID->"5ee51ed6-1a09-4dbd-b66d-d230e319a251"],
+Cell[650192, 11790, 409, 10, 22, "Print",ExpressionUUID->"c89763fd-a677-404c-b1b9-cb88d8bf50a6"],
+Cell[650604, 11802, 410, 10, 22, "Print",ExpressionUUID->"70a1d5ec-d4b2-486a-8f7c-4f90c1f3b17e"],
+Cell[651017, 11814, 410, 10, 22, "Print",ExpressionUUID->"03adc9fa-363d-468b-a8c7-c61feb013cb3"],
+Cell[651430, 11826, 408, 10, 22, "Print",ExpressionUUID->"630e0daf-ad9a-4bfa-a307-54d3d58fdff4"],
+Cell[651841, 11838, 407, 9, 22, "Print",ExpressionUUID->"61a3f565-1934-443f-bdb0-c7182ee11f7a"],
+Cell[652251, 11849, 411, 10, 22, "Print",ExpressionUUID->"91156238-c1a7-4e05-a951-0f9b49326622"],
+Cell[652665, 11861, 403, 9, 22, "Print",ExpressionUUID->"f3f80d8f-b253-4728-8494-988747e4c29a"],
+Cell[653071, 11872, 412, 10, 22, "Print",ExpressionUUID->"2652eef3-c516-4d20-b76e-73880a9b3451"],
+Cell[653486, 11884, 412, 10, 22, "Print",ExpressionUUID->"f7887880-535a-4bf8-929d-d87217545fb3"],
+Cell[653901, 11896, 409, 10, 22, "Print",ExpressionUUID->"3a2d1507-ff34-4856-aec4-633b19a33aa9"],
+Cell[654313, 11908, 218, 5, 22, "Print",ExpressionUUID->"960bbc5e-df32-473d-b83c-058d69b18636"],
+Cell[654534, 11915, 215, 5, 22, "Print",ExpressionUUID->"07e4ab66-29e6-4e7e-8355-14042a6f1071"],
+Cell[654752, 11922, 263, 7, 22, "Print",ExpressionUUID->"ed5f2efa-030d-4b39-824b-2efd7f3611de"],
+Cell[655018, 11931, 254, 6, 22, "Print",ExpressionUUID->"35f94915-bff7-4f4a-81a6-0b4588cf9b1e"],
+Cell[655275, 11939, 295, 8, 22, "Print",ExpressionUUID->"7556ad8a-09fc-48a4-a009-deb9b3e53622"],
+Cell[655573, 11949, 218, 5, 22, "Print",ExpressionUUID->"5e1e9186-d070-413a-b83a-65141fc37e01"],
+Cell[655794, 11956, 213, 5, 22, "Print",ExpressionUUID->"a2745f8d-5196-41bc-b18b-558ef1be54a8"],
+Cell[656010, 11963, 255, 6, 22, "Print",ExpressionUUID->"05b9de7c-de86-4516-8c7e-bbe7636e254b"],
+Cell[656268, 11971, 290, 8, 22, "Print",ExpressionUUID->"5258af37-23ed-492e-b7f0-2ca25d50e853"],
+Cell[656561, 11981, 322, 8, 22, "Print",ExpressionUUID->"1785f201-abc3-499b-9a9e-f8d338d30410"],
+Cell[656886, 11991, 217, 5, 22, "Print",ExpressionUUID->"2a1739a1-f696-43c8-a0cf-01f1b48eed8d"],
+Cell[657106, 11998, 216, 5, 22, "Print",ExpressionUUID->"a1ac9697-794d-4840-b121-dc0954be70be"],
+Cell[657325, 12005, 214, 5, 22, "Print",ExpressionUUID->"1db56587-66c8-4596-ae81-a91890a4c1eb"],
+Cell[657542, 12012, 255, 6, 22, "Print",ExpressionUUID->"b68c2190-a1ce-4c4e-b8db-c225425faa98"],
+Cell[657800, 12020, 289, 8, 22, "Print",ExpressionUUID->"fd8f033b-42f2-4d34-a9cd-84af81576620"],
+Cell[658092, 12030, 319, 8, 22, "Print",ExpressionUUID->"e07212d7-b7e6-4219-ae95-4c663d11781e"],
+Cell[658414, 12040, 352, 9, 22, "Print",ExpressionUUID->"08298410-0f57-42a2-9970-342c4a1c22d7"],
+Cell[658769, 12051, 378, 9, 22, "Print",ExpressionUUID->"20f8873a-0caf-4447-9948-1dfde5bbcc60"],
+Cell[659150, 12062, 402, 9, 22, "Print",ExpressionUUID->"b50ce2b7-d790-4512-8e9c-675c24e088c5"],
+Cell[659555, 12073, 433, 10, 22, "Print",ExpressionUUID->"c74d1500-82d1-48db-8d5b-1dd557e5d46a"],
+Cell[659991, 12085, 459, 10, 22, "Print",ExpressionUUID->"285dae97-7bdb-493c-80df-d45e3163d969"],
+Cell[660453, 12097, 494, 11, 22, "Print",ExpressionUUID->"48291da9-d6da-4dfb-8b51-bf9d276fd8d5"],
+Cell[660950, 12110, 493, 11, 22, "Print",ExpressionUUID->"7295389b-afca-4aac-af4d-d6f10e4ad062"],
+Cell[661446, 12123, 528, 12, 22, "Print",ExpressionUUID->"311e4208-4817-45bb-86d3-6339f9505787"],
+Cell[661977, 12137, 530, 12, 22, "Print",ExpressionUUID->"872125ab-4e16-4edf-a5da-c6fca3acb3d6"],
+Cell[662510, 12151, 526, 12, 22, "Print",ExpressionUUID->"4491ebd9-17f6-4c30-87b1-690f3de8de67"],
+Cell[663039, 12165, 551, 12, 22, "Print",ExpressionUUID->"287e96d7-7227-4e74-aa6f-064f2b5cbf63"],
+Cell[663593, 12179, 579, 12, 22, "Print",ExpressionUUID->"974d960c-69a6-4acd-82c0-1ea94c90a934"],
+Cell[664175, 12193, 612, 13, 22, "Print",ExpressionUUID->"b088bb20-24c3-4481-aaa7-f66e0b20e70e"],
+Cell[664790, 12208, 646, 14, 22, "Print",ExpressionUUID->"43003404-06d7-424f-9cb8-37b24105c191"],
+Cell[665439, 12224, 639, 13, 22, "Print",ExpressionUUID->"d150ce15-197c-4ae7-abb6-096037b0a543"],
+Cell[666081, 12239, 673, 14, 22, "Print",ExpressionUUID->"aa730796-7c8e-4881-acb6-b8cfbbde7e25"],
+Cell[666757, 12255, 700, 14, 22, "Print",ExpressionUUID->"48cc2a92-0e42-4444-9825-f2131583f960"],
+Cell[667460, 12271, 738, 15, 22, "Print",ExpressionUUID->"5ce83c60-4ad7-43c8-8a63-19b5ea864076"],
+Cell[668201, 12288, 727, 14, 22, "Print",ExpressionUUID->"b4674f88-c3bb-4795-93cb-2ae071c0ddc7"],
+Cell[668931, 12304, 731, 15, 22, "Print",ExpressionUUID->"f0b6fe92-dd0e-4697-943a-34a1ca8180d9"],
+Cell[669665, 12321, 766, 16, 22, "Print",ExpressionUUID->"c0d4167d-fe2e-46e6-a7ff-104649a3650b"],
+Cell[670434, 12339, 216, 5, 22, "Print",ExpressionUUID->"1d619bd1-74e7-48f1-8dad-f0896bff30ce"],
+Cell[670653, 12346, 254, 6, 22, "Print",ExpressionUUID->"71407d53-2af4-4e9e-9315-593be5f3cd1f"],
+Cell[670910, 12354, 289, 8, 22, "Print",ExpressionUUID->"d02ae001-e942-489c-87e7-df7dc73ae1fb"],
+Cell[671202, 12364, 323, 8, 22, "Print",ExpressionUUID->"3715a4fd-c4b5-47a8-b64b-ab71c25fa059"],
+Cell[671528, 12374, 322, 8, 22, "Print",ExpressionUUID->"541e5958-906c-4373-a434-e95ac3fc9cb6"],
+Cell[671853, 12384, 318, 8, 22, "Print",ExpressionUUID->"d58b2688-e7f4-4792-910a-3ad84c20c9f2"],
+Cell[672174, 12394, 350, 9, 22, "Print",ExpressionUUID->"052a2c8f-caeb-47e0-978b-e0d2ae9a3b56"],
+Cell[672527, 12405, 379, 9, 22, "Print",ExpressionUUID->"e0dfc894-6432-4a82-83aa-c374b16e5d0c"],
+Cell[672909, 12416, 410, 10, 22, "Print",ExpressionUUID->"a8f23a57-3185-4415-9c3e-cde5cb177ff4"],
+Cell[673322, 12428, 434, 10, 22, "Print",ExpressionUUID->"85e89161-da40-4dba-9d0b-49a6cb04a674"],
+Cell[673759, 12440, 466, 11, 22, "Print",ExpressionUUID->"c77bbddf-0ebb-49ab-ba26-34183f1c2d65"],
+Cell[674228, 12453, 499, 11, 22, "Print",ExpressionUUID->"61bea43c-a824-4b72-bd7d-088569d7595c"],
+Cell[674730, 12466, 535, 12, 22, "Print",ExpressionUUID->"4a7b6f4b-9eaf-40ca-9fd7-fe88b28198ab"],
+Cell[675268, 12480, 523, 11, 22, "Print",ExpressionUUID->"5dbfa993-8ed2-4dc9-a426-e0c6bec7df00"],
+Cell[675794, 12493, 556, 12, 22, "Print",ExpressionUUID->"0635b6d7-3449-4c9f-8f05-aa2f4933af5c"],
+Cell[676353, 12507, 587, 12, 22, "Print",ExpressionUUID->"4afa840a-1935-4eff-8e03-846024f2e7fc"],
+Cell[676943, 12521, 592, 13, 22, "Print",ExpressionUUID->"09591ace-0ad2-456b-a878-ae97e5f91312"],
+Cell[677538, 12536, 585, 12, 22, "Print",ExpressionUUID->"f09a9aab-0449-4ed2-818e-1d3b366ecace"],
+Cell[678126, 12550, 591, 13, 22, "Print",ExpressionUUID->"f83eb65e-44bb-4858-8e5c-c63134c233b7"],
+Cell[678720, 12565, 617, 13, 22, "Print",ExpressionUUID->"05b678d3-ee20-4401-b3ff-02eabbf414f0"],
+Cell[679340, 12580, 636, 13, 22, "Print",ExpressionUUID->"19680284-380b-456e-bef9-7f35a10c7b64"],
+Cell[679979, 12595, 680, 14, 22, "Print",ExpressionUUID->"d10c189f-5a53-43c2-919e-bc40669e9ac5"],
+Cell[680662, 12611, 673, 14, 22, "Print",ExpressionUUID->"0cab02d4-7dc9-48f3-968f-90f68843119e"],
+Cell[681338, 12627, 699, 14, 22, "Print",ExpressionUUID->"a1a29c47-052c-420e-8e5b-6f06397fc2e3"],
+Cell[682040, 12643, 734, 15, 22, "Print",ExpressionUUID->"2914d295-96f1-4124-bf57-cc8753155dab"],
+Cell[682777, 12660, 757, 15, 22, "Print",ExpressionUUID->"1bc45e98-e45e-4ab7-b7de-4f1f5ff989ef"],
+Cell[683537, 12677, 792, 16, 22, "Print",ExpressionUUID->"8fea9f57-52e3-4843-b419-bd99343b475d"],
+Cell[684332, 12695, 826, 17, 22, "Print",ExpressionUUID->"9119984b-64d5-4675-8a65-897f9619d1aa"],
+Cell[685161, 12714, 853, 17, 22, "Print",ExpressionUUID->"08853910-bce7-4cdf-a6a0-5c5fd5ea93db"]
 }, Open  ]],
-Cell[1825757, 31460, 558, 12, 28, "Input",ExpressionUUID->"2c9b6c9b-5f19-43ec-8b9e-88b076707a9e"]
+Cell[686029, 12734, 61110, 970, 232, "Output",ExpressionUUID->"895e16cc-e902-4f18-8dd0-b24284bad341"]
+}, Open  ]],
+Cell[747154, 13707, 154, 3, 34, "Text",ExpressionUUID->"c5dbbfbc-8937-40eb-9d0c-eadb0d4e81fc"],
+Cell[747311, 13712, 3722, 69, 177, "Code",ExpressionUUID->"dfefff73-1c66-442e-9bec-31a668661f0c"],
+Cell[751036, 13783, 168, 3, 34, "Text",ExpressionUUID->"a68c58b3-f832-48f3-a011-fd1b0eb2318b"],
+Cell[CellGroupData[{
+Cell[751229, 13790, 2613, 43, 105, "Code",ExpressionUUID->"6256c9f1-75f1-4f7a-a355-8c7134389020"],
+Cell[753845, 13835, 72315, 1125, 198, "Output",ExpressionUUID->"08b5d283-a9c1-432b-a1d2-14d3581342d2"]
+}, Open  ]],
+Cell[826175, 14963, 222, 4, 34, "Text",ExpressionUUID->"007ee58c-c075-43e3-ae74-7cdbde898d17"],
+Cell[CellGroupData[{
+Cell[826422, 14971, 5071, 106, 231, "Code",ExpressionUUID->"808049a1-5fe4-4b18-a7a1-dd79299957e2"],
+Cell[831496, 15079, 73141, 1144, 198, "Output",ExpressionUUID->"0daafe13-c8b2-46d7-bf30-834f563d8984"]
+}, Open  ]],
+Cell[904652, 16226, 680, 13, 28, "Input",ExpressionUUID->"d5f617f1-b842-482a-a578-b092c902a8b6"],
+Cell[905335, 16241, 174, 3, 34, "Text",ExpressionUUID->"39146bb6-e4a0-4321-ae9b-5faa5ebd20d6"],
+Cell[905512, 16246, 4076, 81, 213, "Code",ExpressionUUID->"9cb6142c-7d5c-4d11-bfd9-28764c4c3b52"],
+Cell[CellGroupData[{
+Cell[909613, 16331, 335, 7, 28, "Input",ExpressionUUID->"d286b93d-0520-4470-b551-82f8f258260b"],
+Cell[909951, 16340, 70757, 1111, 198, "Output",ExpressionUUID->"5139e259-8d28-44a5-bb4b-5dcdec1287df"]
+}, Open  ]],
+Cell[980723, 17454, 391, 8, 34, "Text",ExpressionUUID->"4942d580-9d64-460a-9026-5a61612f793b"],
+Cell[981117, 17464, 11845, 257, 969, "Code",ExpressionUUID->"479ffd41-eb77-4a8e-a772-37cdcfc1c486"],
+Cell[CellGroupData[{
+Cell[992987, 17725, 682, 11, 28, "Input",ExpressionUUID->"9b34d08b-da55-4fc4-afda-e4e7c8de95ce"],
+Cell[993672, 17738, 501269, 8234, 271, "Output",ExpressionUUID->"10f94783-dd36-4da2-a7b0-d9528b639690"]
+}, Open  ]],
+Cell[1494956, 25975, 222, 4, 34, "Text",ExpressionUUID->"13530d60-b542-4250-9c19-b6d83c2697ae"],
+Cell[CellGroupData[{
+Cell[1495203, 25983, 5113, 107, 231, "Code",ExpressionUUID->"84da1118-6701-4831-9d0c-071a38dcfae8"],
+Cell[1500319, 26092, 395299, 6531, 214, "Output",ExpressionUUID->"650c06b6-b292-4dea-8088-eb57594de803"]
+}, Open  ]],
+Cell[1895633, 32626, 580, 12, 28, "Input",ExpressionUUID->"2c9b6c9b-5f19-43ec-8b9e-88b076707a9e"]
 }, Open  ]]
 }, Open  ]]
 }
