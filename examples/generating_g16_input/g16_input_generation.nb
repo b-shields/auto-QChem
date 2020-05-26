@@ -1,0 +1,1182 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     53399,       1174]
+NotebookOptionsPosition[     48267,       1049]
+NotebookOutlinePosition[     48646,       1065]
+CellTagsIndexPosition[     48603,       1062]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Generating G16 Input", "Title",
+ CellChangeTimes->{{3.752873345220866*^9, 3.752873376004627*^9}, {
+  3.7994936825868473`*^9, 
+  3.7994936871137047`*^9}},ExpressionUUID->"c07b878b-c9a4-4aaa-b9c4-\
+ca5feef56d55"],
+
+Cell[TextData[StyleBox["Load auto-QChem",
+ FontColor->RGBColor[0, 1, 1]]], "Text",
+ CellChangeTimes->{{3.799499167594844*^9, 
+  3.7994991707558365`*^9}},ExpressionUUID->"e80df76d-ee74-40e7-8d05-\
+45488d9863e4"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"path", " ", "=", " ", 
+   RowBox[{"StringReplace", "[", 
+    RowBox[{
+     RowBox[{"NotebookDirectory", "[", "]"}], ",", 
+     RowBox[{
+      RowBox[{"\"\<auto-QChem\>\"", "~~", "__"}], "\[Rule]", 
+      "\"\<auto-QChem\\\\auto-QChem\\\\auto-QChem.wl\>\""}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Import", "[", "path", "]"}]}], "Input",
+ CellChangeTimes->{{3.7994938659260244`*^9, 3.7994939248896217`*^9}, {
+   3.799494102048765*^9, 3.7994941334658356`*^9}, 3.7994942259400644`*^9, {
+   3.7994991886188073`*^9, 
+   3.7994991897591915`*^9}},ExpressionUUID->"f219fea8-3453-47e7-9800-\
+a3947567657c"],
+
+Cell[CellGroupData[{
+
+Cell["Basic Documentation", "Chapter",
+ CellChangeTimes->{{3.7528730271566744`*^9, 3.752873030940891*^9}, {
+  3.75288565491094*^9, 3.7528856639984603`*^9}, {3.7994938334195886`*^9, 
+  3.7994938367601433`*^9}},ExpressionUUID->"1092ece5-fea6-4c48-b3a5-\
+ae0a0ac893d5"],
+
+Cell[CellGroupData[{
+
+Cell["OpenBabel", "Section",
+ CellChangeTimes->{{3.752885704257763*^9, 
+  3.7528857210697246`*^9}},ExpressionUUID->"12a4d768-90ce-4404-8658-\
+06a6587f0416"],
+
+Cell[TextData[{
+ StyleBox["obabel",
+  FontWeight->"Bold",
+  FontColor->RGBColor[0, 0, 1]],
+ StyleBox["[input_type, input]\n\n",
+  FontWeight->"Bold"],
+ "input_type: \[OpenCurlyDoubleQuote]smiles\[CloseCurlyDoubleQuote],\
+\[CloseCurlyDoubleQuote]smiles -f\[CloseCurlyDoubleQuote], \
+\[OpenCurlyDoubleQuote]chemdraw\[CloseCurlyDoubleQuote]\ninput: \
+\[OpenCurlyDoubleQuote]smiles\[CloseCurlyDoubleQuote] -- string, \
+\[OpenCurlyDoubleQuote]smiles -f\[CloseCurlyDoubleQuote] -- smiles text file, \
+\[OpenCurlyDoubleQuote]chemdraw\[CloseCurlyDoubleQuote] -- ChemDraw file",
+ StyleBox["\n\n",
+  FontWeight->"Bold"],
+ StyleBox["Output:",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0.5]],
+ StyleBox[" ",
+  FontWeight->"Bold"],
+ "3D coordinate text.",
+ StyleBox["\n\n",
+  FontWeight->"Bold"],
+ StyleBox["Presets:",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0.5]],
+ "\nchargeOB = 0\nmultiplicityOB = 1\n\
+inputType=\[CloseCurlyDoubleQuote]chemdraw\[CloseCurlyDoubleQuote]\n\t\n",
+ StyleBox["OpenBabelPresets",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0]],
+ " resets back to preset values."
+}], "Text",
+ CellChangeTimes->{{3.7528682247379913`*^9, 3.752868257740879*^9}, {
+   3.752868297116132*^9, 3.7528683577325983`*^9}, {3.7528684710050774`*^9, 
+   3.75286847331621*^9}, 3.752868987476618*^9, {3.7528691937544165`*^9, 
+   3.752869195821534*^9}, {3.7528707888996534`*^9, 3.752870877545724*^9}, {
+   3.7528709776404486`*^9, 3.7528709862769427`*^9}, {3.752871046742401*^9, 
+   3.7528710729168983`*^9}, {3.7528730473728304`*^9, 3.75287307078117*^9}, {
+   3.7528829585557175`*^9, 3.752882959863793*^9}, {3.75288303814727*^9, 
+   3.7528831294634933`*^9}, 3.7528831766821938`*^9, {3.760126010096241*^9, 
+   3.7601260408412867`*^9}, 3.799494976478518*^9, {3.799495102545085*^9, 
+   3.7994951042069173`*^9}},ExpressionUUID->"18b543e1-7b8b-4ca9-a485-\
+c2a11f96e6c0"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+   "Generate", " ", "coordinate", " ", "text", " ", "from", " ", "smiles", 
+    " ", "input"}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"chargeOB", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"multiplicityOB", "=", "3"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"obabel", "[", 
+     RowBox[{"\"\<smiles\>\"", ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<C\>\"", ",", "\"\<CC\>\""}], "}"}]}], "]"}], "//", 
+    "TableForm"}]}]}]], "Input",
+ CellChangeTimes->{{3.75251847550438*^9, 3.752518477210478*^9}, {
+   3.752518592171053*^9, 3.752518626628024*^9}, {3.7525193050998306`*^9, 
+   3.752519308018997*^9}, {3.752519369364506*^9, 3.7525193700505457`*^9}, {
+   3.7525199780023184`*^9, 3.752519993297193*^9}, {3.7525201608327756`*^9, 
+   3.7525201644569826`*^9}, {3.7525202090985365`*^9, 
+   3.7525202122007136`*^9}, {3.752520333321641*^9, 3.7525203375598836`*^9}, {
+   3.752522112354613*^9, 3.7525221162926207`*^9}, {3.7526869452793255`*^9, 
+   3.752686959656355*^9}, {3.752687022681493*^9, 3.7526870339325128`*^9}, 
+   3.75268726929599*^9, {3.752861886480464*^9, 3.7528618900546684`*^9}, {
+   3.7528620342939186`*^9, 3.752862037710114*^9}, {3.7528633643569937`*^9, 
+   3.75286342932471*^9}, {3.7528680967276697`*^9, 3.7528681645025463`*^9}, 
+   3.752868220378742*^9, {3.752868266157361*^9, 3.7528682733737736`*^9}, {
+   3.752883195201253*^9, 3.7528832052958307`*^9}, {3.752883272873696*^9, 
+   3.752883286689486*^9}, {3.752883874462105*^9, 3.752883901919675*^9}, {
+   3.760125039140666*^9, 3.7601250652977057`*^9}, {3.7601252084819174`*^9, 
+   3.7601252218409395`*^9}, {3.760125479911322*^9, 3.760125489293336*^9}, {
+   3.7601256132965207`*^9, 3.7601256754427385`*^9}, {3.760125707314786*^9, 
+   3.760125749264847*^9}, {3.760125791595912*^9, 3.760125820090955*^9}, {
+   3.7601258627950172`*^9, 3.760125864215019*^9}, {3.7601259306951203`*^9, 
+   3.7601259527121534`*^9}, {3.760125989210209*^9, 3.7601259893602095`*^9}, {
+   3.7601260772423453`*^9, 3.760126079802349*^9}, {3.7601261954711084`*^9, 
+   3.7601261956311083`*^9}, {3.760126254089196*^9, 3.7601262718712215`*^9}, {
+   3.7601272193262715`*^9, 3.7601272331502914`*^9}, {3.7601272781613626`*^9, 
+   3.7601272801423655`*^9}, {3.7601273653195033`*^9, 
+   3.7601273696725097`*^9}, {3.7994949860236263`*^9, 
+   3.7994949867261505`*^9}, {3.79949502291221*^9, 3.799495085542282*^9}, 
+   3.7994952140397186`*^9},ExpressionUUID->"e071c92d-8ef1-4d21-a42e-\
+6f185fbf2ee3"],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[GridBox[{
+     {"\<\"%chk=blank.chk\\n# hf/3-21g\\n\\nTitle Card Required\\n\\n0  3\\nC \
+          0.99974        -0.01039         0.09946\\nH           2.09194       \
+ -0.01039         0.09946\\nH           0.63568        -0.11742         \
+1.12362\\nH           0.63568        -0.84383        -0.50531\\nH           \
+0.63568         0.93007        -0.31994\\n\"\>"},
+     {"\<\"%chk=blank.chk\\n# hf/3-21g\\n\\nTitle Card Required\\n\\n0  3\\nC \
+          0.94109         0.03814         0.06776\\nC           2.45315       \
+  0.03814         0.06776\\nH           0.55672         0.54065         \
+0.96038\\nH           0.55672        -0.98614         0.05663\\nH           \
+0.55672         0.55992        -0.81373\\nH           2.83752        -0.48364 \
+        0.94925\\nH           2.83752         1.06242         0.07889\\nH     \
+      2.83752        -0.46436        -0.82486\\n\"\>"}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.5599999999999999]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}],
+   Column],
+  Function[BoxForm`e$, 
+   TableForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{
+  3.7566453073750257`*^9, {3.760124972424564*^9, 3.7601249810825777`*^9}, {
+   3.760125027299648*^9, 3.7601250659607067`*^9}, 3.7601251411358194`*^9, {
+   3.760125199172904*^9, 3.7601252250919447`*^9}, {3.760125490823338*^9, 
+   3.7601255035973577`*^9}, {3.7601255393584127`*^9, 
+   3.7601255575974393`*^9}, {3.760125602544505*^9, 3.7601256318486743`*^9}, {
+   3.760125664104722*^9, 3.760125749654847*^9}, {3.7601258015629263`*^9, 
+   3.7601258211369576`*^9}, 3.76012586470502*^9, {3.760125904493081*^9, 
+   3.7601259900802107`*^9}, {3.76012608049335*^9, 3.760126086098358*^9}, 
+   3.760126142207444*^9, {3.7601261921301036`*^9, 3.760126273292224*^9}, {
+   3.7601272137622633`*^9, 3.760127239096301*^9}, 3.7601272808643665`*^9, 
+   3.760127371086512*^9, 3.799494993135886*^9, {3.799495056830911*^9, 
+   3.799495088166613*^9}},ExpressionUUID->"41035868-47b0-4624-a853-\
+c82302120847"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+   "Generate", " ", "coordinate", " ", "text", " ", "from", " ", "ChemDraw", 
+    " ", "input"}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"chargeOB", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"multiplicityOB", "=", "1"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"cdxPath", "=", 
+     RowBox[{
+      RowBox[{"NotebookDirectory", "[", "]"}], "<>", 
+      "\"\<\\\\data\\\\chemdraw_input\\\\chemdraw_test_.cdx\>\""}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"inputList", "=", 
+     RowBox[{"obabel", "[", 
+      RowBox[{"\"\<chemdraw\>\"", ",", "cdxPath"}], "]"}]}], 
+    ";"}]}]}]], "Input",
+ CellChangeTimes->{{3.75251847550438*^9, 3.752518477210478*^9}, {
+   3.752518592171053*^9, 3.752518626628024*^9}, {3.7525193050998306`*^9, 
+   3.752519308018997*^9}, {3.752519369364506*^9, 3.7525193700505457`*^9}, {
+   3.7525199780023184`*^9, 3.752519993297193*^9}, {3.7525201608327756`*^9, 
+   3.7525201644569826`*^9}, {3.7525202090985365`*^9, 
+   3.7525202122007136`*^9}, {3.752520333321641*^9, 3.7525203375598836`*^9}, {
+   3.752522112354613*^9, 3.7525221162926207`*^9}, {3.7526869452793255`*^9, 
+   3.752686959656355*^9}, {3.752687022681493*^9, 3.7526870339325128`*^9}, 
+   3.75268726929599*^9, {3.752861886480464*^9, 3.7528618900546684`*^9}, {
+   3.7528620342939186`*^9, 3.752862037710114*^9}, {3.7528633643569937`*^9, 
+   3.75286342932471*^9}, {3.7528680967276697`*^9, 3.7528681645025463`*^9}, 
+   3.752868220378742*^9, {3.752868266157361*^9, 3.7528682733737736`*^9}, {
+   3.752883195201253*^9, 3.7528832052958307`*^9}, {3.752883272873696*^9, 
+   3.752883286689486*^9}, {3.752883874462105*^9, 3.752883901919675*^9}, {
+   3.752883939905848*^9, 3.7528840090488024`*^9}, {3.752884047851022*^9, 
+   3.7528840539043684`*^9}, {3.760127248786316*^9, 3.760127266431346*^9}, {
+   3.79949513845055*^9, 3.799495223433022*^9}, {3.7994952576108294`*^9, 
+   3.7994952768069534`*^9}},ExpressionUUID->"e3084879-7797-43f6-a3a0-\
+0a64f494722d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"inputList", "[", 
+   RowBox[{"[", 
+    RowBox[{";;", "3"}], "]"}], "]"}], "//", "TableForm"}]], "Input",
+ CellChangeTimes->{{3.7994952849131365`*^9, 
+  3.7994952966910286`*^9}},ExpressionUUID->"2c881c2e-18b8-4d20-b43c-\
+4e0096efe9f4"],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[GridBox[{
+     {"\<\"%chk=blank.chk\\n# hf/3-21g\\n\\nTitle Card Required\\n\\n0  \
+1\\nN2         -0.70702        -1.22115        -0.04117\\nC          -1.38225 \
+       -0.03744        -0.06844\\nN          -2.80854        -0.07380        \
+-0.12301\\nN1         -3.57159         1.05693        -0.15468\\nC          \
+-4.82691         0.60730        -0.20787\\nC          -4.90297        \
+-0.79371        -0.21073\\nC          -3.59488        -1.20824        \
+-0.15486\\nC          -0.73751         1.19837        -0.04962\\nC           \
+0.65436         1.22404        -0.00509\\nC           1.35923         0.02644 \
+        0.02114\\nC           0.64184        -1.15811         0.00324\\nH     \
+     -5.63759         1.32425        -0.24288\\nH          -5.78503        \
+-1.41650        -0.24871\\nH          -3.14422        -2.19072        \
+-0.13669\\nH          -1.29629         2.12952        -0.07093\\nH           \
+1.18215         2.17364         0.00783\\nH           2.44301         0.01662 \
+        0.05464\\nH           1.15005        -2.11820         0.02422\\n\"\>"},
+     {"\<\"%chk=blank.chk\\n# hf/3-21g\\n\\nTitle Card Required\\n\\n0  1\\nC \
+         -0.66796        -1.20993         0.03116\\nC          -1.34850       \
+ -0.00118         0.04690\\nC          -0.60427         1.16376         \
+0.00961\\nN1          0.74615         1.19577        -0.04343\\nC           \
+1.41411         0.00687        -0.06051\\nC           0.72486        -1.20784 \
+       -0.02234\\nC           2.89556         0.07212        -0.12290\\nN2    \
+      3.56399        -1.11651        -0.13949\\nC           4.91429        \
+-1.08401        -0.19684\\nC           5.65782         0.08117        \
+-0.23893\\nC           4.97683         1.28964        -0.22257\\nC           \
+3.58419         1.28706        -0.16450\\nH          -1.21124        -2.14994 \
+        0.05961\\nH          -2.43114         0.03276         0.08722\\nH     \
+     -1.08859         2.13603         0.02132\\nH           1.26730        \
+-2.14890        -0.03506\\nH           5.39897        -2.05611        \
+-0.20830\\nH           6.74034         0.04764        -0.28353\\nH           \
+5.51960         2.22980        -0.25476\\nH           3.04141         2.22792 \
+       -0.15207\\n\"\>"},
+     {"\<\"%chk=blank.chk\\n# hf/3-21g\\n\\nTitle Card Required\\n\\n0  \
+1\\nN1          1.26239        -1.40146        -0.01843\\nC           2.42322 \
+       -0.69828        -0.03912\\nC           3.67863        -1.47895        \
+-0.12682\\nN2          4.88451        -0.99532        -0.18349\\nC           \
+5.71272        -2.19563        -0.36567\\nC           4.80703        -3.35729 \
+       -0.03058\\nO           3.50126        -2.82428        -0.15577\\nC     \
+      2.48077         0.68756        -0.01372\\nC           1.28116         \
+1.39176         0.01383\\nC           0.06521         0.69470         0.00918\
+\\nC           0.10994        -0.71624         0.00084\\nC          -1.08899  \
+      -1.41423        -0.00079\\nC          -2.32117        -0.75547        \
+-0.01261\\nC          -2.36291         0.63430        -0.01466\\nC          \
+-1.17319         1.36063         0.00261\\nH           6.59749        \
+-2.17627         0.27731\\nH           6.04849        -2.24562        \
+-1.40768\\nH           4.94882        -3.70779         0.99704\\nH           \
+4.94236        -4.19939        -0.71537\\nH           3.43224         1.20912 \
+       -0.02771\\nH           1.29961         2.47850         0.02647\\nH     \
+     -1.06208        -2.50164        -0.00150\\nH          -3.24217        \
+-1.33250        -0.02533\\nH          -3.31908         1.15099        \
+-0.03210\\nH          -1.21657         2.44737         0.00231\\n\"\>"}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.5599999999999999]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}],
+   Column],
+  Function[BoxForm`e$, 
+   TableForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{
+  3.7994952972184753`*^9},ExpressionUUID->"19160676-fce8-4617-8e39-\
+2b99f0af1458"]
+}, Open  ]],
+
+Cell[TextData[{
+ StyleBox["OpenBabel",
+  FontWeight->"Bold",
+  FontColor->RGBColor[0, 0, 1]],
+ StyleBox["[file_name, file_type]\n\n",
+  FontWeight->"Bold"],
+ "file_name: files located in chemdraw_input directory\nfile_type: \
+\[OpenCurlyDoubleQuote]chemdraw\[CloseCurlyDoubleQuote], \
+\[OpenCurlyDoubleQuote]smiles\[CloseCurlyDoubleQuote]",
+ StyleBox["\n\n",
+  FontWeight->"Bold"],
+ StyleBox["Output:",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0.5]],
+ StyleBox[" ",
+  FontWeight->"Bold"],
+ "3D coordinate files which retain atom labels from ChemDraw.",
+ StyleBox["\n\n",
+  FontWeight->"Bold"],
+ StyleBox["Presets:",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0.5]],
+ "\nchargeOB = 0\nmultiplicityOB = 1\n\t\n",
+ StyleBox["OpenBabelPresets",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0]],
+ " resets back to preset values."
+}], "Text",
+ CellChangeTimes->{{3.7528682247379913`*^9, 3.752868257740879*^9}, {
+   3.752868297116132*^9, 3.7528683577325983`*^9}, {3.7528684710050774`*^9, 
+   3.75286847331621*^9}, 3.752868987476618*^9, {3.7528691937544165`*^9, 
+   3.752869195821534*^9}, {3.7528707888996534`*^9, 3.752870877545724*^9}, {
+   3.7528709776404486`*^9, 3.7528709862769427`*^9}, {3.752871046742401*^9, 
+   3.7528710729168983`*^9}, {3.7528730473728304`*^9, 
+   3.75287307078117*^9}},ExpressionUUID->"d39e02ee-a686-4ca3-90a3-\
+7a6a9172c1d5"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+  "Generate", " ", "coordinate", " ", "files", " ", "from", " ", "a", " ", 
+   "ChemDraw", " ", "file"}], "*)"}]], "Input",
+ CellChangeTimes->{{3.799496877470076*^9, 
+  3.799496909688343*^9}},ExpressionUUID->"c2b07d94-164d-4fd4-b905-\
+87142a9fc1b0"],
+
+Cell[BoxData[
+ RowBox[{"OpenBabel", "[", "\[IndentingNewLine]", 
+  RowBox[{"\"\<chemdraw_test_\>\"", ",", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Name", " ", "of", " ", "input", " ", "file", " ", "in", " ", "data", 
+     "\\\\", "chemdraw_input", " ", "folder"}], "*)"}], 
+   "\[IndentingNewLine]", "\"\<chemdraw\>\""}], "\[IndentingNewLine]", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.760131711246924*^9, 3.760131745724896*^9}, {
+  3.760131945729336*^9, 3.760131950281596*^9}, {3.7601330639662952`*^9, 
+  3.760133081805315*^9}, {3.7994953178057365`*^9, 3.7994953889386415`*^9}, {
+  3.7994954343304205`*^9, 3.7994954355788994`*^9}, {3.7994966547737684`*^9, 
+  3.7994966917706375`*^9}},ExpressionUUID->"b8fbeb4c-c858-4223-9f89-\
+d8187c28860a"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+  "You", " ", "will", " ", "find", " ", "the", " ", "coordinates", " ", "in", 
+   " ", "the", " ", "data", "\\\\", "coordinate_input", " ", "directory"}], 
+  "*)"}]], "Input",
+ CellChangeTimes->{{3.7994977026756706`*^9, 
+  3.799497730618137*^9}},ExpressionUUID->"9a9c123b-bd61-4056-993e-\
+7a753170bea7"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+  "Generate", " ", "coordinate", " ", "files", " ", "from", " ", "a", " ", 
+   "list", " ", "of", " ", "SMILES", " ", "strings"}], "*)"}]], "Input",
+ CellChangeTimes->{{3.7994969006031547`*^9, 
+  3.799496921855405*^9}},ExpressionUUID->"7880916a-d3de-4436-ba59-\
+afbb7e908667"],
+
+Cell[BoxData[
+ RowBox[{"OpenBabel", "[", "\[IndentingNewLine]", 
+  RowBox[{"\"\<smiles_test_\>\"", ",", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Name", " ", "of", " ", "text", " ", "file", " ", "in", " ", "data", 
+     "\\\\", "smiles_input", " ", "folder"}], "*)"}], "\[IndentingNewLine]", 
+   "\"\<smiles\>\""}], "\[IndentingNewLine]", "]"}]], "Input",
+ CellChangeTimes->{{3.7601332057484045`*^9, 3.760133255572254*^9}, {
+  3.799495395774844*^9, 3.7994954257929077`*^9}, {3.7994967012447658`*^9, 
+  3.799496737910803*^9}},ExpressionUUID->"c2d4c6bf-1980-4cdb-8a21-\
+b6ac4adb0326"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+  "You", " ", "will", " ", "find", " ", "the", " ", "coordinates", " ", "in", 
+   " ", "the", " ", "data", "\\\\", "coordinate_input", " ", "directory"}], 
+  "*)"}]], "Input",
+ CellChangeTimes->{{3.7994977026756706`*^9, 
+  3.799497730618137*^9}},ExpressionUUID->"28197a99-2c91-4b44-8bb1-\
+f5962f6be15a"],
+
+Cell[TextData[{
+ StyleBox["ConfGen",
+  FontWeight->"Bold",
+  FontColor->RGBColor[0, 0, 1]],
+ StyleBox["[file_path]\n\n",
+  FontWeight->"Bold"],
+ "file_path: path to ChemDraw file to generate from.\n",
+ StyleBox["\n",
+  FontWeight->"Bold"],
+ StyleBox["Output:",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0.5]],
+ StyleBox[" ",
+  FontWeight->"Bold"],
+ "3D coordinate files which retain atom labels from ChemDraw.",
+ StyleBox["\n\n",
+  FontWeight->"Bold"],
+ StyleBox["Presets:",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0.5]],
+ "\nchargeOB = 0\nmultiplicityOB = 1\n\t\n",
+ StyleBox["OpenBabelPresets",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0]],
+ " resets back to preset values."
+}], "Text",
+ CellChangeTimes->{{3.7528682247379913`*^9, 3.752868257740879*^9}, {
+   3.752868297116132*^9, 3.7528683577325983`*^9}, {3.7528684710050774`*^9, 
+   3.75286847331621*^9}, 3.752868987476618*^9, {3.7528691937544165`*^9, 
+   3.752869195821534*^9}, {3.7528707888996534`*^9, 3.752870877545724*^9}, {
+   3.7528709776404486`*^9, 3.7528709862769427`*^9}, {3.752871046742401*^9, 
+   3.7528710729168983`*^9}, {3.7528730473728304`*^9, 3.75287307078117*^9}, {
+   3.799496953662648*^9, 3.7994969566371574`*^9}, {3.799497073915816*^9, 
+   3.7994971331324606`*^9}},ExpressionUUID->"14e2bd74-d54a-482d-bf46-\
+aacd4d0a77b8"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+   "Run", " ", "a", " ", "conformer", " ", "search", " ", "and", " ", 
+    "generate", " ", "coordinate", " ", "files", " ", "from", " ", "a", " ", 
+    "ChemDraw", " ", "file"}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{"Note", ":", " ", 
+    RowBox[{
+    "this", " ", "may", " ", "take", " ", "a", " ", "while", " ", "to", " ", 
+     "run", " ", "since", " ", "it", " ", "is", " ", "doing", " ", "a", " ", 
+     "conformer", " ", "search", " ", "for", " ", "each", " ", "molecule", 
+     " ", "in", " ", "the", " ", "Chemdraw", " ", "file"}]}], 
+   "*)"}]}]], "Input",
+ CellChangeTimes->{{3.799496927559226*^9, 3.7994969405185385`*^9}, {
+  3.7994970635716224`*^9, 3.7994970696515555`*^9}, {3.7994971660251274`*^9, 
+  3.799497178603637*^9}, {3.7994977467578506`*^9, 
+  3.7994978108145657`*^9}},ExpressionUUID->"fe943416-933f-4a50-8db2-\
+e5ebab57a7f5"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"path", " ", "=", " ", 
+   RowBox[{
+    RowBox[{"NotebookDirectory", "[", "]"}], "<>", 
+    "\"\<data\\\\chemdraw_input\\\\conf_gen_test_.cdx\>\""}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"ConfGen", "[", "path", "]"}]}], "Input",
+ CellChangeTimes->{{3.799497183162706*^9, 3.799497238369172*^9}, {
+  3.799497577930668*^9, 
+  3.799497612520402*^9}},ExpressionUUID->"b566c2f7-a982-427c-b113-\
+2cfc869ad9d9"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+  "You", " ", "will", " ", "find", " ", "the", " ", "coordinates", " ", "in", 
+   " ", "the", " ", "data", "\\\\", "coordinate_input", " ", 
+   RowBox[{"directory", ".", " ", "This"}], " ", "generated", " ", "649", " ",
+    "coordinate", " ", "fiiles", " ", "on", " ", "my", " ", 
+   RowBox[{"machine", "."}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.7994977026756706`*^9, 3.799497730618137*^9}, {
+  3.799497974085723*^9, 
+  3.7994979926339097`*^9}},ExpressionUUID->"de7d22d1-de51-4cfe-a1d5-\
+3b53900b755b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["GenerateGuassianInputText", "Section",
+ CellChangeTimes->{{3.752885704257763*^9, 
+  3.752885746475178*^9}},ExpressionUUID->"f26a95e2-a887-429e-96a0-\
+f89aab708bf2"],
+
+Cell[TextData[{
+ StyleBox["GenerateGaussianInputText",
+  FontWeight->"Bold",
+  FontColor->RGBColor[0, 0, 1]],
+ StyleBox["[file_path, processors, memory]\n\n",
+  FontWeight->"Bold"],
+ "file_path: path to coordinate_file\nprocessors: processors per job\nmemory: \
+memory per job\n\t",
+ StyleBox["\n\n",
+  FontWeight->"Bold"],
+ StyleBox["Output:",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0.5]],
+ StyleBox[" ",
+  FontWeight->"Bold"],
+ "text for gaussian input (.com/.gjf format)",
+ StyleBox["\n\n",
+  FontWeight->"Bold"],
+ StyleBox["Presets:",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0.5]],
+ StyleBox["\n",
+  FontWeight->"Bold"],
+ "atomsPerProcessor = 6\nmaxProcessors = 20\nramPerProcessor = 2\ntheory = {\
+\[OpenCurlyDoubleQuote]B3LYP\[CloseCurlyDoubleQuote],\[CloseCurlyDoubleQuote]\
+6-31G*\[CloseCurlyDoubleQuote],\[CloseCurlyDoubleQuote]LANL2DZ\
+\[CloseCurlyDoubleQuote]}\nmaxAtomicNumberSupported = 36\nchargeCT = \
+\[CloseCurlyDoubleQuote]Automatic\[CloseCurlyDoubleQuote]\nmultiplicityCT = \
+\[CloseCurlyDoubleQuote]Automatic\[CloseCurlyDoubleQuote]\n\t\n",
+ StyleBox["ComputationalTheoryPresets",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0]],
+ " resets back to preset values."
+}], "Text",
+ CellChangeTimes->{{3.7528682247379913`*^9, 3.752868257740879*^9}, {
+  3.752868364769001*^9, 3.752868382197998*^9}, {3.752868463676658*^9, 
+  3.7528684951964607`*^9}, {3.752868714200987*^9, 3.752868715927086*^9}, {
+  3.7528689627012005`*^9, 3.7528689750679083`*^9}, {3.752870894230678*^9, 
+  3.752870960822487*^9}, {3.7528709929333234`*^9, 3.7528709986806517`*^9}, {
+  3.7528710810183616`*^9, 3.752871157271723*^9}, {3.7528732422959795`*^9, 
+  3.7528732457831793`*^9}, {3.7528735166476717`*^9, 3.7528735796392746`*^9}, {
+  3.7528737436666565`*^9, 3.7528737744064145`*^9}, {3.75292388841625*^9, 
+  3.7529239791664753`*^9}, {3.752924027935596*^9, 3.752924077118718*^9}, {
+  3.7529242134500775`*^9, 3.752924215861083*^9}, {3.7566454361421947`*^9, 
+  3.7566454925047045`*^9}, {3.7994978728138447`*^9, 
+  3.7994978734825106`*^9}},ExpressionUUID->"c9115722-75a6-4ae8-816e-\
+61df314538bc"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"generate", " ", ".", "com"}], "/.", 
+    RowBox[{"gjf", " ", "text", " ", "from", " ", 
+     RowBox[{"other", " ", ".", "com"}], " ", "files", " ", "or", " ", 
+     "coordinate", " ", "files"}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"GenerateGaussianInputText", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"NotebookDirectory", "[", "]"}], "<>", 
+     "\"\<\\\\data\\\\coordinate_input\\\\chemdraw_test_\\\\chemdraw_test_1.\
+txt\>\""}], ",", "\[IndentingNewLine]", "\"\<Automatic\>\"", ",", 
+    "\[IndentingNewLine]", "\"\<Automatic\>\""}], "\[IndentingNewLine]", 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.752923461421055*^9, 3.752923515513239*^9}, 
+   3.7529238561601677`*^9, {3.7529241638479447`*^9, 3.7529242030300455`*^9}, {
+   3.799495711563924*^9, 3.7994957616067624`*^9}, {3.7994980600208416`*^9, 
+   3.7994980951723824`*^9}},ExpressionUUID->"1cf1259c-28b1-4497-8df1-\
+156620190950"],
+
+Cell[BoxData["\<\"%nprocshared=11\\n%Mem=22GB\\n%Chk=chemdraw_test_11.chk\\n# \
+opt=CalcAll B3LYP/6-31G* scf=qc\\n\\nTitle Card Required\\n\\n0 1\\nC         \
+   -0.73727     1.24548      0.46220      \\nC            -1.29930     \
+-0.03407     0.46542      \\nC            -0.48593     -1.13327     0.23737   \
+   \\nN1           0.84126      -1.06194     0.01134      \\nC            \
+1.41580      0.17082      -0.00133     \\nC            0.64639      1.32539   \
+   0.20140      \\nC            2.89112      0.21465      -0.19614     \\nN2  \
+         3.46849      1.44704      -0.24880     \\nC            4.82054      \
+1.53042      -0.38698     \\nC            5.61937      0.38705      -0.46186  \
+   \\nC            5.05660      -0.89011     -0.42230     \\nC            \
+3.65989      -0.95274     -0.28897     \\nC            5.90901      -2.16404  \
+   -0.51479     \\nC            7.42462      -1.87987     -0.63941     \\nC   \
+         5.70962      -3.02746     0.74879      \\nC            5.49501      \
+-2.98064     -1.75663     \\nC            5.41827      2.88864      -0.45481  \
+   \\nN            6.76818      2.95505      -0.60323     \\nC            \
+7.33224      4.17629      -0.68154     \\nC            6.62213      5.36352   \
+   -0.60236     \\nC            5.23294      5.32215      -0.41870     \\nC   \
+         4.64291      4.04772      -0.37354     \\nC            4.39113      \
+6.60100      -0.31660     \\nC            3.97162      7.03138      -1.73458  \
+   \\nC            3.11826      6.38657      0.53544      \\nC            \
+5.16475      7.76644      0.34182      \\nC            -1.55426     2.51311   \
+   0.76551      \\nC            -3.03619     2.22805      1.10577      \\nC   \
+         -0.94271     3.24018      1.98368      \\nC            -1.53811     \
+3.46519      -0.44817     \\nH            -2.35284     -0.20893     0.65178   \
+   \\nH            -0.89957     -2.13851     0.24163      \\nH            \
+1.14303      2.29208      0.17825      \\nH            6.69147      0.52559   \
+   -0.55480     \\nH            3.15706      -1.91626     -0.24849     \\nH   \
+         7.80422      -1.33363     0.23278      \\nH            7.65062      \
+-1.28891     -1.53540     \\nH            8.00065      -2.80889     -0.71388  \
+   \\nH            6.01190      -2.48248     1.65079      \\nH            \
+6.30934      -3.94382     0.69695      \\nH            4.66632      -3.33308  \
+   0.88241      \\nH            5.62062      -2.39501     -2.67468     \\nH   \
+         4.44983      -3.30374     -1.71083     \\nH            6.10798      \
+-3.88569     -1.85343     \\nH            8.41063      4.17991      -0.81582  \
+   \\nH            7.16851      6.29538      -0.68955     \\nH            \
+3.56899      3.93329      -0.27601     \\nH            3.37797      6.25518   \
+   -2.23135     \\nH            4.84388      7.23267      -2.36771     \\nH   \
+         3.36587      7.94479      -1.70631     \\nH            2.41557      \
+5.69003      0.06525      \\nH            2.57199      7.32582      0.67772   \
+   \\nH            3.37040      5.99343      1.52775      \\nH            \
+6.02104      8.09091      -0.25895     \\nH            5.53486      7.48553   \
+   1.33475      \\nH            4.52151      8.64633      0.46331      \\nH   \
+         -3.12978     1.58725      1.99064      \\nH            -3.55524     \
+1.73735      0.27402      \\nH            -3.57959     3.15597      1.32091   \
+   \\nH            -0.94469     2.59384      2.86941      \\nH            \
+-1.50981     4.14544      2.22990      \\nH            0.09256      3.55058   \
+   1.80557      \\nH            -1.97707     2.98825      -1.33224     \\nH   \
+         -0.52364     3.78273      -0.71202     \\nH            -2.11625     \
+4.37445      -0.24152     \\n\\n\\n\\n--Link1--\\n%nprocshared=11\\n%Mem=22GB\
+\\n%Oldchk=chemdraw_test_11.chk\\n%Chk=chemdraw_test_12.chk\\n# freq \
+B3LYP/6-31G* scf=qc volume NMR pop=NPA density=current Geom=AllCheck \
+Guess=Read\\n\\n\\n\\n--Link1--\\n%nprocshared=11\\n%Mem=22GB\\n%Oldchk=\
+chemdraw_test_12.chk\\n%Chk=chemdraw_test_13.chk\\n# TD(NStates=10, Root=1) \
+B3LYP/6-31G* scf=qc volume pop=NPA density=current Geom=AllCheck \
+Guess=Read\\n\\n\\n\"\>"], "Output",
+ CellChangeTimes->{3.7566454060146637`*^9, 
+  3.799498097422629*^9},ExpressionUUID->"816a4e12-d331-4672-ad95-\
+aa6a82fb45ec"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["GenerateGuassianInputTS", "Section",
+ CellChangeTimes->{{3.752885704257763*^9, 3.752885746475178*^9}, 
+   3.7535546744384236`*^9},ExpressionUUID->"069b9503-3bec-46e1-9568-\
+82592ec7eca8"],
+
+Cell[TextData[{
+ StyleBox["GenerateGaussianInputTextTS",
+  FontWeight->"Bold",
+  FontColor->RGBColor[0, 0, 1]],
+ StyleBox["[file_path, processors, memory]\n\n",
+  FontWeight->"Bold"],
+ "file_path: path to coordinate_file\nprocessors: processors per job\nmemory: \
+memory per job\n\t",
+ StyleBox["\n\n",
+  FontWeight->"Bold"],
+ StyleBox["Output:",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0.5]],
+ StyleBox[" ",
+  FontWeight->"Bold"],
+ "text for gaussian input (.com/.gjf format)",
+ StyleBox["\n\n",
+  FontWeight->"Bold"],
+ StyleBox["Presets:",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0.5]],
+ StyleBox["\n",
+  FontWeight->"Bold"],
+ "atomsPerProcessor = 6\nmaxProcessors = 20\nramPerProcessor = 2\ntheory = {\
+\[OpenCurlyDoubleQuote]B3LYP\[CloseCurlyDoubleQuote],\[CloseCurlyDoubleQuote]\
+6-31G*\[CloseCurlyDoubleQuote],\[CloseCurlyDoubleQuote]LANL2DZ\
+\[CloseCurlyDoubleQuote]}\nmaxAtomicNumberSupported = 36\nchargeCT = \
+\[CloseCurlyDoubleQuote]Automatic\[CloseCurlyDoubleQuote]\nmultiplicityCT = \
+\[CloseCurlyDoubleQuote]Automatic\[CloseCurlyDoubleQuote]\n\njobTypeTS = \
+\[OpenCurlyDoubleQuote]opt/freq\[CloseCurlyDoubleQuote]\n\tAlso accepts \
+\[OpenCurlyDoubleQuote]stepwise\[CloseCurlyDoubleQuote]\n\t\n",
+ StyleBox["ComputationalTheoryPresets",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0]],
+ "  and ",
+ StyleBox["GenerateGaussianInputTextTSPresets",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0]],
+ " resets back to preset values."
+}], "Text",
+ CellChangeTimes->{{3.7528682247379913`*^9, 3.752868257740879*^9}, {
+  3.752868364769001*^9, 3.752868382197998*^9}, {3.752868463676658*^9, 
+  3.7528684951964607`*^9}, {3.752868714200987*^9, 3.752868715927086*^9}, {
+  3.7528689627012005`*^9, 3.7528689750679083`*^9}, {3.752870894230678*^9, 
+  3.752870960822487*^9}, {3.7528709929333234`*^9, 3.7528709986806517`*^9}, {
+  3.7528710810183616`*^9, 3.752871157271723*^9}, {3.7528732422959795`*^9, 
+  3.7528732457831793`*^9}, {3.7528735166476717`*^9, 3.7528735796392746`*^9}, {
+  3.7528737436666565`*^9, 3.7528737744064145`*^9}, {3.75292388841625*^9, 
+  3.7529239791664753`*^9}, {3.752924027935596*^9, 3.752924077118718*^9}, {
+  3.7529242134500775`*^9, 3.752924215861083*^9}, {3.7535546799714375`*^9, 
+  3.753554680111438*^9}, {3.7542440784810095`*^9, 
+  3.7542441460911875`*^9}},ExpressionUUID->"39aba72a-95d7-44a6-a64e-\
+c08010612f3c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"generate", " ", ".", "com"}], "/.", 
+    RowBox[{
+    "gjf", " ", "text", " ", "from", " ", "input", " ", "drawn", " ", "in", 
+     " ", "gauss", " ", "view"}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"GenerateGaussianInputTextTS", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"NotebookDirectory", "[", "]"}], "<>", 
+     "\"\<\\\\data\\\\coordinate_input\\\\chemdraw_test_\\\\chemdraw_test_1.\
+txt\>\""}], ",", "\[IndentingNewLine]", "\"\<Automatic\>\"", ",", 
+    "\[IndentingNewLine]", "\"\<Automatic\>\""}], "\[IndentingNewLine]", 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.752923461421055*^9, 3.752923515513239*^9}, 
+   3.7529238561601677`*^9, {3.7529241638479447`*^9, 3.7529242030300455`*^9}, {
+   3.7535546892124662`*^9, 3.7535547016604958`*^9}, 
+   3.799498142853403*^9},ExpressionUUID->"b622f71c-866a-484d-a2b6-\
+7d96fe50bafa"],
+
+Cell[BoxData["\<\"%nprocshared=11\\n%Mem=22GB\\n%Chk=chemdraw_test_11.chk\\n# \
+opt=(calcfc,ts,noeigentest) scf=xqc freq B3LYP/6-31G*\\n\\nTitle Card \
+Required\\n\\n0 1\\nC            -0.73727     1.24548      0.46220      \\nC  \
+          -1.29930     -0.03407     0.46542      \\nC            -0.48593     \
+-1.13327     0.23737      \\nN1           0.84126      -1.06194     0.01134   \
+   \\nC            1.41580      0.17082      -0.00133     \\nC            \
+0.64639      1.32539      0.20140      \\nC            2.89112      0.21465   \
+   -0.19614     \\nN2           3.46849      1.44704      -0.24880     \\nC   \
+         4.82054      1.53042      -0.38698     \\nC            5.61937      \
+0.38705      -0.46186     \\nC            5.05660      -0.89011     -0.42230  \
+   \\nC            3.65989      -0.95274     -0.28897     \\nC            \
+5.90901      -2.16404     -0.51479     \\nC            7.42462      -1.87987  \
+   -0.63941     \\nC            5.70962      -3.02746     0.74879      \\nC   \
+         5.49501      -2.98064     -1.75663     \\nC            5.41827      \
+2.88864      -0.45481     \\nN            6.76818      2.95505      -0.60323  \
+   \\nC            7.33224      4.17629      -0.68154     \\nC            \
+6.62213      5.36352      -0.60236     \\nC            5.23294      5.32215   \
+   -0.41870     \\nC            4.64291      4.04772      -0.37354     \\nC   \
+         4.39113      6.60100      -0.31660     \\nC            3.97162      \
+7.03138      -1.73458     \\nC            3.11826      6.38657      0.53544   \
+   \\nC            5.16475      7.76644      0.34182      \\nC            \
+-1.55426     2.51311      0.76551      \\nC            -3.03619     2.22805   \
+   1.10577      \\nC            -0.94271     3.24018      1.98368      \\nC   \
+         -1.53811     3.46519      -0.44817     \\nH            -2.35284     \
+-0.20893     0.65178      \\nH            -0.89957     -2.13851     0.24163   \
+   \\nH            1.14303      2.29208      0.17825      \\nH            \
+6.69147      0.52559      -0.55480     \\nH            3.15706      -1.91626  \
+   -0.24849     \\nH            7.80422      -1.33363     0.23278      \\nH   \
+         7.65062      -1.28891     -1.53540     \\nH            8.00065      \
+-2.80889     -0.71388     \\nH            6.01190      -2.48248     1.65079   \
+   \\nH            6.30934      -3.94382     0.69695      \\nH            \
+4.66632      -3.33308     0.88241      \\nH            5.62062      -2.39501  \
+   -2.67468     \\nH            4.44983      -3.30374     -1.71083     \\nH   \
+         6.10798      -3.88569     -1.85343     \\nH            8.41063      \
+4.17991      -0.81582     \\nH            7.16851      6.29538      -0.68955  \
+   \\nH            3.56899      3.93329      -0.27601     \\nH            \
+3.37797      6.25518      -2.23135     \\nH            4.84388      7.23267   \
+   -2.36771     \\nH            3.36587      7.94479      -1.70631     \\nH   \
+         2.41557      5.69003      0.06525      \\nH            2.57199      \
+7.32582      0.67772      \\nH            3.37040      5.99343      1.52775   \
+   \\nH            6.02104      8.09091      -0.25895     \\nH            \
+5.53486      7.48553      1.33475      \\nH            4.52151      8.64633   \
+   0.46331      \\nH            -3.12978     1.58725      1.99064      \\nH   \
+         -3.55524     1.73735      0.27402      \\nH            -3.57959     \
+3.15597      1.32091      \\nH            -0.94469     2.59384      2.86941   \
+   \\nH            -1.50981     4.14544      2.22990      \\nH            \
+0.09256      3.55058      1.80557      \\nH            -1.97707     2.98825   \
+   -1.33224     \\nH            -0.52364     3.78273      -0.71202     \\nH   \
+         -2.11625     4.37445      -0.24152     \\n\\n\\n\"\>"], "Output",
+ CellChangeTimes->{3.7542440322788544`*^9, 3.756645517241603*^9, 
+  3.7994981522097692`*^9},ExpressionUUID->"f0b49c82-40fc-4acc-88e5-\
+f8ef61db5758"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["GenerateGaussianBatch", "Section",
+ CellChangeTimes->{{3.752885704257763*^9, 3.7528857210697246`*^9}, {
+  3.752885778181991*^9, 
+  3.752885781423177*^9}},ExpressionUUID->"3394cc42-6129-4aeb-a64a-\
+b0f9c06f5dd8"],
+
+Cell[TextData[{
+ StyleBox["GenerateGaussianBatch",
+  FontWeight->"Bold",
+  FontColor->RGBColor[0, 0, 1]],
+ StyleBox["[file_path]\n\n",
+  FontWeight->"Bold"],
+ "file_path: path to coordinate_file_directory\n",
+ StyleBox["\n",
+  FontWeight->"Bold"],
+ StyleBox["Output:",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0.5]],
+ StyleBox[" ",
+  FontWeight->"Bold"],
+ "gaussian input files, slurm scripts, sftp input, and .sh batch script.",
+ StyleBox["\n\n",
+  FontWeight->"Bold"],
+ StyleBox["Presets:\n\n",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0.5]],
+ "jobType = \[OpenCurlyDoubleQuote]equilibrium\[CloseCurlyDoubleQuote]\n\n\
+atomsPerProcessor = 6\nmaxProcessors = 20\nramPerProcessor = 2\ntheory = {\
+\[OpenCurlyDoubleQuote]B3LYP\[CloseCurlyDoubleQuote],\[CloseCurlyDoubleQuote]\
+6-31G*\[CloseCurlyDoubleQuote],\[CloseCurlyDoubleQuote]LANL2DZ\
+\[CloseCurlyDoubleQuote]}\nmaxAtomicNumberSupported = 36\nchargeCT = \
+\[OpenCurlyDoubleQuote]Automatic\[CloseCurlyDoubleQuote]\nmultiplicityCT = \
+\[OpenCurlyDoubleQuote]Automatic\[CloseCurlyDoubleQuote]\n\t\n",
+ StyleBox["GenerateGaussianBatchPresets",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0]],
+ " resets back to preset values.\n\n",
+ StyleBox["ComputationalTheoryPresets",
+  FontWeight->"Bold",
+  FontColor->RGBColor[1, 0.5, 0]],
+ " resets back to preset values."
+}], "Text",
+ CellChangeTimes->{{3.7528682247379913`*^9, 3.752868257740879*^9}, {
+  3.752868364769001*^9, 3.752868382197998*^9}, {3.752868463676658*^9, 
+  3.7528684951964607`*^9}, {3.752868714200987*^9, 3.752868715927086*^9}, {
+  3.7528689627012005`*^9, 3.7528689750679083`*^9}, {3.752870894230678*^9, 
+  3.752870960822487*^9}, {3.7528709929333234`*^9, 3.7528709986806517`*^9}, {
+  3.7528710810183616`*^9, 3.752871157271723*^9}, {3.752873530278451*^9, 
+  3.7528735322765656`*^9}, {3.752873588630789*^9, 3.7528735970552707`*^9}, {
+  3.7528736348224306`*^9, 3.752873680576048*^9}, {3.752924240839156*^9, 
+  3.7529242530881877`*^9}, {3.7535555245041265`*^9, 
+  3.753555578949283*^9}},ExpressionUUID->"2bce2c9b-2d44-4d20-8e54-\
+8ab757b0085e"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+   RowBox[{
+   "Generate", " ", "a", " ", "batch", " ", "of", " ", "gaussian", " ", 
+    "jobs"}], ",", " ", 
+   RowBox[{"slurm", " ", "scripts"}], ",", " ", 
+   RowBox[{
+    RowBox[{".", "sh"}], " ", "batch", " ", "script"}], ",", " ", 
+   RowBox[{
+   "and", " ", "sftp", " ", "scripts", " ", "from", " ", "coordinate", " ", 
+    RowBox[{"files", "."}]}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.7526869699843783`*^9, 3.7526870285965033`*^9}, 
+   3.752688253785038*^9, {3.7528633286399508`*^9, 3.7528633582046423`*^9}, {
+   3.75286343247389*^9, 3.7528634748613143`*^9}, {3.7528637258286686`*^9, 
+   3.7528637259966784`*^9}, {3.799498362524784*^9, 3.799498366198041*^9}, {
+   3.799498572228157*^9, 
+   3.7994985762770863`*^9}},ExpressionUUID->"967868d2-fc43-468f-9e08-\
+ea8ef2fb8e2d"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"clusterName", "=", "\"\<awesomeSuperComputer.princeton.edu\>\""}], 
+  ";"}], "\n", 
+ RowBox[{
+  RowBox[{"userID", "=", "\"\<UserNameOnCluster\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"jobType", "=", "\"\<equilibrium\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"theory", "=", 
+    RowBox[{"{", 
+     RowBox[{"\"\<B3LYP\>\"", ",", "\"\<6-31G*\>\"", ",", "\"\<LANL2DZ\>\""}],
+      "}"}]}], ";"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"path", " ", "=", " ", 
+   RowBox[{
+    RowBox[{"NotebookDirectory", "[", "]"}], "<>", 
+    "\"\<\\\\data\\\\coordinate_input\\\\chemdraw_test_\>\""}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"GenerateGaussianBatch", "[", "path", "]"}]}], "Input",
+ CellChangeTimes->{{3.7535525102817817`*^9, 3.753552515179797*^9}, {
+   3.753552563514923*^9, 3.7535525765719585`*^9}, {3.753554769710672*^9, 
+   3.7535547766676874`*^9}, {3.753555617423459*^9, 3.7535556848896527`*^9}, {
+   3.75424998503469*^9, 3.7542499955467186`*^9}, 3.7542613558947487`*^9, {
+   3.754572977153822*^9, 3.754572985044834*^9}, {3.754573047300927*^9, 
+   3.7545730523669343`*^9}, {3.7549369044421253`*^9, 3.7549369643745527`*^9}, 
+   3.754938005683112*^9, {3.757947506091493*^9, 3.7579475336455526`*^9}, {
+   3.7579475907866735`*^9, 3.7579475943986835`*^9}, {3.757947689082883*^9, 
+   3.7579476981999016`*^9}, 3.757947734697978*^9, {3.7579526691882677`*^9, 
+   3.757952678063294*^9}, {3.758300745947772*^9, 3.758300748379776*^9}, {
+   3.758306931593416*^9, 3.7583069350054226`*^9}, 3.759088494026711*^9, {
+   3.799498288813364*^9, 3.799498294744134*^9}, {3.7994983457308507`*^9, 
+   3.799498423556958*^9}, {3.799498497964321*^9, 3.7994985500723085`*^9}, 
+   3.7994986142129807`*^9},ExpressionUUID->"429cfdaf-9c08-45d5-88fe-\
+192ceae03170"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+  "You", " ", "will", " ", "find", " ", "the", " ", "input", " ", "files", 
+   " ", "in", " ", "the", " ", "data", "\\\\", "submission", " ", 
+   RowBox[{"directory", "."}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.7994977026756706`*^9, 3.799497730618137*^9}, {
+  3.799497974085723*^9, 3.7994979926339097`*^9}, {3.7994985825677147`*^9, 
+  3.7994986014363146`*^9}},ExpressionUUID->"b4f9360c-beaa-4014-9309-\
+9fa5a42d3c34"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Worked Example", "Chapter",
+ CellChangeTimes->{{3.7528730271566744`*^9, 3.752873030940891*^9}, {
+  3.75288565491094*^9, 3.7528856639984603`*^9}, {3.7994938334195886`*^9, 
+  3.7994938475284986`*^9}, {3.79949840226064*^9, 
+  3.7994984204190054`*^9}},ExpressionUUID->"4e4902e0-9f49-4e2b-b208-\
+17e9f1c36d8c"],
+
+Cell["\<\
+(1) Label overlapping atoms and in ChemDraw and add file to \
+data\\\\chemdraw_input directory.\
+\>", "Text",
+ CellChangeTimes->{{3.799498754087329*^9, 3.799498823321471*^9}, 
+   3.799498953430299*^9},ExpressionUUID->"7df8c117-771f-4d35-b11b-\
+2ea0d7e95dfc"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"fileName", "=", "\"\<worked_example_\>\""}], ";"}]], "Input",
+ CellChangeTimes->{{3.7994988290742855`*^9, 
+  3.7994988622905226`*^9}},ExpressionUUID->"788b1913-aa46-44f0-b804-\
+8daea8e1c1e6"],
+
+Cell["(2) Generate coordinate files.", "Text",
+ CellChangeTimes->{{3.799498754087329*^9, 3.7994987767908506`*^9}, {
+   3.799498826871687*^9, 3.7994988269654675`*^9}, 
+   3.7994989566871433`*^9},ExpressionUUID->"9b6646fb-5012-441c-83b5-\
+cc5ef7ebacb0"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+   "Set", " ", "parameters", " ", "for", " ", "charge", " ", "and", " ", 
+    "multiplicty"}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"chargeOB", " ", "=", " ", "\"\<Automatic\>\""}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"multiplicityOB", " ", "=", " ", "\"\<Automatic\>\""}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Gnerate", " ", "files"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"OpenBabel", "[", 
+    RowBox[{"fileName", ",", "\"\<chemdraw\>\""}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.799498871790453*^9, 
+  3.7994989345462728`*^9}},ExpressionUUID->"c39c1e69-f746-4aec-928e-\
+530a845cb4db"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+   "This", " ", "will", " ", "have", " ", "gernated", " ", "a", " ", 
+    "directory", " ", "by", " ", "the", " ", "same", " ", "name", " ", "in", 
+    " ", "data", "\\\\", "coordinate_input"}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"path", "=", 
+     RowBox[{
+      RowBox[{"NotebookDirectory", "[", "]"}], "<>", 
+      "\"\<\\\\data\\\\coordinate_input\\\\worked_example_\>\""}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"FileExistsQ", "[", "path", "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.7994990379645634`*^9, 
+  3.799499118308219*^9}},ExpressionUUID->"3881a728-edbf-42a2-8ed4-\
+fbcfdcc5660a"],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{
+  3.7994991188392553`*^9},ExpressionUUID->"fc84e3c5-9eda-4374-a779-\
+71cae7505e1e"]
+}, Open  ]],
+
+Cell["(2) Generate files for submission to the cluster.", "Text",
+ CellChangeTimes->{{3.799498754087329*^9, 3.7994987767908506`*^9}, {
+  3.799498826871687*^9, 3.7994988269654675`*^9}, {3.7994989491302166`*^9, 
+  3.7994989773673024`*^9}},ExpressionUUID->"ebfbe229-070d-4cc3-9da7-\
+22cded65e946"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{"Computation", " ", "Parameters"}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"atomsPerProcessor", "=", "8"}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"maxProcessors", "=", "20"}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"ramPerProcessor", "=", "2"}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"theory", "=", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<B3LYP\>\"", ",", "\"\<6-31G*\>\"", ",", "\"\<LANL2DZ\>\""}], 
+      "}"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"maxAtomicNumberSupported", "=", "36"}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"chargeCT", "=", "\"\<Automatic\>\""}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"multiplicityCT", "=", "\"\<Automatic\>\""}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"User", " ", "parameters"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+    "clusterName", "=", "\"\<awesomeSuperComputer.princeton.edu\>\""}], ";"}],
+    "\n", 
+   RowBox[{
+    RowBox[{"userID", "=", "\"\<UserNameOnCluster\>\""}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", "Generate", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"GenerateGaussianBatch", "[", "path", "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.7994990015535593`*^9, 3.799499033132082*^9}, {
+  3.799499127169628*^9, 
+  3.79949913075624*^9}},ExpressionUUID->"ee00fbae-cf10-4b8b-b70d-\
+cd602fff1311"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1280, 681},
+WindowMargins->{{Automatic, -6}, {Automatic, 0}},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.1 for Microsoft Windows (64-bit) (April 18, 2017)",
+StyleDefinitions->"ReverseColor.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 216, 4, 128, "Title", "ExpressionUUID" -> \
+"c07b878b-c9a4-4aaa-b9c4-ca5feef56d55"],
+Cell[799, 28, 210, 4, 39, "Text", "ExpressionUUID" -> \
+"e80df76d-ee74-40e7-8d05-45488d9863e4"],
+Cell[1012, 34, 650, 15, 63, "Input", "ExpressionUUID" -> \
+"f219fea8-3453-47e7-9800-a3947567657c"],
+Cell[CellGroupData[{
+Cell[1687, 53, 266, 4, 92, "Chapter", "ExpressionUUID" -> \
+"1092ece5-fea6-4c48-b3a5-ae0a0ac893d5"],
+Cell[CellGroupData[{
+Cell[1978, 61, 156, 3, 87, "Section", "ExpressionUUID" -> \
+"12a4d768-90ce-4404-8658-06a6587f0416"],
+Cell[2137, 66, 1878, 42, 336, "Text", "ExpressionUUID" -> \
+"18b543e1-7b8b-4ca9-a485-c2a11f96e6c0"],
+Cell[CellGroupData[{
+Cell[4040, 112, 2536, 44, 111, "Input", "ExpressionUUID" -> \
+"e071c92d-8ef1-4d21-a42e-6f185fbf2ee3"],
+Cell[6579, 158, 2328, 42, 683, "Output", "ExpressionUUID" -> \
+"41035868-47b0-4624-a853-c82302120847"]
+}, Open  ]],
+Cell[8922, 203, 2063, 40, 135, "Input", "ExpressionUUID" -> \
+"e3084879-7797-43f6-a3a0-0a64f494722d"],
+Cell[CellGroupData[{
+Cell[11010, 247, 269, 7, 38, "Input", "ExpressionUUID" -> \
+"2c881c2e-18b8-4d20-b43c-4e0096efe9f4"],
+Cell[11282, 256, 4384, 68, 2053, "Output", "ExpressionUUID" -> \
+"19160676-fce8-4617-8e39-2b99f0af1458"]
+}, Open  ]],
+Cell[15681, 327, 1370, 35, 312, "Text", "ExpressionUUID" -> \
+"d39e02ee-a686-4ca3-90a3-7a6a9172c1d5"],
+Cell[17054, 364, 290, 7, 38, "Input", "ExpressionUUID" -> \
+"c2b07d94-164d-4fd4-b905-87142a9fc1b0"],
+Cell[17347, 373, 739, 14, 111, "Input", "ExpressionUUID" -> \
+"b8fbeb4c-c858-4223-9f89-d8187c28860a"],
+Cell[18089, 389, 344, 8, 38, "Input", "ExpressionUUID" -> \
+"9a9c123b-bd61-4056-993e-7a753170bea7"],
+Cell[18436, 399, 317, 7, 38, "Input", "ExpressionUUID" -> \
+"7880916a-d3de-4436-ba59-afbb7e908667"],
+Cell[18756, 408, 577, 11, 111, "Input", "ExpressionUUID" -> \
+"c2d4c6bf-1980-4cdb-8a21-b6ac4adb0326"],
+Cell[19336, 421, 344, 8, 38, "Input", "ExpressionUUID" -> \
+"28197a99-2c91-4b44-8bb1-f5962f6be15a"],
+Cell[19683, 431, 1328, 34, 287, "Text", "ExpressionUUID" -> \
+"14e2bd74-d54a-482d-bf46-aacd4d0a77b8"],
+Cell[21014, 467, 924, 19, 63, "Input", "ExpressionUUID" -> \
+"fe943416-933f-4a50-8db2-e5ebab57a7f5"],
+Cell[21941, 488, 446, 11, 63, "Input", "ExpressionUUID" -> \
+"b566c2f7-a982-427c-b113-2cfc869ad9d9"],
+Cell[22390, 501, 549, 11, 63, "Input", "ExpressionUUID" -> \
+"de7d22d1-de51-4cfe-a1d5-3b53900b755b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22976, 517, 170, 3, 87, "Section", "ExpressionUUID" -> \
+"f26a95e2-a887-429e-96a0-f89aab708bf2"],
+Cell[23149, 522, 2111, 46, 485, "Text", "ExpressionUUID" -> \
+"c9115722-75a6-4ae8-816e-61df314538bc"],
+Cell[CellGroupData[{
+Cell[25285, 572, 988, 20, 159, "Input", "ExpressionUUID" -> \
+"1cf1259c-28b1-4497-8df1-156620190950"],
+Cell[26276, 594, 4390, 57, 2271, "Output", "ExpressionUUID" -> \
+"816a4e12-d331-4672-ad95-aa6a82fb45ec"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30715, 657, 193, 3, 87, "Section", "ExpressionUUID" -> \
+"069b9503-3bec-46e1-9568-82592ec7eca8"],
+Cell[30911, 662, 2374, 52, 559, "Text", "ExpressionUUID" -> \
+"39aba72a-95d7-44a6-a64e-c08010612f3c"],
+Cell[CellGroupData[{
+Cell[33310, 718, 930, 20, 159, "Input", "ExpressionUUID" -> \
+"b622f71c-866a-484d-a2b6-7d96fe50bafa"],
+Cell[34243, 740, 4012, 51, 1839, "Output", "ExpressionUUID" -> \
+"f0b49c82-40fc-4acc-88e5-f8ef61db5758"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38304, 797, 217, 4, 87, "Section", "ExpressionUUID" -> \
+"3394cc42-6129-4aeb-a64a-b0f9c06f5dd8"],
+Cell[38524, 803, 2081, 46, 534, "Text", "ExpressionUUID" -> \
+"2bce2c9b-2d44-4d20-8e54-8ab757b0085e"],
+Cell[40608, 851, 827, 18, 63, "Input", "ExpressionUUID" -> \
+"967868d2-fc43-468f-9e08-ea8ef2fb8e2d"],
+Cell[41438, 871, 1859, 37, 183, "Input", "ExpressionUUID" -> \
+"429cfdaf-9c08-45d5-88fe-192ceae03170"],
+Cell[43300, 910, 463, 9, 38, "Input", "ExpressionUUID" -> \
+"b4f9360c-beaa-4014-9309-9fa5a42d3c34"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43812, 925, 311, 5, 92, "Chapter", "ExpressionUUID" -> \
+"4e4902e0-9f49-4e2b-b208-17e9f1c36d8c"],
+Cell[44126, 932, 268, 6, 39, "Text", "ExpressionUUID" -> \
+"7df8c117-771f-4d35-b11b-2ea0d7e95dfc"],
+Cell[44397, 940, 226, 5, 38, "Input", "ExpressionUUID" -> \
+"788b1913-aa46-44f0-b804-8daea8e1c1e6"],
+Cell[44626, 947, 251, 4, 39, "Text", "ExpressionUUID" -> \
+"9b6646fb-5012-441c-83b5-cc5ef7ebacb0"],
+Cell[44880, 953, 756, 19, 159, "Input", "ExpressionUUID" -> \
+"c39c1e69-f746-4aec-928e-530a845cb4db"],
+Cell[CellGroupData[{
+Cell[45661, 976, 688, 17, 87, "Input", "ExpressionUUID" -> \
+"3881a728-edbf-42a2-8ed4-fbcfdcc5660a"],
+Cell[46352, 995, 135, 3, 38, "Output", "ExpressionUUID" -> \
+"fc84e3c5-9eda-4374-a779-71cae7505e1e"]
+}, Open  ]],
+Cell[46502, 1001, 294, 4, 39, "Text", "ExpressionUUID" -> \
+"ebfbe229-070d-4cc3-9da7-22cded65e946"],
+Cell[46799, 1007, 1440, 38, 375, "Input", "ExpressionUUID" -> \
+"ee00fbae-cf10-4b8b-b70d-cd602fff1311"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

@@ -7,4 +7,5 @@ Dependencies:
 - Open-Babel 2.4.1
 - Mathematica (Written using 11.1)
 
-This site is depreciated. All functions have now been implemented (and improved) in python: https://github.com/PrincetonUniversity/auto-qchem
+Notes:
+- The computation input generation functions were written to work this particular directory structure (b/c I really only wrote this with my personal use in mind). So copy the entire folder over and place ChemDraw and SMILES to generate from in the corresponding data subdirectory.

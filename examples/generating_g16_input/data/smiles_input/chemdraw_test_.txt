@@ -1,0 +1,14 @@
+c1(cc[1n]c(c1)c1[2n]c(cc(c1)C(C)(C)C)c1nccc(c1)C(C)(C)C)C(C)(C)C	
+C1C[1N]=C(O1)C1=[2N]CCO1	
+[1N]1=C(c2[2n]c(ccc2)C2=NCCO2)OCC1	
+c1(cc[1n]c(c1)c1[2n]ccc(c1)OC)OC	
+c1cc([1n]c(c1)c1[2n]c(ccc1)C)C	
+c1(cc[1n]c(c1)c1[2n]ccc(c1)c1ccccc1)c1ccccc1	
+c1(cc[1n]c(c1)c1[2n]ccc(c1)c1ccc(cc1)C(F)(F)F)c1ccc(cc1)C(F)(F)F	
+c1(cc[1n]c(c1)c1[2n]ccc(c1)C(C)(C)C)C(C)(C)C	
+[1n]1n(c2[2n]c(ccc2)n2nccc2)ccc1	
+[2n]1c(n2[1n]ccc2)cccc1	
+c1cc[1n]c(c1)c1[2n]cccc1	
+[1n]1c(C2=[2N]CCO2)ccc2c1cccc2	
+c1cc[2n]c(c1)C(=S)[1NH2]	
+c1c([2n]c(cc1OC)C(=N)N)C(=[1NH])N	
