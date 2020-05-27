@@ -112,7 +112,7 @@ Quiet@Show[
 ```
 0.390261
 ```
-![alt text](/occupied_volume/example_data/img1.png)
+![alt text](/occupied_volume_calculator/example_data/img1.png)
 
 #### Example 2: Gaussian output files with unlabeled atoms
 Load the script.
@@ -227,7 +227,7 @@ Quiet@Show[
 ```
 0.748621
 ```
-![alt text](/occupied_volume/example_data/img2.png)
+![alt text](/occupied_volume_calculator/example_data/img2.png)
 
 ### Numerical Integration
 
@@ -259,7 +259,7 @@ testData={
 };
 	
 ```
-![alt text](/occupied_volume/example_data/img3.png)
+![alt text](/occupied_volume_calculator/example_data/img3.png)
 
 Track evaluation time with increasing meshCount.
 ```mathematica
@@ -308,4 +308,4 @@ Row[{
 	]
 }]
 ```
-![alt text](/occupied_volume/example_data/img4.png)
+![alt text](/occupied_volume_calculator/example_data/img4.png)
