@@ -1,0 +1,9 @@
+# DFT encoding a deoxyfluorination reaction
+
+## Experimental data from:
+
+Manuscript under preparation
+
+## Notes
+- DFT calculation input was generated via auto-QChem.
+- Calculations were run using Gaussian 16 on princeton's HPC cluster.
